@@ -27,6 +27,9 @@ body {
     background-size: cover;
     min-height: 100vh;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .navbar {
@@ -79,67 +82,17 @@ body {
     font-weight: bold;
 }
 
-.content {
-    width: 1200px;
-    margin: 0 auto;
-    color: #fff;
-    position: relative;
-    padding: 30px 20px;
-}
-
-.content h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    line-height: 1;
-}
-
-.content span {
-    color: #ff7200;
-}
-
-.content .par {
-    font-size: 18px;
-    padding: 25px 0;
-    letter-spacing: 1px;
-    line-height: 35px;
-    max-width: 650px;
-}
-
-.content .cn {
-    width: 160px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    font-family: Optima;
-}
-
-.content .cn:hover {
-    background-color: #fff;
-}
-
-.content .cn a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
-
 .form {
     width: 400px;
     background: transparent;
-    position: absolute;
     border: 2px solid #ff7200;
     backdrop-filter: blur(13px);
     border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 0 10px #0000001a;
-    top: 80px;
-    right: 20px;
     padding: 30px 35px;
+    box-shadow: 0 0 10px #0000001a;
+    margin: 40px auto;
     font-family: Optima;
+    color: #fff;
 }
 
 h2 {
@@ -148,6 +101,7 @@ h2 {
     text-align: center;
     font-family: Optima;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 .input-box {
@@ -158,7 +112,7 @@ h2 {
     font-family: Optima;
 }
 
-.input-box input{
+.input-box input {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -174,13 +128,13 @@ h2 {
     font-family: Optima !important;
 }
 
-input::placeholder{
+input::placeholder {
     color: rgba(255, 255, 255, 0.7);
     font-size: 16px;
     font-family: Optima;
 }
 
-.input-box i{
+.input-box i {
     position: absolute;
     right: 20px;
     top: 50%;
@@ -191,33 +145,7 @@ input::placeholder{
     z-index: 1;
 }
 
-.remember{
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.remember label{
-    cursor: pointer;
-}
-
-.remember label input{
-    margin-right: 5px;
-}
-
-.remember a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-}   
-
-.remember a:hover{
-    color: #ff7200;
-}
-
-.btnn{
+.btnn {
     display: inline-block;
     background: #ff7200;
     color: #000;
@@ -230,74 +158,45 @@ input::placeholder{
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease;
-    margin-top: 20px;
-    box-shadow: 0 0 5px #ff7200;
     margin-top: 30px;
+    box-shadow: 0 0 5px #ff7200;
     font-family: Optima;
 }
 
-.btnn:hover{
+.btnn:hover {
     background: #fff;
     color: #ff7200;
 }
 
-.signup-btn {
-    background: transparent;
-    border: 2px solid #ff7200;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    box-shadow: 0 0 5px rgba(255, 114, 0, 0.3);
-    transition: 0.3s ease;
-}
-
-.signup-btn:hover {
-    background: #ff7200;
-    color: #000;
-    transition: 0.3s ease;
-}
-
-.button{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.login-link {
     text-align: center;
-}
-
-.button a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
+    margin-top: 20px;
+    font-size: 14px;
     color: #fff;
-    transition: 0.3s ease;
 }
 
-.button a:hover{
+.login-link a {
+    text-decoration: none;
     color: #ff7200;
-}
-
-.button a i{
-    font-size: 20px;
-    margin-right: 8px;
+    font-weight: bold;
     transition: 0.3s ease;
 }
 
-input[type="checkbox"]{
+.login-link a:hover {
+    color: #fff;
+}
+
+input[type="checkbox"] {
     accent-color: #ff7200;
     display: inline-block;
     width: 16px;
     height: 16px;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
     .navbar {
         width: auto;
-    }
-    .content {
-        width: 100%;
     }
     
     .menu ul {
@@ -305,8 +204,8 @@ input[type="checkbox"]{
     }
     
     .form {
-        position: static;
-        margin: 20px auto;
+        width: 90%;
+        max-width: 400px;
     }
 }
 

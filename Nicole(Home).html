@@ -23,11 +23,6 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
-
-            <div class="search">
-                <input class="srch" type="text" name="" placeholder="Type to text">
-                <a href="#"><button class="btn">Search</button></a>
-            </div>
         </div>
 
         <div class="content">
@@ -94,6 +89,17 @@
             window.location.href = destination;
         }, 600); 
         });
+    });
+
+    const signupBtn = document.querySelector(".signup-btn");
+    signupBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        
+        document.getElementById("page").classList.add("fade-out");
+        
+        setTimeout(() => {
+            window.location.href = 'signup.html';
+        }, 600);
     });
     </script>
 </body>

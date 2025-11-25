@@ -35,7 +35,7 @@
                 Academic <br> Track Recommender for <br>Computer 
                 Science <br> and IT Students</h1>
             <p class="par">FuturePath is an intelligent recommendation system that helps second-year Computer Science and IT students choose the academic track or 
-                specialization that best matches their profile. the system analyzes students’ 
+                specialization that best matches their profile. the system analyzes students' 
                 courses, technical skills, programming languages, soft skills, career interests, 
                 and personal challenges to provide personalized recommendations. FuturePath suggests 
                 the most suitable major such as Data Science, Web Development, Cybersecurity, or AI 
@@ -43,27 +43,40 @@
             <button class="cn"><a href="Airon(Course).html" class="active">View courses</a></button>
 
             <div class="form">
-                <h2>Login Here</h2>
-                <input type="email" name="email" placeholder="Enter Email Here">
-                <input type="password" name="" placeholder="Enter Password Here">
-                <button class="btnn"><a href="#">Login</a></button>
-
-                <p class="link">Don't have an account?<br>
-                <a href="#">Sign up </a> here</p>
-                <p class="liw">Log in with</p>
-    
-                <div class="social-icons">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <h2>Login</h2>
+                <div class="input-box">
+                    <input type="text" placeholder="Username">
+                    <i class="ri-user-fill"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="Password" placeholder="Password" autocomplete="off">
+                    <i class="ri-eye-off-fill" id="togglePassword"></i>
+                </div>
+                <div class="remember">
+                    <label>
+                        <input type="checkbox"/> 
+                        Remember Me
+                    </label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btnn">Login</button>
+                <button type="button" class="btnn signup-btn">Sign Up</button>
+                <div class="button">
+                    <a href="#">
+                        <i class="ri-google-fill"></i>
+                        Google
+                    </a>
+                    --
+                    <a href="#">
+                        <i class="ri-facebook-fill"></i>
+                        Facebook
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="toggle.js"></script>
 
     <script>
     const links = document.querySelectorAll("a");

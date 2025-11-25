@@ -29,7 +29,7 @@ body {
 
 .navbar {
     width: 1200px;
-    height: 100px;
+    height: 50px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -126,13 +126,13 @@ body {
     margin: 0 auto;
     color: #fff;
     position: relative;
-    padding: 110px 20px;
+    padding: 30px 20px;
 }
 
 .content h1 {
     font-size: 50px;
     letter-spacing: 2px;
-    line-height: 1.2;
+    line-height: 1;
 }
 
 .content span {
@@ -142,9 +142,9 @@ body {
 .content .par {
     font-size: 18px;
     padding: 25px 0;
-    letter-spacing: 1.2px;
-    line-height: 32px;
-    max-width: 600px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    max-width: 650px;
 }
 
 .content .cn {

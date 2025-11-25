@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -1; /* behind everything */
 }
 
 .main {
@@ -77,120 +77,21 @@ body {
     font-weight: bold;
 }
 
-.content {
-    width: 1200px;
-    margin: 0 auto;
-    color: #fff;
-    position: relative;
-    padding: 20px;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.content h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    line-height: 1;
-    color: #ff7200;
-    width: 100%;
-}
-
-.form1{
-    width: 570px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-.form2{
-    width: 570px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-.form1 h2, .form2 h2 {
-    width: 100%;
-    text-align: left;
-    color: #fff;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.form1 .f1overview h3, .form2 .f2overview h3 {
-    width: 100%;
-    text-align: left;
-    color: #ff7200;
-    font-size: 25px;
-}
-
-.form1 h4, .form2 h4 {
-    margin-bottom: 20px;
-}
-
-.form1 .f1core-career-container, .form2 .f2core-career-container {
-    display: flex;
-    gap: 20px;
-}
-
-.form1 .f1core, .form2 .f2core {
-    flex: 1;
-}
-
-.form1 .f1carrer, .form2 .f2carrer {
-    flex: 1;
-}
-
-.form1 .f1core h3, .form2 .f2core h3,
-.form1 .f1carrer h3, .form2 .f2carrer h3 {
-    width: 100%;
-    text-align: left;
-    color: #ff7200;
-    font-size: 25px;
-}
-
-.form1 h4 ul, .form2 h4 ul {
-    padding-left: 18px;
-    font-size: 13.5px;
-    text-align: left;
-}
-
-.form1 .f1carrer h3, .form2 .f2carrer h3,
-.form1 .f1carcontainer h4 ul, .form2 .f2carcontainer h4 ul {
-    position: static;
-    left: auto;
-    top: auto;
-    width: auto;
-}
-
 @media screen and (max-width: 1200px) {
     .navbar {
         width: auto;
     }
-
     .content {
         width: 100%;
-        flex-direction: column;
-        align-items: center;
     }
-
+    
     .menu ul {
         gap: 30px;
     }
-
-    .form1, .form2 {
-        width: calc(100% - 40px);
-        max-width: 570px;
-        margin: 0 0 20px 0;
-    }
     
-    .form1 .f1core-career-container, .form2 .f2core-career-container {
-        flex-direction: column;
+    .form {
+        position: static;
+        margin: 20px auto;
     }
 }
 

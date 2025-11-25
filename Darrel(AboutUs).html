@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project</title>
+    <link rel="stylesheet" href="style(AboutUs).css">
+</head>
+<body>
+    <div class="main" id="page">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="11.mp4" type="video/mp4">
+        </video>
+
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">FUTURE PATH</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="Nicole(Home).html">HOME</a></li>
+                    <li><a href="Airon(Course).html">COURSE</a></li>
+                    <li><a href="Darrel(AboutUs).html" class="active">ABOUT</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    const links = document.querySelectorAll("a");
+    links.forEach(link => {
+        link.addEventListener("click", function (e) {
+        const destination = this.href;
+
+        if (destination.includes("#")) return;
+
+        e.preventDefault();
+
+        document.getElementById("page").classList.add("fade-out");
+
+        setTimeout(() => {
+            window.location.href = destination;
+        }, 600);
+        });
+    });
+    </script>
+</body>
+</html>

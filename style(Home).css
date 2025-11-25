@@ -37,18 +37,19 @@ body {
 }
 
 .icon {
-    width: 200px;
+    width: 250px;
 }
 
 .logo {
     color: #ff7200;
     font-size: 35px;
-    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .menu {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 50px;
+    padding-top: 15px;
 }
 
 .menu ul {
@@ -78,6 +79,7 @@ body {
 
 .search {
     display: flex;
+    padding-top: 10px;
 }
 
 .srch {

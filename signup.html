@@ -85,34 +85,34 @@
         }, 600); 
         });
     });
-
-    const togglePassword = document.getElementById('togglePassword');
-    const passwordField = document.getElementById('Password');
-
-    if (togglePassword && passwordField) {
-        togglePassword.addEventListener('click', function() {
-            const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
-            passwordField.setAttribute('type', type);
-            
-            this.classList.toggle('ri-eye-off-fill');
-            this.classList.toggle('ri-eye-fill');
-        });
-    }
-
-    const toggleConfirmPassword = document.getElementById('toggleConfirmPassword');
-    const confirmPasswordField = document.getElementById('ConfirmPassword');
-
-    if (toggleConfirmPassword && confirmPasswordField) {
-        toggleConfirmPassword.addEventListener('click', function() {
-            const type = confirmPasswordField.getAttribute('type') === 'password' ? 'text' : 'password';
-            confirmPasswordField.setAttribute('type', type);
-            
-            this.classList.toggle('ri-eye-off-fill');
-            this.classList.toggle('ri-eye-fill');
-        });
-    }
     </script>
+    
+    <script>
+    const input = document.getElementById('Password');
+    const toggle = document.getElementById('togglePassword');
 
+    toggle.addEventListener('click',
+        () => {
+            const isPassword = input.type === 'password';
+            input.type = isPassword ? 'text' : 'password';
+            toggle.className = isPassword ? 'ri-eye-fill' 
+            : 'ri-eye-off-fill';
+        }
+    );
+
+    const confirmInput = document.getElementById('ConfirmPassword');
+    const confirmToggle = document.getElementById('toggleConfirmPassword');
+
+    confirmToggle.addEventListener('click',
+        () => {
+            const isPassword = confirmInput.type === 'password';
+            confirmInput.type = isPassword ? 'text' : 'password';
+            confirmToggle.className = isPassword ? 'ri-eye-fill' 
+            : 'ri-eye-off-fill';
+        }
+    );
+    </script>
+    
     <script>
         const sidebar = document.getElementById("sidebarMenu");
         const hamburger = document.querySelector(".hamburger");

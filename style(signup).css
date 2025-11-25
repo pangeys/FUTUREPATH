@@ -209,34 +209,7 @@ input[type="checkbox"] {
     }
 }
 
-.fade-out {
-    position: relative;
-    animation: fadeOutBlack 0.3s forwards ease-in-out;
-}
 
-@keyframes fadeOutBlack {
-    0% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1.05);
-    }
-}
-
-.fade-out::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0;
-    animation: overlayFade 0.3s forwards;
-    z-index: 9999;
-}
 
 @keyframes overlayFade {
     from { opacity: 0; }

@@ -194,3 +194,39 @@ body {
         margin: 20px auto;
     }
 }
+
+#pageTransition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+/* For cinematic black bars effect */
+#pageTransition::before,
+#pageTransition::after {
+    content: '';
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: black;
+    z-index: 10000;
+    transition: height 0.8s ease;
+}
+
+#pageTransition.show::before,
+#pageTransition.show::after {
+    height: 50vh; /* top and bottom bars */
+}
+
+#pageTransition.show {
+    opacity: 1;
+    pointer-events: auto;
+}

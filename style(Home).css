@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Optima;
 }
@@ -26,7 +30,7 @@ body {
     background-position: center;
     background-size: cover;
     min-height: 100vh;
-    padding-top: 20px;
+    padding: 20px 0 50px 0;
 }
 
 .navbar {
@@ -344,14 +348,26 @@ input[type="checkbox"]{
 
 .sidebar a:hover {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .sidebar.active {
     right: 0;
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sidebar a.active {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sidebar a.active:hover {
+    color: #fff;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -397,26 +413,67 @@ input[type="checkbox"]{
     }
 }
 
-.fade-out {
-    opacity: 0;
-    transition: opacity 0.6s ease-in-out;
+.about-section {
+    max-width: 1200px;
+    margin: 100px auto 0 auto;
+    padding: 40px 50px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border: 2px solid #ff7200;
+    border-radius: 10px;
+    font-family: Optima;
+    box-shadow: 0 0 10px #0000001a;
+    text-align: center;
 }
 
-.fade-out::after {
-    content: "";
+.about-section h2 {
+    font-size: 45px;
+    color: #ff7200;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 20px;
+    max-width: 1100px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+}
+
+#pageTransition {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0;
-    animation: overlayFade 0.6s forwards;
-    pointer-events: none;
+    background: black;
     z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.8s ease;
 }
 
-@keyframes overlayFade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+#pageTransition::before,
+#pageTransition::after {
+    content: '';
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: black;
+    z-index: 10000;
+    transition: height 0.8s ease;
+}
+
+#pageTransition.show::before,
+#pageTransition.show::after {
+    height: 50vh; 
+}
+
+#pageTransition.show {
+    opacity: 1;
+    pointer-events: auto;
 }

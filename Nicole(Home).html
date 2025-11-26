@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style(Home).css">
 </head>
 <body>
+    <div id="pageTransition"></div>
     <div class="main" id="page">
         <video autoplay muted loop playsinline id="bgVideo">
             <source src="11.mp4" type="video/mp4">
@@ -19,8 +20,8 @@
                 <ul>
                     <li><a href="Nicole(Home).html" class="active">HOME</a></li>
                     <li><a href="Airon(Course).html">COURSE</a></li>
-                    <li><a href="Darrel(AboutUs).html">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#about">ABOUT</a></li> <!-- UPDATED -->
+                    <li><a href="Marco(ContactUs).html">CONTACT</a></li>
                 </ul>
             </div>
 
@@ -30,10 +31,10 @@
 
             <div class="sidebar" id="sidebarMenu">
                 <div class="close-btn"><i class="ri-close-line"></i></div>
-                <a href="Nicole(Home).html">HOME</a>
+                <a href="Nicole(Home).html" class="active">HOME</a>
                 <a href="Airon(Course).html">COURSE</a>
-                <a href="Darrel(AboutUs).html">ABOUT</a>
-                <a href="#">CONTACT</a>
+                <a href="#about">ABOUT</a> <!-- UPDATED -->
+                <a href="Marco(ContactUs).html">CONTACT</a>
             </div>
         </div>
 
@@ -91,41 +92,36 @@
                 </div>
             </form>
         </div>
+
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>
+                FuturePath is a system designed to help second-year Computer Science (CS) 
+                and Information Technology (IT) students choose the academic track or major 
+                that is right for them. We know that deciding on a major can be difficult 
+                because students may not know their strengths, skills, or which fields fit 
+                their interests. Our goal is to guide students in discovering their best 
+                path by looking at their courses, technical skills, programming knowledge, 
+                soft skills, career interests, and personal challenges.
+                br
+                By using machine learning, our system analyzes all of these factors and suggests the majors 
+                or specializations that fit each student’s profile. We also provide clear explanations so 
+                students can understand why a particular track is recommended. With FuturePath, students 
+                can make smarter decisions about their studies, focus on the fields they are passionate 
+                about, and prepare for their future careers with confidence. We aim to support students 
+                in finding the path that suits them best and make the process of choosing a major easier 
+                and less stressful.
+            </p>
+        </section>
+
     </div>
 
     <script src="toggle.js"></script>
 
     <script>
-    const links = document.querySelectorAll("a");
-    links.forEach(link => {
-        link.addEventListener("click", function (e) {
-        const destination = this.href;
+        const transition = document.getElementById('pageTransition');
 
-        if (destination.includes("#")) return;
-
-        e.preventDefault();
-
-        document.getElementById("page").classList.add("fade-out");
-
-        setTimeout(() => {
-            window.location.href = destination;
-        }, 600);
-        });
-    });
-
-    const signupBtn = document.querySelector(".signup-btn");
-    signupBtn.addEventListener("click", function (e) {
-        e.preventDefault();
-        
-        document.getElementById("page").classList.add("fade-out");
-        
-        setTimeout(() => {
-            window.location.href = 'signup.html';
-        }, 600);
-    });
-    </script>
-
-    <script>
+        // 1. Sidebar toggle
         const sidebar = document.getElementById("sidebarMenu");
         const hamburger = document.querySelector(".hamburger");
         const closeBtn = document.querySelector(".close-btn");
@@ -136,7 +132,41 @@
 
         closeBtn.addEventListener("click", () => {
             sidebar.classList.remove("active");
-    });
+        });
+
+        // 2. Generic link transition
+        const links = document.querySelectorAll('a');
+
+        links.forEach(link => {
+            const href = link.getAttribute('href');
+
+            // Skip anchor links
+            if(!href || href.startsWith('#')) return;
+
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                transition.classList.add('show');
+
+                setTimeout(() => {
+                    window.location.href = href;
+                }, 800); // must match CSS transition
+            });
+        });
+
+        // 3. Signup button transition
+        const signupBtn = document.querySelector(".signup-btn");
+        if(signupBtn){
+            signupBtn.addEventListener("click", function(e){
+                e.preventDefault();
+                transition.classList.add('show');
+
+                setTimeout(() => {
+                    window.location.href = "signup.html";
+                }, 800);
+            });
+        }
     </script>
+
+
 </body>
 </html>

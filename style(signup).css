@@ -244,14 +244,26 @@ input[type="checkbox"] {
 
 .sidebar a:hover {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .sidebar.active {
     right: 0;
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sidebar a.active {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sidebar a.active:hover {
+    color: #fff;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -297,26 +309,38 @@ input[type="checkbox"] {
     }
 }
 
-.fade-out {
-    opacity: 0;
-    transition: opacity 0.6s ease-in-out;
-}
-
-.fade-out::after {
-    content: "";
+#pageTransition {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0;
-    animation: overlayFade 0.6s forwards;
-    pointer-events: none;
+    background: black;
     z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.8s ease;
 }
 
-@keyframes overlayFade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+/* For cinematic black bars effect */
+#pageTransition::before,
+#pageTransition::after {
+    content: '';
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: black;
+    z-index: 10000;
+    transition: height 0.8s ease;
+}
+
+#pageTransition.show::before,
+#pageTransition.show::after {
+    height: 50vh; /* top and bottom bars */
+}
+
+#pageTransition.show {
+    opacity: 1;
+    pointer-events: auto;
 }

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style(Home).css">
 </head>
 <body>
+    <div id="pageTransition"></div>
     <div class="main" id="page">
         <video autoplay muted loop playsinline id="bgVideo">
             <source src="11.mp4" type="video/mp4">
@@ -19,8 +20,8 @@
                 <ul>
                     <li><a href="Nicole(Home).html">HOME</a></li>
                     <li><a href="Airon(Course).html">COURSE</a></li>
-                    <li><a href="Nicole(Home).html#about" class="active">ABOUT</a></li>
-                    <li><a href="Marco(ContactUs).html">CONTACT</a></li>
+                    <li><a href="Nicole(Home).html#about">ABOUT</a></li>
+                    <li><a href="Marco(ContactUs).html" class="active">CONTACT</a></li>
                 </ul>
             </div>
 
@@ -32,8 +33,8 @@
                 <div class="close-btn"><i class="ri-close-line"></i></div>
                 <a href="Nicole(Home).html">HOME</a>
                 <a href="Airon(Course).html">COURSE</a>
-                <a href="Nicole(Home).html#about" class="active">ABOUT</a>
-                <a href="Marco(ContactUs).html">CONTACT</a>
+                <a href="Nicole(Home).html#about"">ABOUT</a>
+                <a href="Marco(ContactUs).html" class="active">CONTACT</a>
             </div>
         </div>
     </div>
@@ -51,5 +52,28 @@
             sidebar.classList.remove("active");
     });
     </script>
+
+    <script>
+    const links = document.querySelectorAll('a');
+    const transition = document.getElementById('pageTransition');
+
+    links.forEach(link => {
+        // Ignore anchor links
+        if(link.getAttribute('href').startsWith('#')) return;
+
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const href = this.getAttribute('href');
+
+            transition.classList.add('show');
+
+            // Wait for the animation to finish before navigating
+            setTimeout(() => {
+                window.location.href = href;
+            }, 800); // same duration as CSS transition
+        });
+    });
+    </script>
+
 </body>
 </html>

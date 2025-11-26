@@ -1,4 +1,5 @@
 @import url('https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css');
+@import url('https://use.fontawesome.com/releases/v6.4.2/css/all.css');
 
 * {
     margin: 0;
@@ -17,7 +18,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* behind everything */
+    z-index: -10; /* behind everything */
 }
 
 .main {
@@ -230,3 +231,139 @@ body {
     opacity: 1;
     pointer-events: auto;
 }
+
+.container {
+    position: absolute;
+    width: 800px;
+    height: 480px;
+    background: transparent;
+    box-shadow: 0 30px 50px #ff7200;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid #ff7200;
+}
+
+.container .slide .item {
+    width: 165px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #ff7200;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.slide .item:nth-child(1),
+.slide .item:nth-child(2) {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide .item:nth-child(3) {
+    left: 50%;
+}
+
+.slide .item:nth-child(4) {
+    left: calc(50% + 210px);
+}
+
+.slide .item:nth-child(5) {
+    left: calc(50% + 430px);
+}
+
+.slide .item:nth-child(n + 6) {
+    left: calc(50% + 650px);
+    opacity: 0;
+}
+
+.item .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+
+.slide .item:nth-child(2) .content {
+    display: block;
+}
+
+.content .name {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0;
+    animation: animate 0.5s ease-in-out 1s forwards;
+}
+
+.content .mail,
+.content .num {
+    font-size: 20px;
+    opacity: 0;
+    animation: animate 0.3s ease-in-out 1.5s forwards;
+}
+
+.content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background: #ff7200;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    animation: animate 1s ease-in-out 2s forwards;
+}
+
+@keyframes animate {
+    from {
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    gap: 10px;
+}
+
+.button button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background: #ff7200;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button button:hover {
+    background: #fff;
+    color: #ff7200;
+}
+

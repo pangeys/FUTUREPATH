@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
     <link rel="stylesheet" href="style(ContactUs).css">
 </head>
 <body>
     <div id="pageTransition"></div>
-    <div class="main" id="page">
-        <video autoplay muted loop playsinline id="bgVideo">
-            <source src="11.mp4" type="video/mp4">
-        </video>
+    
+    <video autoplay muted loop playsinline id="bgVideo">
+        <source src="11.mp4" type="video/mp4">
+    </video>
 
+    <div class="main" id="page">
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">FUTURE PATH</h2>
@@ -33,7 +38,7 @@
                 <div class="close-btn"><i class="ri-close-line"></i></div>
                 <a href="Nicole(Home).html">HOME</a>
                 <a href="Airon(Course).html">COURSE</a>
-                <a href="Nicole(Home).html#about"">ABOUT</a>
+                <a href="Nicole(Home).html#about">ABOUT</a>
                 <a href="Marco(ContactUs).html" class="active">CONTACT</a>
             </div>
         </div>
@@ -74,9 +79,11 @@
 
     <div class="button">
         <button class="prev">
-        <i class="fa-solid fa-arrow-left"></i></button>
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
         <button class="next">
-        <i class="fa-solid fa-arrow-right"></i></button>
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
     </div>
     
     <script src="contactus.js"></script>
@@ -92,30 +99,27 @@
 
         closeBtn.addEventListener("click", () => {
             sidebar.classList.remove("active");
-    });
+        });
     </script>
 
     <script>
-    const links = document.querySelectorAll('a');
-    const transition = document.getElementById('pageTransition');
+        const links = document.querySelectorAll('a');
+        const transition = document.getElementById('pageTransition');
 
-    links.forEach(link => {
-        // Ignore anchor links
-        if(link.getAttribute('href').startsWith('#')) return;
+        links.forEach(link => {
+            if(link.getAttribute('href').startsWith('#')) return;
 
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const href = this.getAttribute('href');
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
 
-            transition.classList.add('show');
+                transition.classList.add('show');
 
-            // Wait for the animation to finish before navigating
-            setTimeout(() => {
-                window.location.href = href;
-            }, 800); // same duration as CSS transition
+                setTimeout(() => {
+                    window.location.href = href;
+                }, 800);
+            });
         });
-    });
     </script>
-
 </body>
 </html>

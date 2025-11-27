@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path Predictor</title>
+    <!-- FIXED: Use relative path instead of absolute -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='tryMainstyle.css') }}">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="headings">
+            <h1>Career Path Predictor</h1>
+        </div>
+
+        <div class="content">
+            <h1><span>ABOUT </span>US!</h1>
+            <p class="par">Discover your ideal career path based on your skills, interests, and experience. 
+                Our AI-powered system analyzes your responses to provide personalized career recommendations.</p>
+            <button class="return">Home</button>
+
+        </div>
+ 
+        <div class="form">
+            <h1>Career Recommendations</h1>
+            
+            <div class="h3-row1">
+                <div class="form-group">
+                    <h3 class="label">Programming Skills Rating (1-10)</h3>
+                    <input type="number" id="progRating" class="rating-input" min="1" max="10" placeholder="Rate 1-10">
+                </div>
+
+                <div class="form-group">
+                    <h3 class="label">Soft Skills Rating (1-10)</h3>
+                    <input type="number" id="softRating" class="rating-input" min="1" max="10" placeholder="Rate 1-10">
+                </div>
+
+                <div class="form-group">
+                    <h3 class="label">Current Course</h3>
+                    <div class="dropdown">
+                        <button class="dropdown-btn" data-field="currentCourse">Select Course</button>
+                        <div class="dropdown-content">
+                            <a href="#" data-value="b.tech cse">b.tech cse</a>
+                            <a href="#" data-value="b.tech it">b.tech it</a>
+                            <a href="#" data-value="m.tech ai">m.tech ai</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h3-row2">
+                <div class="form-group">
+                    <h3 class="label">Technical Skills</h3>
+                    <div class="dropdown">
+                        <button class="dropdown-btn" data-field="techSkills">Select Skills</button>
+                        <div class="dropdown-content">
+                            <a href="#" data-value="python, java">python, java</a>
+                            <a href="#" data-value="python, sql">python, sql</a>
+                            <a href="#" data-value="java, sql">java, sql</a>
+                            <a href="#" data-value="python, machine learning">python, machine learning</a>
+                            <a href="#" data-value="cloud computing, python">cloud computing, python</a>
+                            <a href="#" data-value="data analysis, python">data analysis, python</a>
+                            <a href="#" data-value="cybersecurity, java">cybersecurity, java</a>
+                            <a href="#" data-value="blockchain, python">blockchain, python</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <h3 class="label">Projects Experience</h3>
+                    <div class="dropdown">
+                        <button class="dropdown-btn" data-field="projects">Select Option</button>
+                        <div class="dropdown-content">
+                            <a href="#" data-value="yes">yes</a>
+                            <a href="#" data-value="no">no</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <h3 class="label">Challenges Faced</h3>
+                    <div class="dropdown">
+                        <button class="dropdown-btn" data-field="challenges">Select Challenge</button>
+                        <div class="dropdown-content">
+                            <a href="#" data-value="interview anxiety">interview anxiety</a>
+                            <a href="#" data-value="lack of experience">lack of experience</a>
+                            <a href="#" data-value="limited guidance">limited guidance</a>
+                            <a href="#" data-value="no networking opportunities">no networking opportunities</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="submit-btn">Get Career Prediction</button>
+            <div class="result-panel" id="resultPanel"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='tryMain.js') }}"></script>
+
+</body>
+</html> 

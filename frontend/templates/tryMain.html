@@ -98,7 +98,21 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='tryMain.js') }}"></script>
+    <script 
+    
+    src="{{ url_for('static', filename='tryMain.js') }}">
+
+    // HOME BUTTON → redirect to Nicole(Home).html
+    // It will be removed when integrated with Flask routing
+    const homeBtn = document.querySelector(".return");
+
+    if (homeBtn) {
+        homeBtn.addEventListener("click", function () {
+            window.location.href = "Nicole(Home).html";
+        });
+    }
+
+    </script>
 
 </body>
 </html> 

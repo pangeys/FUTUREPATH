@@ -1,10 +1,11 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, redirect, url_for, session, flash
 from flask_cors import CORS
 import pickle
 import pandas as pd
 import os
 
 app = Flask(__name__)
+app.secret_key = 'simple_key'  # Add this line to enable sessions
 CORS(app)
 
 # ---- SIMPLE PATH SETUP ----
@@ -61,6 +62,38 @@ except FileNotFoundError:
     print("Run 'python tryMainmodel.py' first!\n")
     exit(1)
 
+# --- Data Base Connection Setup ---
+
+# ---- DATABASE CONFIGURATION (Added for MySQL connection) ----
+import mysql.connector
+from mysql.connector import Error
+
+# Database configuration (matches XAMPP defaults; update if you changed credentials)
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': '',  # Empty for default; set if you added a password
+    'database': 'userID'  # Your database name from XAMPP
+}
+
+# Function to get a database connection
+def get_db_connection():
+    try:
+        conn = mysql.connector.connect(**db_config)
+        return conn
+    except Error as e:
+        print(f"Error connecting to MySQL: {e}")
+        return None
+    
+@app.route('/test_db')
+def test_db():
+    connection = get_db_connection()
+    if connection:
+        connection.close()
+        return "Connected to MySQL successfully!"
+    else:
+        return "Failed to connect to MySQL. Check XAMPP and db_config."
+
 # ---- ROUTES ----
 
 # Home page (Nicole's landing page)
@@ -69,9 +102,79 @@ def home():
     return render_template("Nicole(Home).html")
 
 # Signup page
-@app.route("/signup")
+@app.route("/signup", methods=['GET', 'POST'])
 def signup():
+    if request.method == 'POST':
+        fullname = request.form.get('fullname')
+        username = request.form.get('username')
+        email = request.form.get('email')
+        password = request.form.get('password')
+        
+        if not fullname or not username or not email or not password:
+            flash('All fields are required.', 'error')
+            return redirect(url_for('signup'))
+        
+        connection = get_db_connection()
+        if connection:
+            cursor = connection.cursor()
+            try:
+                cursor.execute(
+                    "INSERT INTO users (fullname, username, email, password) VALUES (%s, %s, %s, %s)",
+                    (fullname, username, email, password)
+                )
+                connection.commit()
+                flash('Signup successful! Please log in.', 'success')
+                return redirect(url_for('home'))
+            except mysql.connector.IntegrityError:
+                flash('Username or email already exists.', 'error')
+            except Error as e:
+                flash(f'Database error: {e}', 'error')
+            finally:
+                cursor.close()
+                connection.close()
+        else:
+            flash('Database connection failed.', 'error')
+    
     return render_template("signup.html")
+
+# Login page
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form.get('username')
+        password = request.form.get('password')
+        
+        if not username or not password:
+            flash('Username and password are required.', 'error')
+            return redirect(url_for('home'))
+        
+        connection = get_db_connection()
+        if connection:
+            cursor = connection.cursor(dictionary=True)
+            cursor.execute("SELECT id, fullname, username, password FROM users WHERE username = %s", (username,))
+            user = cursor.fetchone()
+            cursor.close()
+            connection.close()
+            
+            if user and user['password'] == password:
+                session['user_id'] = user['id']
+                session['username'] = user['username']
+                session['fullname'] = user['fullname']
+                flash('Login successful!', 'success')
+                return redirect(url_for('predictor'))  # Redirect to your predictor page
+            else:
+                flash('Invalid username or password.', 'error')
+        else:
+            flash('Database connection failed.', 'error')
+    
+    return render_template('Nicole(Home).html')
+
+# Logout route
+@app.route('/logout')
+def logout():
+    session.clear()
+    flash('Logged out.', 'info')
+    return redirect(url_for('home'))
 
 # Course page
 @app.route("/course")

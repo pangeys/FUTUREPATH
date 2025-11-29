@@ -16,6 +16,20 @@
     </style>
 </head>
 <body>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div id="alert-container">
+      {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">
+          {{ message }}
+          <span class="alert-close" onclick="this.parentElement.style.display='none';">&times;</span>
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
     <div id="pageTransition"></div>
     <div class="main" id="page">
         <!-- FIXED: Video path -->
@@ -52,41 +66,45 @@
             </div>
         </div>
 
-        <form id="signupForm" class="form">
+        <!-- FIXED: Form action uses Flask route -->
+
+        <form method="POST" action="{{ url_for('signup') }}"
+            
+            id="signupForm" class="form">
             <h2>Sign Up</h2>
             <div class="input-box">
-                <input type="text" placeholder="Full Name" required>
+                <input type="text" name="fullname" placeholder="Full Name" required>
                 <i class="ri-user-fill"></i>
                 <div class="error" id="fullNameError"></div>
             </div>
             <div class="input-box">
-                <input type="email" placeholder="Email" required>
+                <input type="email" name="email" placeholder="Email" required>
                 <i class="ri-mail-fill"></i>
                 <div class="error" id="emailError"></div>
             </div>
             <div class="input-box">
-                <input type="text" placeholder="Username" required>
+                <input type="text" name="username" placeholder="Username" required>
                 <i class="ri-user-line"></i>
                 <div class="error" id="usernameError"></div>
             </div>
             <div class="input-box">
-                <input type="password" id="Password" placeholder="Password" autocomplete="off" required>
+                <input type="password" name="password" placeholder="Password" autocomplete="off" required>
                 <i class="ri-eye-off-fill" id="togglePassword"></i>
                 <div class="error" id="passwordError"></div>
             </div>
             <div class="input-box">
-                <input type="password" id="ConfirmPassword" placeholder="Confirm Password" autocomplete="off" required>
+                <input type="password" name="ConfirmPassword" placeholder="Confirm Password" autocomplete="off" required>
                 <i class="ri-eye-off-fill" id="toggleConfirmPassword"></i>
                 <div class="error" id="confirmPasswordError"></div>
             </div>
-            <button type="submit" class="btnn">Sign Up</button>
+            <button type="submit" class="bttn">Sign Up</button>
             <div class="login-link">
                 <!-- FIXED: Login link uses Flask route -->
                 Already have an account? <a href="{{ url_for('home') }}">Login</a>
             </div>
         </form>
     </div>
-
+    
     <!-- FIXED: JS path -->
     <script src="{{ url_for('static', filename='js/toggle.js') }}"></script>
     

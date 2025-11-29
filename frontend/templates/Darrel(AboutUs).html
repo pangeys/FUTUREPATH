@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us - FuturePath</title>
+    <!-- FIXED: CSS path -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style(Home).css') }}">
+    <!-- FIXED: Icon path -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/icon.png') }}" type="image/x-icon">
+</head>
+<body>
+    <div class="main" id="page">
+        <!-- FIXED: Video path -->
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="{{ url_for('static', filename='images/11.mp4') }}" type="video/mp4">
+        </video>
+
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">FUTURE PATH</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <!-- FIXED: All navigation links use Flask routes -->
+                    <li><a href="{{ url_for('home') }}">HOME</a></li>
+                    <li><a href="{{ url_for('course') }}">COURSE</a></li>
+                    <li><a href="{{ url_for('home') }}#about" class="active">ABOUT</a></li>
+                    <li><a href="{{ url_for('contact') }}">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <i class="ri-menu-line"></i>
+            </div>
+
+            <div class="sidebar" id="sidebarMenu">
+                <div class="close-btn"><i class="ri-close-line"></i></div>
+                <!-- FIXED: Sidebar links use Flask routes -->
+                <a href="{{ url_for('home') }}">HOME</a>
+                <a href="{{ url_for('course') }}">COURSE</a>
+                <a href="{{ url_for('home') }}#about" class="active">ABOUT</a>
+                <a href="{{ url_for('contact') }}">CONTACT</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const sidebar = document.getElementById("sidebarMenu");
+        const hamburger = document.querySelector(".hamburger");
+        const closeBtn = document.querySelector(".close-btn");
+
+        hamburger.addEventListener("click", () => {
+            sidebar.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.remove("active");
+        });
+    </script>
+</body>
+</html>

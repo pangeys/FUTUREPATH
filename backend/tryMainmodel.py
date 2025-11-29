@@ -10,30 +10,39 @@ import os
 # ---- GET CORRECT FILE PATHS ----
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
-csv_path = os.path.join(project_root, "data", "train_with_major.csv")
+csv_path = os.path.join(script_dir, "data", "train_with_major.csv")
 
-print(f"Looking for CSV at: {csv_path}")
-print(f"File exists: {os.path.exists(csv_path)}")
+print("\n" + "="*70)
+print("📁 FILE PATH SETUP")
+print("="*70)
+print(f"Script directory: {script_dir}")
+print(f"Project root:     {project_root}")
+print(f"CSV path:         {csv_path}")
+print(f"File exists:      {os.path.exists(csv_path)}")
+print("="*70 + "\n")
 
 # ---- LOAD DATASET ----
 try:
     df = pd.read_csv(csv_path)
-    print(f"Successfully loaded {len(df)} rows from CSV")
-    print(f"Columns in dataset: {df.columns.tolist()}")
+    print(f"✓ Successfully loaded {len(df)} rows from CSV")
+    print(f"✓ Columns in dataset: {df.columns.tolist()}\n")
 except FileNotFoundError:
-    print(f"ERROR: Could not find file at {csv_path}")
+    print(f"❌ ERROR: Could not find file at {csv_path}")
     print(f"Current working directory: {os.getcwd()}")
+    print("\nPlease ensure:")
+    print("  1. The 'data' folder exists in 'backend/'")
+    print("  2. The file 'train_with_major.csv' is inside 'backend/data/'")
     exit(1)
 
 # ---- CLEAN COLUMN NAMES (remove extra spaces) ----
 df.columns = df.columns.str.strip()
 
-print(f"\nCleaned columns: {df.columns.tolist()}")
+print(f"Cleaned columns: {df.columns.tolist()}\n")
 
 # ---- SELECT FEATURES (using actual column names) ----
 features = [
-    "Rating",              # Programming Languages Rating
-    "Rating.1",            # Soft Skills Rating
+    "Rating.1",            # Programming Languages Rating
+    "Rating",              # Soft Skills Rating
     "Current Course",
     "Technical Skills",
     "Projects",
@@ -43,20 +52,32 @@ features = [
 # Check if all features exist
 missing_cols = [col for col in features if col not in df.columns]
 if missing_cols:
-    print(f"\nERROR: Missing columns: {missing_cols}")
+    print(f"❌ ERROR: Missing columns: {missing_cols}")
     print(f"Available columns: {df.columns.tolist()}")
     exit(1)
 
 X = df[features]
 y = df["Career Interest"]
 
-print(f"\n✓ Features selected: {features}")
+print("="*70)
+print("📊 DATA SUMMARY")
+print("="*70)
+print(f"✓ Features selected: {features}")
 print(f"✓ Target variable: Career Interest")
 print(f"✓ Unique career paths: {y.nunique()}")
+print(f"✓ Career paths: {y.unique().tolist()}")
+print(f"✓ Dataset shape: {X.shape}")
+print("="*70 + "\n")
 
 # ---- PREPROCESSING PIPELINE ----
-numeric_features = ["Rating", "Rating.1"]
+numeric_features = ["Rating.1", "Rating"]
 categorical_features = ["Current Course", "Technical Skills", "Challenges", "Projects"]
+
+print("🔧 BUILDING PREPROCESSING PIPELINE")
+print("-"*70)
+print(f"Numeric features:      {numeric_features}")
+print(f"Categorical features:  {categorical_features}")
+print("-"*70 + "\n")
 
 preprocessor = ColumnTransformer(
     transformers=[
@@ -71,16 +92,30 @@ model = Pipeline(steps=[
 ])
 
 # ---- TRAIN MODEL ----
-print("\n" + "="*50)
-print("Training model...")
-print("="*50)
+print("="*70)
+print("🚀 TRAINING MODEL")
+print("="*70)
+print("Algorithm: Random Forest Classifier")
+print("Estimators: 100")
+print("Random state: 42")
+print("-"*70)
+
 model.fit(X, y)
+
 print("✓ Model training complete!")
+print("="*70 + "\n")
 
 # ---- SAVE MODEL ----
 model_path = os.path.join(script_dir, "tryMainmodel.pkl")
 with open(model_path, "wb") as f:
     pickle.dump(model, f)
 
-print(f"✓ Model saved successfully at: {model_path}")
-print("="*50) 
+print("="*70)
+print("💾 MODEL SAVED SUCCESSFULLY")
+print("="*70)
+print(f"Model saved at: {model_path}")
+print(f"File size: {os.path.getsize(model_path) / 1024:.2f} KB")
+print("="*70)
+
+print("\n✅ MODEL TRAINING COMPLETE!")
+print("You can now run: python tryMainserver.py\n")

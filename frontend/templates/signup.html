@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up - FuturePath</title>
+    <!-- FIXED: CSS path -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style(signup).css') }}">
+    <!-- FIXED: Icon path -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/icon.png') }}" type="image/x-icon">
+
+    <style>
+        .error {
+            color: red;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="pageTransition"></div>
+    <div class="main" id="page">
+        <!-- FIXED: Video path -->
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="{{ url_for('static', filename='images/11.mp4') }}" type="video/mp4">
+        </video>
+
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">FUTURE PATH</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <!-- FIXED: All navigation links use Flask routes -->
+                    <li><a href="{{ url_for('home') }}">HOME</a></li>
+                    <li><a href="{{ url_for('course') }}">COURSE</a></li>
+                    <li><a href="{{ url_for('home') }}#about">ABOUT</a></li>
+                    <li><a href="{{ url_for('contact') }}">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <i class="ri-menu-line"></i>
+            </div>
+
+            <div class="sidebar" id="sidebarMenu">
+                <div class="close-btn"><i class="ri-close-line"></i></div>
+                <!-- FIXED: Sidebar links use Flask routes -->
+                <a href="{{ url_for('home') }}">HOME</a>
+                <a href="{{ url_for('course') }}">COURSE</a>
+                <a href="{{ url_for('home') }}#about">ABOUT</a>
+                <a href="{{ url_for('contact') }}">CONTACT</a>
+            </div>
+        </div>
+
+        <form id="signupForm" class="form">
+            <h2>Sign Up</h2>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <i class="ri-user-fill"></i>
+                <div class="error" id="fullNameError"></div>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+                <i class="ri-mail-fill"></i>
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class="ri-user-line"></i>
+                <div class="error" id="usernameError"></div>
+            </div>
+            <div class="input-box">
+                <input type="password" id="Password" placeholder="Password" autocomplete="off" required>
+                <i class="ri-eye-off-fill" id="togglePassword"></i>
+                <div class="error" id="passwordError"></div>
+            </div>
+            <div class="input-box">
+                <input type="password" id="ConfirmPassword" placeholder="Confirm Password" autocomplete="off" required>
+                <i class="ri-eye-off-fill" id="toggleConfirmPassword"></i>
+                <div class="error" id="confirmPasswordError"></div>
+            </div>
+            <button type="submit" class="btnn">Sign Up</button>
+            <div class="login-link">
+                <!-- FIXED: Login link uses Flask route -->
+                Already have an account? <a href="{{ url_for('home') }}">Login</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- FIXED: JS path -->
+    <script src="{{ url_for('static', filename='js/toggle.js') }}"></script>
+    
+    <script>
+    // Password toggle functionality
+    const input = document.getElementById('Password');
+    const toggle = document.getElementById('togglePassword');
+
+    toggle.addEventListener('click',
+        () => {
+            const isPassword = input.type === 'password';
+            input.type = isPassword ? 'text' : 'password';
+            toggle.className = isPassword ? 'ri-eye-fill' 
+            : 'ri-eye-off-fill';
+        }
+    );
+
+    // Confirm password toggle functionality
+    const confirmInput = document.getElementById('ConfirmPassword');
+    const confirmToggle = document.getElementById('toggleConfirmPassword');
+
+    confirmToggle.addEventListener('click',
+        () => {
+            const isPassword = confirmInput.type === 'password';
+            confirmInput.type = isPassword ? 'text' : 'password';
+            confirmToggle.className = isPassword ? 'ri-eye-fill' 
+            : 'ri-eye-off-fill';
+        }
+    );
+    </script>
+    
+    <script>
+        // Sidebar toggle
+        const sidebar = document.getElementById("sidebarMenu");
+        const hamburger = document.querySelector(".hamburger");
+        const closeBtn = document.querySelector(".close-btn");
+
+        hamburger.addEventListener("click", () => {
+            sidebar.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.remove("active");
+        });
+    </script>
+
+    <script>
+    // Page transition
+    const links = document.querySelectorAll('a');
+    const transition = document.getElementById('pageTransition');
+
+    links.forEach(link => {
+        const href = link.getAttribute('href');
+        
+        // Ignore anchor links
+        if(!href || href.startsWith('#')) return;
+
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            transition.classList.add('show');
+
+            // Wait for the animation to finish before navigating
+            setTimeout(() => {
+                window.location.href = href;
+            }, 800); // same duration as CSS transition
+        });
+    });
+    </script>
+
+</body>
+</html>

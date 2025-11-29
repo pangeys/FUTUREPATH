@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FuturePath</title>
+    <!-- FIXED: Icon path -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/icon.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <!-- FIXED: CSS path -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style(ContactUs).css') }}">
+</head>
+<body>
+    <div id="pageTransition"></div>
+    
+    <!-- FIXED: Video path -->
+    <video autoplay muted loop playsinline id="bgVideo">
+        <source src="{{ url_for('static', filename='images/11.mp4') }}" type="video/mp4">
+    </video>
+
+    <div class="main" id="page">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">FUTURE PATH</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <!-- FIXED: All navigation links use Flask routes -->
+                    <li><a href="{{ url_for('home') }}">HOME</a></li>
+                    <li><a href="{{ url_for('course') }}">COURSE</a></li>
+                    <li><a href="{{ url_for('home') }}#about">ABOUT</a></li>
+                    <li><a href="{{ url_for('contact') }}" class="active">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <i class="ri-menu-line"></i>
+            </div>
+
+            <div class="sidebar" id="sidebarMenu">
+                <div class="close-btn"><i class="ri-close-line"></i></div>
+                <!-- FIXED: Sidebar links use Flask routes -->
+                <a href="{{ url_for('home') }}">HOME</a>
+                <a href="{{ url_for('course') }}">COURSE</a>
+                <a href="{{ url_for('home') }}#about">ABOUT</a>
+                <a href="{{ url_for('contact') }}" class="active">CONTACT</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="slide">
+            <!-- FIXED: All image paths -->
+            <div class="item" style="background-image: url('{{ url_for('static', filename='images/marco.jpg') }}');">
+                <div class="content">
+                    <div class="name">John Marco Macatuno</div>
+                    <div class="mail">0323-4644@lspu.edu.ph</div>
+                    <div class="num">09302508902</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{{ url_for('static', filename='images/nics.jpg') }}');">
+                <div class="content">
+                    <div class="name">Nicole De Guzman</div>
+                    <div class="mail">0323-3539@lspu.edu.ph</div>
+                    <div class="num">09503691821</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{{ url_for('static', filename='images/airon.jpg') }}');">
+                <div class="content">
+                    <div class="name">Airon Garcia Manalo</div>
+                    <div class="mail">0323-3465@lspu.edu.ph</div>
+                    <div class="num">0994861586</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{{ url_for('static', filename='images/darrel.jpg') }}');">
+                <div class="content">
+                    <div class="name">Mike Darrel Sorizo</div>
+                    <div class="mail">0323-3545@lspu.edu.ph</div>
+                    <div class="num">09266370421</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="button">
+        <button class="prev">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="next">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+    
+    <!-- FIXED: JS path -->
+    <script src="{{ url_for('static', filename='js/contactus.js') }}"></script>
+
+    <script>
+        const sidebar = document.getElementById("sidebarMenu");
+        const hamburger = document.querySelector(".hamburger");
+        const closeBtn = document.querySelector(".close-btn");
+
+        hamburger.addEventListener("click", () => {
+            sidebar.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.remove("active");
+        });
+    </script>
+
+    <script>
+        const links = document.querySelectorAll('a');
+        const transition = document.getElementById('pageTransition');
+
+        links.forEach(link => {
+            const href = link.getAttribute('href');
+            
+            if(!href || href.startsWith('#')) return;
+
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                transition.classList.add('show');
+
+                setTimeout(() => {
+                    window.location.href = href;
+                }, 800);
+            });
+        });
+    </script>
+</body>
+</html>

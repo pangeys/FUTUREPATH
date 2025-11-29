@@ -37,12 +37,13 @@ print(f"  Templates exists: {os.path.exists(TEMPLATES_DIR)}")
 # List files in static folder
 if os.path.exists(STATIC_DIR):
     print("\n📄 Files in static folder:")
-    files = os.listdir(STATIC_DIR)
-    if files:
-        for f in files:
-            print(f"  ✓ {f}")
-    else:
-        print("  ❌ NO FILES FOUND!")
+    for root, dirs, files in os.walk(STATIC_DIR):
+        level = root.replace(STATIC_DIR, '').count(os.sep)
+        indent = ' ' * 2 * level
+        print(f"{indent}{os.path.basename(root)}/")
+        subindent = ' ' * 2 * (level + 1)
+        for file in files:
+            print(f"{subindent}✓ {file}")
 else:
     print("\n❌ STATIC FOLDER DOESN'T EXIST!")
     print(f"   Expected location: {STATIC_DIR}")
@@ -60,10 +61,36 @@ except FileNotFoundError:
     print("Run 'python tryMainmodel.py' first!\n")
     exit(1)
 
-# ---- HOME PAGE ----
+# ---- ROUTES ----
+
+# Home page (Nicole's landing page)
 @app.route("/")
 def home():
-    # ✅ USE render_template() - this processes {{ url_for() }} syntax
+    return render_template("Nicole(Home).html")
+
+# Signup page
+@app.route("/signup")
+def signup():
+    return render_template("signup.html")
+
+# Course page
+@app.route("/course")
+def course():
+    return render_template("Airon(Course).html")
+
+# About page (redirects to home with anchor)
+@app.route("/about")
+def about():
+    return render_template("Darrel(AboutUs).html")
+
+# Contact page
+@app.route("/contact")
+def contact():
+    return render_template("Marco(ContactUs).html")
+
+# Career predictor page
+@app.route("/predictor")
+def predictor():
     return render_template("tryMain.html")
 
 # ---- PREDICTION API ----
@@ -74,7 +101,7 @@ def predict():
         print(f"\n🎯 Prediction request received")
         print(f"Data: {data}")
         
-        # ✅ UPDATED: Check for the correct column names that match your model
+        # Check for the correct column names that match the model
         required = [
             "Rating.1",           # Programming Languages Ratings
             "Rating",             # Soft Skills Ratings

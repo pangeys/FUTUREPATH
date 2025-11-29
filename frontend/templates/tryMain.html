@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Career Path Predictor</title>
-    <!-- FIXED: Use relative path instead of absolute -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='tryMainstyle.css') }}">
+    <!-- FIXED: Flask route for CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tryMainstyle.css') }}">
 </head>
 <body>
 
@@ -19,7 +19,8 @@
             <h1><span>ABOUT </span>US!</h1>
             <p class="par">Discover your ideal career path based on your skills, interests, and experience. 
                 Our AI-powered system analyzes your responses to provide personalized career recommendations.</p>
-            <button class="return">Home</button>
+            <!-- FIXED: Flask route for home button -->
+            <button class="return" onclick="window.location.href='{{ url_for('home') }}'">Home</button>
 
         </div>
  
@@ -98,21 +99,8 @@
         </div>
     </div>
 
-    <script 
-    
-    src="{{ url_for('static', filename='tryMain.js') }}">
-
-    // HOME BUTTON → redirect to Nicole(Home).html
-    // It will be removed when integrated with Flask routing
-    const homeBtn = document.querySelector(".return");
-
-    if (homeBtn) {
-        homeBtn.addEventListener("click", function () {
-            window.location.href = "Nicole(Home).html";
-        });
-    }
-
-    </script>
+    <!-- FIXED: Flask route for JS file -->
+    <script src="{{ url_for('static', filename='js/tryMain.js') }}"></script>
 
 </body>
-</html> 
+</html>

@@ -3,11 +3,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.tree import DecisionTreeClassifier  # Changed from RandomForest
+from sklearn.tree import DecisionTreeClassifier 
 import pickle
 import os
 
-# ---- GET CORRECT FILE PATHS ----
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 csv_path = os.path.join(script_dir, "data", "train_with_major.csv")
@@ -21,7 +20,6 @@ print(f"CSV path:         {csv_path}")
 print(f"File exists:      {os.path.exists(csv_path)}")
 print("="*70 + "\n")
 
-# ---- LOAD DATASET ----
 try:
     df = pd.read_csv(csv_path)
     print(f"✓ Successfully loaded {len(df)} rows from CSV")
@@ -34,12 +32,10 @@ except FileNotFoundError:
     print("  2. The file 'train_with_major.csv' is inside 'backend/data/'")
     exit(1)
 
-# ---- CLEAN COLUMN NAMES (remove extra spaces) ----
 df.columns = df.columns.str.strip()
 
 print(f"Cleaned columns: {df.columns.tolist()}\n")
 
-# ---- EXPAND COMMA-SEPARATED SKILLS TO SINGLE VALUES ----
 print("="*70)
 print("🔄 EXPANDING COMMA-SEPARATED VALUES TO SINGLE SKILLS")
 print("="*70)
@@ -72,16 +68,13 @@ df = pd.DataFrame(expanded_rows)
 print(f"✓ Expanded dataset: {len(df)} rows\n")
 print("="*70 + "\n")
 
-# ---- SELECT FEATURES (FIXED: Removed "Majors" from features) ----
 features = [            
     "Soft Skills Rating",
     "Technical Skills",
     "Soft Skills",
     "Career Interest"
-    # "Majors" is NOT a feature - it's what we're predicting!
 ]
 
-# Check if all features exist
 missing_cols = [col for col in features if col not in df.columns]
 if missing_cols:
     print(f"❌ ERROR: Missing columns: {missing_cols}")
@@ -101,7 +94,6 @@ print(f"✓ Career paths: {y.unique().tolist()}")
 print(f"✓ Dataset shape: {X.shape}")
 print("="*70 + "\n")
 
-# ---- PREPROCESSING PIPELINE (FIXED: Removed "Majors" from categorical_features) ----
 numeric_features = ["Soft Skills Rating"]
 categorical_features = ["Technical Skills", "Soft Skills", "Career Interest"]  # Removed "Majors"
 
@@ -118,13 +110,11 @@ preprocessor = ColumnTransformer(
     remainder="passthrough"
 )
 
-# CHANGED: Using DecisionTreeClassifier instead of RandomForestClassifier
 model = Pipeline(steps=[
     ("preprocessor", preprocessor),
     ("classifier", DecisionTreeClassifier(random_state=42, max_depth=10))
 ])
 
-# ---- TRAIN MODEL ----
 print("="*70)
 print("🚀 TRAINING MODEL")
 print("="*70)
@@ -138,7 +128,6 @@ model.fit(X, y)
 print("✓ Model training complete!")
 print("="*70 + "\n")
 
-# ---- SAVE MODEL ----
 model_path = os.path.join(script_dir, "tryMainmodel.pkl")
 with open(model_path, "wb") as f:
     pickle.dump(model, f)

@@ -4,126 +4,75 @@
     <title>FuturePath</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style(Home).css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/icon.png') }}" type="image/x-icon">
-    <!-- Optional: Add Animate.css for smooth animations -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-</head>
-<body>
-    <div id="pageTransition"></div>
-    <div class="main" id="page">
-        <video autoplay muted loop playsinline id="bgVideo">
-            <source src="{{ url_for('static', filename='images/11.mp4') }}" type="video/mp4">
-        </video>
-
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">FUTURE PATH</h2>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="{{ url_for('home') }}" class="active">HOME</a></li>
-                    <li><a href="{{ url_for('course') }}">COURSE</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="{{ url_for('contact') }}">CONTACT</a></li>
-                </ul>
-            </div>
-
-            <div class="hamburger">
-                <i class="ri-menu-line"></i>
-            </div>
-
-            <div class="sidebar" id="sidebarMenu">
-                <div class="close-btn"><i class="ri-close-line"></i></div>
-                <a href="{{ url_for('home') }}" class="active">HOME</a>
-                <a href="{{ url_for('course') }}">COURSE</a>
-                <a href="#about">ABOUT</a>
-                <a href="{{ url_for('contact') }}">CONTACT</a>
-            </div>
-        </div>
-
-        <div class="content">
-            <h1>A Machine Learning- <br>
-                Based Academic Track <br>
-                Recommender for Computer <br>
-                Science and IT Students</h1>
-
-            <p class="par">FuturePath is an intelligent recommendation system that helps second-year Computer Science and IT students choose the academic track or 
-                specialization that best matches their profile. the system analyzes students' 
-                courses, technical skills, programming languages, soft skills, career interests, 
-                and personal challenges to provide personalized recommendations. FuturePath suggests 
-                the most suitable major such as Data Science, Web Development, Cybersecurity, or AI 
-                and explains the reasoning behind each recommendation.</p>
-
-            <button class="cn"><a href="{{ url_for('course') }}" class="active">View courses</a></button>
-
-            <form id="loginForm" method="POST" action="{{ url_for('login') }}">
-                <div class="form">
-                    <h2>Login</h2>
-                    <p id="message"></p>
-                    <div class="input-box">
-                        <input type="text" id="username" name="username" placeholder="Username" required>
-                        <i class="ri-user-fill"></i>
-                    </div>
-
-                    <div class="input-box">
-                        <input type="password" id="password" name="password" placeholder="Password" required>
-                        <i class="ri-eye-off-fill" id="togglePassword"></i>
-                    </div>
-
-                    <div class="remember">
-                        <label>
-                        <input type="checkbox"/> 
-                        Remember Me
-                        </label>
-                        <a href="#">Forgot Password?</a>
-                    </div>
-
-                    <button type="submit" class="btnn" id="loginBtn">Login</button>
-                    <button type="button" class="btnn signup-btn">Sign Up</button>
-
-                    <div class="button">
-                        <a href="#">
-                        <i class="ri-google-fill"></i>
-                        Google
-                        </a>
-                        --
-                        <a href="#">
-                        <i class="ri-facebook-fill"></i>
-                        Facebook
-                        </a>
-                    </div>
-                </div>
-            </form>
-        </div>
-
-        <section id="about" class="about-section">
-            <h2>About Us</h2>
-            <p>
-                FuturePath is a system designed to help second-year Computer Science (CS) 
-                and Information Technology (IT) students choose the academic track or major 
-                that is right for them. We know that deciding on a major can be difficult 
-                because students may not know their strengths, skills, or which fields fit 
-                their interests. Our goal is to guide students in discovering their best 
-                path by looking at their courses, technical skills, programming knowledge, 
-                soft skills, career interests, and personal challenges.
-                <br><br>
-                By using machine learning, our system analyzes all of these factors and suggests the majors 
-                or specializations that fit each student's profile. We also provide clear explanations so 
-                students can understand why a particular track is recommended. With FuturePath, students 
-                can make smarter decisions about their studies, focus on the fields they are passionate 
-                about, and prepare for their future careers with confidence. We aim to support students 
-                in finding the path that suits them best and make the process of choosing a major easier 
-                and less stressful.
-            </p>
-        </section>
-
-    </div>
-
-    <!-- SweetAlert CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <!-- Custom FuturePath Styled Flash Messages -->
+    
     <style>
+        /* Floating tooltip-style error messages */
+        .error {
+            color: #ffffff;
+            font-size: 0.85em;
+            display: none;
+            font-family: Optima, sans-serif;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            animation: errorFloat 0.3s ease-in-out;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: rgba(255, 59, 59, 0.95);
+            border: 1px solid #ff6b6b;
+            backdrop-filter: blur(10px);
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            margin-bottom: 8px;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(255, 59, 59, 0.4);
+        }
+
+        /* Arrow pointing down to the input */
+        .error::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 20px;
+            border: 6px solid transparent;
+            border-top-color: rgba(255, 59, 59, 0.95);
+        }
+
+        .error.show {
+            display: block;
+        }
+
+        @keyframes errorFloat {
+            0% { 
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            100% { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Make input-box position relative for absolute positioning */
+        .input-box {
+            position: relative;
+        }
+
+        /* Enhanced input styling when there's an error */
+        .input-box input.has-error {
+            border-color: #ff3b3b !important;
+            box-shadow: 0 0 15px rgba(255, 59, 59, 0.3) !important;
+        }
+
+        /* Success state for inputs */
+        .input-box input.has-success {
+            border-color: #4ade80 !important;
+            box-shadow: 0 0 15px rgba(74, 222, 128, 0.3) !important;
+        }
+
         /* Custom SweetAlert Styling - Matches FuturePath Theme */
         .futurepath-popup {
             border-radius: 20px !important;
@@ -207,7 +156,125 @@
             background: #ff7200 !important;
         }
     </style>
+</head>
+<body>
+    <div id="pageTransition"></div>
+    <div class="main" id="page">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="{{ url_for('static', filename='images/11.mp4') }}" type="video/mp4">
+        </video>
 
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">FUTURE PATH</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="{{ url_for('home') }}" class="active">HOME</a></li>
+                    <li><a href="{{ url_for('course') }}">COURSE</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="{{ url_for('contact') }}">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <i class="ri-menu-line"></i>
+            </div>
+
+            <div class="sidebar" id="sidebarMenu">
+                <div class="close-btn"><i class="ri-close-line"></i></div>
+                <a href="{{ url_for('home') }}" class="active">HOME</a>
+                <a href="{{ url_for('course') }}">COURSE</a>
+                <a href="#about">ABOUT</a>
+                <a href="{{ url_for('contact') }}">CONTACT</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>A Machine Learning- <br>
+                Based Academic Track <br>
+                Recommender for Computer <br>
+                Science and IT Students</h1>
+
+            <p class="par">FuturePath is an intelligent recommendation system that helps second-year Computer Science and IT students choose the academic track or 
+                specialization that best matches their profile. the system analyzes students' 
+                courses, technical skills, programming languages, soft skills, career interests, 
+                and personal challenges to provide personalized recommendations. FuturePath suggests 
+                the most suitable major such as Data Science, Web Development, Cybersecurity, or AI 
+                and explains the reasoning behind each recommendation.</p>
+
+            <button class="cn"><a href="{{ url_for('course') }}" class="active">View courses</a></button>
+
+            <form id="loginForm" method="POST" action="{{ url_for('login') }}" novalidate>
+                <div class="form">
+                    <h2>Login</h2>
+                    <p id="message"></p>
+                    <div class="input-box">
+                        <input type="text" id="username" name="username" placeholder="Username">
+                        <i class="ri-user-fill"></i>
+                        <div class="error" id="usernameError"></div>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <i class="ri-eye-off-fill" id="togglePassword"></i>
+                        <div class="error" id="passwordError"></div>
+                    </div>
+
+                    <div class="remember">
+                        <label>
+                        <input type="checkbox"/> 
+                        Remember Me
+                        </label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="btnn" id="loginBtn">Login</button>
+                    <button type="button" class="btnn signup-btn">Sign Up</button>
+
+                    <div class="button">
+                        <a href="#">
+                        <i class="ri-google-fill"></i>
+                        Google
+                        </a>
+                        --
+                        <a href="#">
+                        <i class="ri-facebook-fill"></i>
+                        Facebook
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>
+                FuturePath is a system designed to help second-year Computer Science (CS) 
+                and Information Technology (IT) students choose the academic track or major 
+                that is right for them. We know that deciding on a major can be difficult 
+                because students may not know their strengths, skills, or which fields fit 
+                their interests. Our goal is to guide students in discovering their best 
+                path by looking at their courses, technical skills, programming knowledge, 
+                soft skills, career interests, and personal challenges.
+                <br><br>
+                By using machine learning, our system analyzes all of these factors and suggests the majors 
+                or specializations that fit each student's profile. We also provide clear explanations so 
+                students can understand why a particular track is recommended. With FuturePath, students 
+                can make smarter decisions about their studies, focus on the fields they are passionate 
+                about, and prepare for their future careers with confidence. We aim to support students 
+                in finding the path that suits them best and make the process of choosing a major easier 
+                and less stressful.
+            </p>
+        </section>
+
+    </div>
+
+    <!-- SweetAlert CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Flask Flash Messages -->
     {% with messages = get_flashed_messages(with_categories=true) %}
     {% if messages %}
         {% for category, message in messages %}
@@ -245,22 +312,124 @@
     <script src="{{ url_for('static', filename='js/toggle.js') }}"></script>
 
     <script>
+        // ===== LOGIN FORM VALIDATION =====
+        // IMPORTANT: This must run IMMEDIATELY, not on DOMContentLoaded
+        (function() {
+            const loginForm = document.getElementById('loginForm');
+            const usernameInput = document.getElementById('username');
+            const passwordInput = document.getElementById('password');
+            const usernameError = document.getElementById('usernameError');
+            const passwordError = document.getElementById('passwordError');
+
+            if (!loginForm || !usernameInput || !passwordInput) {
+                console.error('Login form elements not found!');
+                return;
+            }
+
+            // Prevent default form submission and show custom validation
+            loginForm.addEventListener('submit', function(e) {
+                e.preventDefault(); // ALWAYS prevent default first
+                
+                // Clear previous errors
+                usernameError.classList.remove('show');
+                passwordError.classList.remove('show');
+                usernameError.textContent = '';
+                passwordError.textContent = '';
+                
+                // Remove error/success classes
+                usernameInput.classList.remove('has-error', 'has-success');
+                passwordInput.classList.remove('has-error', 'has-success');
+
+                let hasError = false;
+
+                // Check username
+                if (usernameInput.value.trim().length === 0) {
+                    usernameError.textContent = '👤 Please enter your username!';
+                    usernameError.classList.add('show');
+                    usernameInput.classList.add('has-error');
+                    hasError = true;
+                } else {
+                    usernameInput.classList.add('has-success');
+                }
+
+                // Check password
+                if (passwordInput.value.length === 0) {
+                    passwordError.textContent = '🔒 Please enter your password!';
+                    passwordError.classList.add('show');
+                    passwordInput.classList.add('has-error');
+                    hasError = true;
+                } else {
+                    passwordInput.classList.add('has-success');
+                }
+
+                // If there are errors, show SweetAlert and stop
+                if (hasError) {
+                    Swal.fire({
+                        title: 'Login Error!',
+                        text: 'Please fill in all required fields.',
+                        icon: 'error',
+                        confirmButtonText: 'OK',
+                        customClass: {
+                            popup: 'futurepath-popup error-popup',
+                            title: 'futurepath-title error-title',
+                            htmlContainer: 'futurepath-text',
+                            confirmButton: 'futurepath-button'
+                        }
+                    });
+                    return false;
+                }
+
+                // If validation passes, submit the form
+                loginForm.submit();
+            });
+
+            // Real-time validation for username
+            usernameInput.addEventListener('input', function() {
+                if (usernameInput.value.trim().length === 0) {
+                    usernameError.classList.remove('show');
+                    usernameInput.classList.remove('has-error', 'has-success');
+                } else {
+                    usernameError.classList.remove('show');
+                    usernameInput.classList.remove('has-error');
+                    usernameInput.classList.add('has-success');
+                }
+            });
+
+            // Real-time validation for password
+            passwordInput.addEventListener('input', function() {
+                if (passwordInput.value.length === 0) {
+                    passwordError.classList.remove('show');
+                    passwordInput.classList.remove('has-error', 'has-success');
+                } else {
+                    passwordError.classList.remove('show');
+                    passwordInput.classList.remove('has-error');
+                    passwordInput.classList.add('has-success');
+                }
+            });
+        })();
+    </script>
+
+    <script>
         const transition = document.getElementById('pageTransition');
 
-        // 1. Sidebar toggle
+        // Sidebar toggle
         const sidebar = document.getElementById("sidebarMenu");
         const hamburger = document.querySelector(".hamburger");
         const closeBtn = document.querySelector(".close-btn");
 
-        hamburger.addEventListener("click", () => {
-            sidebar.classList.add("active");
-        });
+        if (hamburger && sidebar) {
+            hamburger.addEventListener("click", () => {
+                sidebar.classList.add("active");
+            });
+        }
 
-        closeBtn.addEventListener("click", () => {
-            sidebar.classList.remove("active");
-        });
+        if (closeBtn && sidebar) {
+            closeBtn.addEventListener("click", () => {
+                sidebar.classList.remove("active");
+            });
+        }
 
-        // 2. Generic link transition
+        // Generic link transition
         const links = document.querySelectorAll('a');
 
         links.forEach(link => {
@@ -279,7 +448,7 @@
             });
         });
 
-        // 3. Signup button transition
+        // Signup button transition
         const signupBtn = document.querySelector(".signup-btn");
         if(signupBtn){
             signupBtn.addEventListener("click", function(e){

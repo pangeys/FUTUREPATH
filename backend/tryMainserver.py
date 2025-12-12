@@ -150,8 +150,8 @@ def login():
                 session['user_id'] = user['id']
                 session['username'] = user['username']
                 session['fullname'] = user['fullname']
-                flash('Login successful!', 'success')
-                return redirect(url_for('predictor'))  # Show message on predictor page
+                session['login_success'] = True  # NEW: Set temporary flag
+                return redirect(url_for('predictor'))
             else:
                 flash('Invalid username or password.', 'error')
         else:
@@ -163,7 +163,7 @@ def login():
 @app.route('/logout')
 def logout():
     session.clear()
-    flash('Logged out successfully!', 'success')  # Changed message
+    flash('Logged out successfully!', 'success')
     return redirect(url_for('home'))
 
 @app.route("/course")
@@ -180,7 +180,9 @@ def contact():
 
 @app.route("/predictor")
 def predictor():
-    return render_template("tryMain.html")
+    # Check if this is right after login
+    show_login_success = session.pop('login_success', False)
+    return render_template("tryMain.html", show_login_success=show_login_success)
 
 # ---- PREDICTION API ----
 @app.route("/predict", methods=["POST"])

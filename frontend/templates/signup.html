@@ -226,30 +226,30 @@
             </div>
         </div>
 
-        <form method="POST" action="{{ url_for('signup') }}" id="signupForm" class="form">
+        <form method="POST" action="{{ url_for('signup') }}" id="signupForm" class="form" novalidate>
             <h2>Sign Up</h2>
             <div class="input-box">
-                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+                <input type="text" id="fullname" name="fullname" placeholder="Full Name">
                 <i class="ri-user-fill"></i>
                 <div class="error" id="fullNameError"></div>
             </div>
             <div class="input-box">
-                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="email" id="email" name="email" placeholder="Email">
                 <i class="ri-mail-fill"></i>
                 <div class="error" id="emailError"></div>
             </div>
             <div class="input-box">
-                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="text" id="username" name="username" placeholder="Username">
                 <i class="ri-user-line"></i>
                 <div class="error" id="usernameError"></div>
             </div>
             <div class="input-box">
-                <input type="password" id="Password" name="password" placeholder="Password" autocomplete="off" required>
+                <input type="password" id="Password" name="password" placeholder="Password" autocomplete="off">
                 <i class="ri-eye-off-fill" id="togglePassword"></i>
                 <div class="error" id="passwordError"></div>
             </div>
             <div class="input-box">
-                <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm Password" autocomplete="off" required>
+                <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm Password" autocomplete="off">
                 <i class="ri-eye-off-fill" id="toggleConfirmPassword"></i>
                 <div class="error" id="confirmPasswordError"></div>
             </div>
@@ -287,51 +287,198 @@
         });
     }
 
-    // ✅ CRITICAL: PASSWORD VALIDATION - Prevents form submission if passwords don't match
+    // Get all form elements
     const signupForm = document.getElementById('signupForm');
+    const fullnameInput = document.getElementById('fullname');
+    const emailInput = document.getElementById('email');
+    const usernameInput = document.getElementById('username');
+    
+    // Get all error elements
+    const fullNameError = document.getElementById('fullNameError');
+    const emailError = document.getElementById('emailError');
+    const usernameError = document.getElementById('usernameError');
     const passwordError = document.getElementById('passwordError');
     const confirmPasswordError = document.getElementById('confirmPasswordError');
 
-    signupForm.addEventListener('submit', function(e) {
-        // Clear previous errors
-        passwordError.classList.remove('show');
-        confirmPasswordError.classList.remove('show');
-        passwordError.textContent = '';
-        confirmPasswordError.textContent = '';
+    // Email validation regex
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Helper function to show error
+    function showError(input, errorElement, message) {
+        errorElement.textContent = message;
+        errorElement.classList.add('show');
+        input.classList.add('has-error');
+        input.classList.remove('has-success');
+    }
+
+    // Helper function to show success
+    function showSuccess(input, errorElement) {
+        errorElement.classList.remove('show');
+        input.classList.remove('has-error');
+        input.classList.add('has-success');
+    }
+
+    // Helper function to clear state
+    function clearState(input, errorElement) {
+        errorElement.classList.remove('show');
+        input.classList.remove('has-error', 'has-success');
+    }
+
+    // Full Name validation
+    fullnameInput.addEventListener('blur', function() {
+        if (fullnameInput.value.trim() === '') {
+            showError(fullnameInput, fullNameError, '👤 Please enter your full name!');
+        } else {
+            showSuccess(fullnameInput, fullNameError);
+        }
+    });
+
+    fullnameInput.addEventListener('input', function() {
+        if (fullnameInput.value.trim() === '') {
+            clearState(fullnameInput, fullNameError);
+        } else {
+            showSuccess(fullnameInput, fullNameError);
+        }
+    });
+
+    // Email validation
+    emailInput.addEventListener('blur', function() {
+        if (emailInput.value.trim() === '') {
+            showError(emailInput, emailError, '📧 Please enter your email address!');
+        } else if (!emailRegex.test(emailInput.value)) {
+            showError(emailInput, emailError, '⚠️ Please enter a valid email address!');
+        } else {
+            showSuccess(emailInput, emailError);
+        }
+    });
+
+    emailInput.addEventListener('input', function() {
+        if (emailInput.value.trim() === '') {
+            clearState(emailInput, emailError);
+        } else if (!emailRegex.test(emailInput.value)) {
+            showError(emailInput, emailError, '⚠️ Please enter a valid email address!');
+        } else {
+            showSuccess(emailInput, emailError);
+        }
+    });
+
+    // Username validation
+    usernameInput.addEventListener('blur', function() {
+        if (usernameInput.value.trim() === '') {
+            showError(usernameInput, usernameError, '👤 Please enter a username!');
+        } else {
+            showSuccess(usernameInput, usernameError);
+        }
+    });
+
+    usernameInput.addEventListener('input', function() {
+        if (usernameInput.value.trim() === '') {
+            clearState(usernameInput, usernameError);
+        } else {
+            showSuccess(usernameInput, usernameError);
+        }
+    });
+
+    // Real-time password length checking
+    passwordInput.addEventListener('input', function() {
+        if (passwordInput.value.length === 0) {
+            clearState(passwordInput, passwordError);
+        } else if (passwordInput.value.length < 8) {
+            showError(passwordInput, passwordError, '🔒 Password must be at least 8 characters long!');
+        } else {
+            showSuccess(passwordInput, passwordError);
+        }
         
-        // Remove error/success classes
-        passwordInput.classList.remove('has-error', 'has-success');
-        confirmPasswordInput.classList.remove('has-error', 'has-success');
+        // Also check confirm password when password changes
+        if (confirmPasswordInput.value.length > 0) {
+            if (passwordInput.value !== confirmPasswordInput.value) {
+                showError(confirmPasswordInput, confirmPasswordError, '⚠️ Passwords do not match!');
+            } else if (passwordInput.value.length >= 8) {
+                showSuccess(confirmPasswordInput, confirmPasswordError);
+            }
+        }
+    });
 
+    // Real-time password match checking
+    confirmPasswordInput.addEventListener('input', function() {
+        if (confirmPasswordInput.value.length === 0) {
+            clearState(confirmPasswordInput, confirmPasswordError);
+        } else if (passwordInput.value !== confirmPasswordInput.value) {
+            showError(confirmPasswordInput, confirmPasswordError, '⚠️ Passwords do not match!');
+        } else {
+            showSuccess(confirmPasswordInput, confirmPasswordError);
+        }
+    });
+
+    // Form submission with complete validation
+    signupForm.addEventListener('submit', function(e) {
+        e.preventDefault(); // Always prevent default first
+        
         let hasError = false;
+        let errorMessages = [];
 
-        // Check password length
-        if (passwordInput.value.length < 8) {
-            e.preventDefault(); // STOP FORM SUBMISSION
-            passwordError.textContent = '🔒 Password must be at least 8 characters long!';
-            passwordError.classList.add('show');
-            passwordInput.classList.add('has-error');
+        // Validate Full Name
+        if (fullnameInput.value.trim() === '') {
+            showError(fullnameInput, fullNameError, '👤 Please enter your full name!');
+            errorMessages.push('Full Name is required');
             hasError = true;
         } else {
-            passwordInput.classList.add('has-success');
+            showSuccess(fullnameInput, fullNameError);
         }
 
-        // Check if passwords match
-        if (passwordInput.value !== confirmPasswordInput.value) {
-            e.preventDefault(); // STOP FORM SUBMISSION
-            confirmPasswordError.textContent = '⚠️ Passwords do not match!';
-            confirmPasswordError.classList.add('show');
-            confirmPasswordInput.classList.add('has-error');
+        // Validate Email
+        if (emailInput.value.trim() === '') {
+            showError(emailInput, emailError, '📧 Please enter your email address!');
+            errorMessages.push('Email is required');
+            hasError = true;
+        } else if (!emailRegex.test(emailInput.value)) {
+            showError(emailInput, emailError, '⚠️ Please enter a valid email address!');
+            errorMessages.push('Valid email is required');
+            hasError = true;
+        } else {
+            showSuccess(emailInput, emailError);
+        }
+
+        // Validate Username
+        if (usernameInput.value.trim() === '') {
+            showError(usernameInput, usernameError, '👤 Please enter a username!');
+            errorMessages.push('Username is required');
+            hasError = true;
+        } else {
+            showSuccess(usernameInput, usernameError);
+        }
+
+        // Validate Password
+        if (passwordInput.value.length === 0) {
+            showError(passwordInput, passwordError, '🔒 Please enter a password!');
+            errorMessages.push('Password is required');
+            hasError = true;
+        } else if (passwordInput.value.length < 8) {
+            showError(passwordInput, passwordError, '🔒 Password must be at least 8 characters long!');
+            errorMessages.push('Password must be at least 8 characters');
+            hasError = true;
+        } else {
+            showSuccess(passwordInput, passwordError);
+        }
+
+        // Validate Confirm Password
+        if (confirmPasswordInput.value.length === 0) {
+            showError(confirmPasswordInput, confirmPasswordError, '🔒 Please confirm your password!');
+            errorMessages.push('Password confirmation is required');
+            hasError = true;
+        } else if (passwordInput.value !== confirmPasswordInput.value) {
+            showError(confirmPasswordInput, confirmPasswordError, '⚠️ Passwords do not match!');
+            errorMessages.push('Passwords must match');
             hasError = true;
         } else if (passwordInput.value.length >= 8) {
-            confirmPasswordInput.classList.add('has-success');
+            showSuccess(confirmPasswordInput, confirmPasswordError);
         }
 
-        // If there are errors, show SweetAlert
+        // If there are errors, show SweetAlert and prevent submission
         if (hasError) {
             Swal.fire({
                 title: 'Validation Error!',
-                text: 'Please fix the errors in the form before submitting.',
+                text: 'Please fix all errors before submitting the form.',
                 icon: 'error',
                 confirmButtonText: 'OK',
                 customClass: {
@@ -341,58 +488,11 @@
                     confirmButton: 'futurepath-button'
                 }
             });
-            return false; // Extra safety to prevent submission
+            return false;
         }
-    });
 
-    // Real-time password match checking
-    confirmPasswordInput.addEventListener('input', function() {
-        if (confirmPasswordInput.value.length === 0) {
-            // If empty, remove all states
-            confirmPasswordError.classList.remove('show');
-            confirmPasswordInput.classList.remove('has-error', 'has-success');
-        } else if (passwordInput.value !== confirmPasswordInput.value) {
-            confirmPasswordError.textContent = '⚠️ Passwords do not match!';
-            confirmPasswordError.classList.add('show');
-            confirmPasswordInput.classList.add('has-error');
-            confirmPasswordInput.classList.remove('has-success');
-        } else {
-            confirmPasswordError.classList.remove('show');
-            confirmPasswordInput.classList.remove('has-error');
-            confirmPasswordInput.classList.add('has-success');
-        }
-    });
-
-    // Real-time password length checking
-    passwordInput.addEventListener('input', function() {
-        if (passwordInput.value.length === 0) {
-            // If empty, remove all states
-            passwordError.classList.remove('show');
-            passwordInput.classList.remove('has-error', 'has-success');
-        } else if (passwordInput.value.length < 8) {
-            passwordError.textContent = '🔒 Password must be at least 8 characters long!';
-            passwordError.classList.add('show');
-            passwordInput.classList.add('has-error');
-            passwordInput.classList.remove('has-success');
-        } else {
-            passwordError.classList.remove('show');
-            passwordInput.classList.remove('has-error');
-            passwordInput.classList.add('has-success');
-        }
-        
-        // Also check confirm password when password changes
-        if (confirmPasswordInput.value.length > 0) {
-            if (passwordInput.value !== confirmPasswordInput.value) {
-                confirmPasswordError.textContent = '⚠️ Passwords do not match!';
-                confirmPasswordError.classList.add('show');
-                confirmPasswordInput.classList.add('has-error');
-                confirmPasswordInput.classList.remove('has-success');
-            } else if (passwordInput.value.length >= 8) {
-                confirmPasswordError.classList.remove('show');
-                confirmPasswordInput.classList.remove('has-error');
-                confirmPasswordInput.classList.add('has-success');
-            }
-        }
+        // If no errors, submit the form
+        signupForm.submit();
     });
     </script>
     

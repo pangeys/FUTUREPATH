@@ -71,6 +71,7 @@ for idx, row in df.iterrows():
 df = pd.DataFrame(expanded_rows)
 print(f"✓ Expanded dataset: {len(df)} rows\n")
 print("="*70 + "\n")
+
 # ---- SELECT FEATURES (FIXED: Removed "Majors" from features) ----
 features = [            
     "Soft Skills Rating",

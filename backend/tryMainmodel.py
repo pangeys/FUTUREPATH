@@ -39,6 +39,38 @@ df.columns = df.columns.str.strip()
 
 print(f"Cleaned columns: {df.columns.tolist()}\n")
 
+# ---- EXPAND COMMA-SEPARATED SKILLS TO SINGLE VALUES ----
+print("="*70)
+print("🔄 EXPANDING COMMA-SEPARATED VALUES TO SINGLE SKILLS")
+print("="*70)
+
+expanded_rows = []
+
+for idx, row in df.iterrows():
+    rating = row["Soft Skills Rating"]
+    majors = row["Majors"]
+    career_interest = row["Career Interest"].strip()
+    
+    # Split technical skills
+    tech_skills = [skill.strip() for skill in str(row["Technical Skills"]).split(",")]
+    
+    # Split soft skills
+    soft_skills = [skill.strip() for skill in str(row["Soft Skills"]).split(",")]
+    
+    # Create rows for each skill combination
+    for tech in tech_skills:
+        for soft in soft_skills:
+            expanded_rows.append({
+                "Soft Skills Rating": rating,
+                "Technical Skills": tech,
+                "Soft Skills": soft,
+                "Career Interest": career_interest,
+                "Majors": majors
+            })
+
+df = pd.DataFrame(expanded_rows)
+print(f"✓ Expanded dataset: {len(df)} rows\n")
+print("="*70 + "\n")
 # ---- SELECT FEATURES (FIXED: Removed "Majors" from features) ----
 features = [            
     "Soft Skills Rating",

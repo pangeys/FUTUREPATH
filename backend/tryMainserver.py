@@ -5,18 +5,16 @@ import pandas as pd
 import os
 
 app = Flask(__name__)
-app.secret_key = 'simple_key'  # Add this line to enable sessions
+app.secret_key = 'simple_key'
 CORS(app)
 
 # ---- SIMPLE PATH SETUP ----
-# Get absolute path to this file's directory (backend folder)
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(BACKEND_DIR)
 FRONTEND_DIR = os.path.join(PROJECT_ROOT, "frontend")
 STATIC_DIR = os.path.join(FRONTEND_DIR, "static")
 TEMPLATES_DIR = os.path.join(FRONTEND_DIR, "templates")
 
-# Tell Flask where to find templates and static files
 app.template_folder = TEMPLATES_DIR
 app.static_folder = STATIC_DIR
 
@@ -29,13 +27,11 @@ print(f"Static folder:    {STATIC_DIR}")
 print(f"Templates folder: {TEMPLATES_DIR}")
 print("-"*70)
 
-# Check if folders exist
 print("Folder Status:")
 print(f"  Frontend exists:  {os.path.exists(FRONTEND_DIR)}")
 print(f"  Static exists:    {os.path.exists(STATIC_DIR)}")
 print(f"  Templates exists: {os.path.exists(TEMPLATES_DIR)}")
 
-# List files in static folder
 if os.path.exists(STATIC_DIR):
     print("\n📄 Files in static folder:")
     for root, dirs, files in os.walk(STATIC_DIR):
@@ -62,21 +58,17 @@ except FileNotFoundError:
     print("Run 'python tryMainmodel.py' first!\n")
     exit(1)
 
-# --- Data Base Connection Setup ---
-
-# ---- DATABASE CONFIGURATION (Added for MySQL connection) ----
+# ---- DATABASE CONFIGURATION ----
 import mysql.connector
 from mysql.connector import Error
 
-# Database configuration (matches XAMPP defaults; update if you changed credentials)
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': '',  # Empty for default; set if you added a password
-    'database': 'userID'  # Your database name from XAMPP
+    'password': '',
+    'database': 'userID'
 }
     
-# Function to get a database connection
 def get_db_connection():
     try:
         conn = mysql.connector.connect(**db_config)
@@ -96,12 +88,10 @@ def test_db():
 
 # ---- ROUTES ----
 
-# Home page (Nicole's landing page)
 @app.route("/")
 def home():
     return render_template("Nicole(Home).html")
 
-# Signup page
 @app.route("/signup", methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
@@ -137,7 +127,7 @@ def signup():
     
     return render_template("signup.html")
 
-# Login page
+# FIXED: Login now redirects to predictor with success message
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -161,7 +151,7 @@ def login():
                 session['username'] = user['username']
                 session['fullname'] = user['fullname']
                 flash('Login successful!', 'success')
-                return redirect(url_for('predictor'))  # Redirect to your predictor page
+                return redirect(url_for('predictor'))  # Show message on predictor page
             else:
                 flash('Invalid username or password.', 'error')
         else:
@@ -169,29 +159,25 @@ def login():
     
     return render_template('Nicole(Home).html')
 
-# Logout route
+# FIXED: Logout now shows "Logged out successfully" message
 @app.route('/logout')
 def logout():
     session.clear()
-    flash('Logged out.', 'info')
+    flash('Logged out successfully!', 'success')  # Changed message
     return redirect(url_for('home'))
 
-# Course page
 @app.route("/course")
 def course():
     return render_template("Airon(Course).html")
 
-# About page (redirects to home with anchor)
 @app.route("/about")
 def about():
     return render_template("Darrel(AboutUs).html")
 
-# Contact page
 @app.route("/contact")
 def contact():
     return render_template("Marco(ContactUs).html")
 
-# Career predictor page
 @app.route("/predictor")
 def predictor():
     return render_template("tryMain.html")
@@ -204,19 +190,17 @@ def predict():
         print(f"\n🎯 Prediction request received")
         print(f"Data: {data}")
         
-        # FIXED: Remove "Majors" from required fields (that's what we're predicting!)
         required = [
-            "Soft Skills Rating",  # Fixed with space
+            "Soft Skills Rating",
             "Technical Skills",
             "Soft Skills",
-            "Career Interest",
+            "Career Interest"
         ]
         
         missing = [f for f in required if f not in data]
         if missing:
             return jsonify({"success": False, "error": f"Missing: {missing}"}), 400
         
-        # Make prediction
         df = pd.DataFrame([data])
         prediction = model.predict(df)
         
@@ -231,7 +215,6 @@ def predict():
         print(f"❌ Error: {e}\n")
         return jsonify({"success": False, "error": str(e)}), 500
 
-# ---- RUN SERVER ----
 if __name__ == "__main__":
     print("="*70)
     print("🚀 STARTING FLASK SERVER")

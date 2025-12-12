@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/tryMainstyle.css') }}">
 </head>
 <body>
-
     <div class="main">
 
         <div class="headings">
@@ -19,8 +18,8 @@
                 students identify the academic track or major that best matches their skills, interests, 
                 and strengths. It analyzes factors like technical skills, soft skills, career interests, 
                 and challenges to provide personalized recommendations and clear explanations.</p>
-            <!-- FIXED: Flask route for home button -->
-            <button class="return"><a href="{{ url_for('home') }}">Home</a></button>
+            <!-- Changed to logout route -->
+            <button class="return"><a href="{{ url_for('logout') }}">Logout</a></button>
 
         </div>
  
@@ -45,8 +44,8 @@
                             <a href="#" data-value="leadership">Leadership</a>
                             <a href="#" data-value="teamwork">Teamwork</a>
                             <a href="#" data-value="problem solving">Problem Solving</a>
-                            <a href="#" data-value="problem solving">Time Management</a>
-                            <a href="#" data-value="problem solving">Adaptability</a>
+                            <a href="#" data-value="time management">Time Management</a>
+                            <a href="#" data-value="adaptability">Adaptability</a>
                         </div>
                     </div>
                 </div>
@@ -60,14 +59,14 @@
                     <div class="dropdown">
                         <button class="dropdown-btn" data-field="techSkills">Select Technical Skill</button>
                         <div class="dropdown-content">
-                            <a href="#" data-value="ai">Cybersecurity</a>
-                            <a href="#" data-value="ai">Java</a>
-                            <a href="#" data-value="ai">Blockchain</a>
-                            <a href="#" data-value="ai">Python</a>
-                            <a href="#" data-value="ai">SQL</a>
-                            <a href="#" data-value="ai">Machine Learning</a>
-                            <a href="#" data-value="ai">Cloud Computing</a>
-                            <a href="#" data-value="ai">Data Analysis</a>
+                            <a href="#" data-value="cybersecurity">Cybersecurity</a>
+                            <a href="#" data-value="java">Java</a>
+                            <a href="#" data-value="blockchain">Blockchain</a>
+                            <a href="#" data-value="python">Python</a>
+                            <a href="#" data-value="sql">SQL</a>
+                            <a href="#" data-value="machine learning">Machine Learning</a>
+                            <a href="#" data-value="cloud computing">Cloud Computing</a>
+                            <a href="#" data-value="data analysis">Data Analysis</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +81,7 @@
                             <a href="#" data-value="data science">Data Scientist</a>
                             <a href="#" data-value="networking">Cloud Architect</a>
                             <a href="#" data-value="cybersecurity">Cybersecurity Expert</a>
-                            <a href="#" data-value="cybersecurity">AI Engineer</a>
+                            <a href="#" data-value="ai engineer">AI Engineer</a>
                         </div>
                     </div>
                 </div>
@@ -93,8 +92,19 @@
         </div>
     </div>
 
-    <!-- FIXED: Flask route for JS file -->
     <script src="{{ url_for('static', filename='js/tryMain.js') }}"></script>
+    
+    <!-- Auto-remove flash messages after 3 seconds -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const flashContainer = document.getElementById('flash-container');
+      if (flashContainer) {
+        setTimeout(function() {
+          flashContainer.remove();
+        }, 3000);  // 3 seconds
+      }
+    });
+    </script>
 
 </body>
 </html>

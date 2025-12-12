@@ -205,7 +205,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    height: 600px;
+    height: 560px;
     max-width: 95vw;
     max-height: 80vh;
     background: transparent;
@@ -219,7 +219,7 @@ body {
 
 .container .slide .item {
     width: 200px;
-    height: 320px;
+    height: 200px;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -242,11 +242,11 @@ body {
 }
 
 .slide .item:nth-child(3) {
-    left: 50%;
+    left: 78%;
 }
 
 .slide .item:nth-child(4) {
-    left: calc(50% + 240px);
+    left: calc(78% + 240px);
 }
 
 .slide .item:nth-child(5) {
@@ -287,6 +287,7 @@ body {
 .content .mail,
 .content .num {
     font-size: 20px;
+    color: #ff7200;
     opacity: 0;
     animation: animate 0.3s ease-in-out 1.5s forwards;
 }

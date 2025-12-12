@@ -17,83 +17,74 @@
 
         <div class="content">
             <h1><span>ABOUT </span>US!</h1>
-            <p class="par">Discover your ideal career path based on your skills, interests, and experience. 
-                Our AI-powered system analyzes your responses to provide personalized career recommendations.</p>
+            <p class="par">FuturePath is a machine-learning system that helps second-year CS and IT 
+                students identify the academic track or major that best matches their skills, interests, 
+                and strengths. It analyzes factors like technical skills, soft skills, career interests, 
+                and challenges to provide personalized recommendations and clear explanations.</p>
             <!-- FIXED: Flask route for home button -->
-            <button class="return" onclick="window.location.href='{{ url_for('home') }}'">Home</button>
+            <button class="return"><a href="{{ url_for('home') }}" class="active">Home</a></button>
 
         </div>
  
         <div class="form">
             <h1>Career Recommendations</h1>
-            
+
             <div class="h3-row1">
+
+                <!-- Rating -->
                 <div class="form-group">
-                    <h3 class="label">Programming Skills Rating (1-10)</h3>
-                    <input type="number" id="progRating" class="rating-input" min="1" max="10" placeholder="Rate 1-10">
+                    <h3 class="label">Rating (1–10)</h3>
+                    <input type="number" id="rating" class="rating-input" min="1" max="10" placeholder="Rate 1-10">
                 </div>
 
+                <!-- Soft Skills -->
                 <div class="form-group">
-                    <h3 class="label">Soft Skills Rating (1-10)</h3>
-                    <input type="number" id="softRating" class="rating-input" min="1" max="10" placeholder="Rate 1-10">
-                </div>
-
-                <div class="form-group">
-                    <h3 class="label">Current Course</h3>
+                    <h3 class="label">Soft Skills</h3>
                     <div class="dropdown">
-                        <button class="dropdown-btn" data-field="currentCourse">Select Course</button>
+                        <button class="dropdown-btn" data-field="softSkills">Select Soft Skill</button>
                         <div class="dropdown-content">
-                            <a href="#" data-value="b.tech cse">b.tech cse</a>
-                            <a href="#" data-value="b.tech it">b.tech it</a>
-                            <a href="#" data-value="m.tech ai">m.tech ai</a>
+                            <a href="#" data-value="communication">Communication</a>
+                            <a href="#" data-value="leadership">Leadership</a>
+                            <a href="#" data-value="teamwork">Teamwork</a>
+                            <a href="#" data-value="problem solving">Problem Solving</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="h3-row2">
+
+                <!-- Technical Skills -->
                 <div class="form-group">
                     <h3 class="label">Technical Skills</h3>
                     <div class="dropdown">
-                        <button class="dropdown-btn" data-field="techSkills">Select Skills</button>
+                        <button class="dropdown-btn" data-field="techSkills">Select Technical Skill</button>
                         <div class="dropdown-content">
-                            <a href="#" data-value="python, java">python, java</a>
-                            <a href="#" data-value="python, sql">python, sql</a>
-                            <a href="#" data-value="java, sql">java, sql</a>
-                            <a href="#" data-value="python, machine learning">python, machine learning</a>
-                            <a href="#" data-value="cloud computing, python">cloud computing, python</a>
-                            <a href="#" data-value="data analysis, python">data analysis, python</a>
-                            <a href="#" data-value="cybersecurity, java">cybersecurity, java</a>
-                            <a href="#" data-value="blockchain, python">blockchain, python</a>
+                            <a href="#" data-value="python">Python</a>
+                            <a href="#" data-value="java">Java</a>
+                            <a href="#" data-value="sql">SQL</a>
+                            <a href="#" data-value="machine learning">Machine Learning</a>
+                            <a href="#" data-value="cloud computing">Cloud Computing</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Career Interest -->
                 <div class="form-group">
-                    <h3 class="label">Projects Experience</h3>
+                    <h3 class="label">Career Interest</h3>
                     <div class="dropdown">
-                        <button class="dropdown-btn" data-field="projects">Select Option</button>
+                        <button class="dropdown-btn" data-field="careerInterest">Select Interest</button>
                         <div class="dropdown-content">
-                            <a href="#" data-value="yes">yes</a>
-                            <a href="#" data-value="no">no</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <h3 class="label">Challenges Faced</h3>
-                    <div class="dropdown">
-                        <button class="dropdown-btn" data-field="challenges">Select Challenge</button>
-                        <div class="dropdown-content">
-                            <a href="#" data-value="interview anxiety">interview anxiety</a>
-                            <a href="#" data-value="lack of experience">lack of experience</a>
-                            <a href="#" data-value="limited guidance">limited guidance</a>
-                            <a href="#" data-value="no networking opportunities">no networking opportunities</a>
+                            <a href="#" data-value="software development">Software Development</a>
+                            <a href="#" data-value="data science">Data Science</a>
+                            <a href="#" data-value="networking">Networking</a>
+                            <a href="#" data-value="cybersecurity">Cybersecurity</a>
+                            <a href="#" data-value="ai">AI</a>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <button class="submit-btn">Get Career Prediction</button>
             <div class="result-panel" id="resultPanel"></div>
         </div>

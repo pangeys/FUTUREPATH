@@ -1,501 +1,325 @@
-Name,email_id,Year ,Current Course,Technical Skills,     Programming Languages,Rating,Soft Skills,Rating, Projects,Career Interest,Challenges ,Support required,, Method
-Iorgo Hakonsen,ihakonsen0@instagram.com,2nd ,MBA,"Cybersecurity, Blockchain","Python, R, C#",2,"Communication, Adaptability, Problem-Solving",1,Yes,Data Scientist,Interview anxiety,Mentorship programs,,College curriculum
-Emmery Duffyn,eduffyn1@dailymotion.com,Final,BBA,"SQL, Machine Learning","R, Go",3,"Leadership, Communication, Problem-Solving",4,No,AI Engineer,No networking opportunities,Technical skill training,,College curriculum
-Susanetta Wards,swards2@digg.com,2nd,B.Sc Data Science,"Cybersecurity, Java",JavaScript,4,"Leadership, Time Management, Problem-Solving",1,No,Data Scientist,Interview anxiety,Technical skill training,,Self-study
-Amanda Gussin,agussin3@webs.com,2nd ,M.Tech AI,"Blockchain, Python, SQL","Python, C#",3,"Adaptability, Teamwork, Leadership",4,No,Cybersecurity Expert,Limited guidance,Resume workshops,,College curriculum
-Carlina Beaven,cbeaven4@timesonline.co.uk,1st ,B.Tech IT,"Blockchain, Machine Learning, Python","Java, Go",4,"Teamwork, Adaptability, Problem-Solving",3,Yes,Cybersecurity Expert,No networking opportunities,Internship opportunities,,Online
-Shelley Kelshaw,skelshaw5@twitpic.com,2nd ,B.Tech IT,"Cybersecurity, Blockchain, Java ","Python, Go, Java",1,"Time Management, Communication, Leadership",4,No,Cloud Architect,No networking opportunities,Internship opportunities,,Self-study
-Abe Babst,ababst6@ft.com,Final ,B.Tech IT,"Cloud Computing, SQL","Python, JavaScript",4,"Teamwork, Problem-Solving",5,No,Software Developer,Lack of experience,Resume workshops,,Self-study
-Augusto Hutchason,ahutchason7@drupal.org,1st ,MBA,"Data Analysis, Cybersecurity","Java, JavaScript",4,"Communication, Time Management",2,Yes,Business Analyst,Limited guidance,Resume workshops,,Online
-Danny Garr,dgarr8@fotki.com,Final ,B.Tech CSE,"Machine Learning, Cybersecurity, Java, Data Analysis","Python, Java, C#",3,"Leadership, Adaptability",4,No,Software Developer,Limited guidance,Mentorship programs,,Online
-Jere Basilone,jbasilone9@patch.com,2nd ,M.Tech AI,"Cybersecurity, SQL",Go,2,"Communication, Time Management",4,No,Data Scientist,No networking opportunities,Technical skill training,,Self-study
-Misty Tolputt,mtolputta@squidoo.com,2nd,B.Tech IT,"SQL, Cloud Computing",R,3,"Time Management, Teamwork",5,No,Data Scientist,No networking opportunities,Mentorship programs,,Self-study
-Blisse Baillie,bbaillieb@psu.edu,2nd Year,M.Tech AI,"Java, SQL, Cloud Computing",C++,4,"Problem-Solving, Adaptability, Time Management",2,No,Cloud Architect,Interview anxiety,Internship opportunities,,Online
-Wye Putnam,wputnamc@ameblo.jp,2nd Year,M.Tech AI,"SQL, Cloud Computing","Java, C#",1,"Problem-Solving, Leadership, Communication",5,No,Cloud Architect,No networking opportunities,Technical skill training,,Bootcamp
-Tory Sextie,tsextied@123-reg.co.uk,2nd Year,M.Tech AI,"Python, Machine Learning","JavaScript, C#",3,"Problem-Solving, Time Management, Teamwork",1,No,Cybersecurity Expert,Lack of experience,Mentorship programs,,Self-study
-Patrice Sinnatt,psinnatte@umich.edu,3rd Year,BBA,"Machine Learning, Java, Cloud Computing","JavaScript, C#, C++",5,"Time Management, Problem-Solving",2,No,Data Scientist,Interview anxiety,Internship opportunities,,College curriculum
-Harlie Walsom,hwalsomf@ovh.net,1st Year,B.Sc Data Science,"Data Analysis, Cybersecurity","Python, C++",4,"Leadership, Teamwork",2,No,Software Developer,Lack of experience,Mentorship programs,,College curriculum
-Kain Thurgood,kthurgoodg@sogou.com,3rd Year,B.Tech CSE,"Cloud Computing, Cybersecurity",JavaScript,3,"Communication, Adaptability, Teamwork",2,No,Cloud Architect,Difficulty in resume building,Technical skill training,,Self-study
-Olwen Moth,omothh@wufoo.com,2nd Year,B.Sc Data Science,"Machine Learning, Cybersecurity, Python, Data Analysis","Java, C#",3,"Leadership, Teamwork",4,Yes,Business Analyst,Lack of experience,Mentorship programs,,Online
-Austin Corbould,acorbouldi@cbc.ca,Final Year,BBA,"Data Analysis, Cybersecurity, Python",Go,4,"Teamwork, Problem-Solving",5,Yes,Data Scientist,Difficulty in resume building,Mentorship programs,,Bootcamp
-Samson Proom,sproomj@istockphoto.com,Final Year,MBA,"Cloud Computing, Blockchain",Java,3,"Leadership, Communication, Time Management",4,Yes,Software Developer,Lack of experience,Technical skill training,,College curriculum
-Harlen Van Der Vlies,hvank@telegraph.co.uk,2nd Year,B.Tech CSE,"Cybersecurity, Data Analysis","Go, C#",2,"Problem-Solving, Leadership",5,Yes,Cloud Architect,No networking opportunities,Resume workshops,,Online
-Ash Skaife,askaifel@hubpages.com,1st Year,M.Tech AI,"Java, Data Analysis, Python",Java,2,"Teamwork, Problem-Solving, Time Management",3,No,AI Engineer,Interview anxiety,Internship opportunities,,Online
-Anet Brunesco,abrunescom@indiatimes.com,Final Year,B.Tech CSE,"Java, Blockchain, Machine Learning, Cybersecurity","Java, C++",4,"Leadership, Adaptability, Communication",5,No,Software Developer,Lack of experience,Resume workshops,,Bootcamp
-Kilian Durnill,kdurnilln@shop-pro.jp,1st Year,BBA,"Cloud Computing, Machine Learning, Java",C#,1,"Teamwork, Problem-Solving, Communication",4,No,Cybersecurity Expert,Interview anxiety,Technical skill training,,Self-study
-Bard Exelby,bexelbyo@seesaa.net,1st Year,BBA,"Cloud Computing, Blockchain, Cybersecurity","Go, C++",4,"Problem-Solving, Time Management, Communication",1,Yes,Cloud Architect,Limited guidance,Mentorship programs,,College curriculum
-Pieter Sweeten,psweetenp@elegantthemes.com,1st Year,B.Tech IT,"Blockchain, Java, SQL, Python","JavaScript, Java, C++",3,"Communication, Time Management",1,No,Cloud Architect,Lack of experience,Internship opportunities,,Self-study
-Georgeanne Belderfield,gbelderfieldq@guardian.co.uk,2nd Year,B.Tech CSE,"Data Analysis, Java, Cybersecurity","C++, Go",5,"Adaptability, Leadership, Problem-Solving",5,Yes,Data Scientist,Lack of experience,Resume workshops,,Online
-Ellissa Semeradova,esemeradovar@ustream.tv,1st Year,B.Sc Data Science,"Java, Cybersecurity, Blockchain",C++,4,"Problem-Solving, Leadership",4,Yes,Cloud Architect,Difficulty in resume building,Internship opportunities,,Self-study
-Lilyan Brychan,lbrychans@icq.com,Final Year,BBA,"Cloud Computing, SQL","R, Java",2,"Time Management, Leadership, Adaptability",5,Yes,AI Engineer,No networking opportunities,Resume workshops,,College curriculum
-Dennis Loddon,dloddont@spotify.com,3rd Year,MBA,"Blockchain, Machine Learning, SQL",C#,3,"Teamwork, Adaptability, Time Management",4,No,Cybersecurity Expert,Lack of experience,Mentorship programs,,Bootcamp
-Delly Dinnington,ddinningtonu@about.me,Final Year,B.Sc Data Science,"Python, Cloud Computing","Go, Java, C++",4,"Adaptability, Leadership",5,Yes,Data Scientist,No networking opportunities,Resume workshops,,Self-study
-Lothaire Gaffer,lgafferv@clickbank.net,3rd Year,B.Tech CSE,"Data Analysis, Python, Java, Cybersecurity","R, JavaScript",4,"Teamwork, Adaptability, Time Management",2,Yes,Data Scientist,No networking opportunities,Internship opportunities,,College curriculum
-Faythe Franc,ffrancw@virginia.edu,2nd Year,MBA,"Blockchain, Machine Learning",Java,3,"Time Management, Adaptability",2,No,Data Scientist,No networking opportunities,Resume workshops,,Online
-Ax Filgate,afilgatex@google.co.uk,3rd Year,B.Tech IT,"Machine Learning, Blockchain","C#, JavaScript, Go",3,"Communication, Time Management, Problem-Solving",3,Yes,Software Developer,No networking opportunities,Resume workshops,,College curriculum
-Catharina Woan,cwoany@cornell.edu,3rd Year,MBA,"Blockchain, Cybersecurity, Python, Java","Python, C++, C#",2,"Communication, Time Management, Adaptability",5,No,Software Developer,Difficulty in resume building,Mentorship programs,,College curriculum
-Amelita Corselles,acorsellesz@walmart.com,Final Year,MBA,"SQL, Blockchain, Cybersecurity, Cloud Computing","JavaScript, C++",1,"Adaptability, Problem-Solving, Leadership",4,Yes,Cybersecurity Expert,Lack of experience,Resume workshops,,College curriculum
-Archy Ambrois,aambrois10@go.com,3rd Year,B.Tech CSE,"Java, Machine Learning, Blockchain","C#, JavaScript, Go",2,"Adaptability, Leadership",3,No,Cybersecurity Expert,Lack of experience,Resume workshops,,Online
-Conan Vyel,cvyel11@1und1.de,2nd Year,BBA,"Java, Cybersecurity, SQL, Cloud Computing",C++,1,"Time Management, Leadership",1,No,Business Analyst,Interview anxiety,Mentorship programs,,Self-study
-Candide Rodden,crodden12@devhub.com,1st Year,B.Tech IT,"Java, Machine Learning, SQL, Cybersecurity","Java, R",4,"Time Management, Teamwork",2,No,Software Developer,Limited guidance,Resume workshops,,Self-study
-Sidonia Merrin,smerrin13@posterous.com,Final Year,MBA,"SQL, Blockchain, Machine Learning","R, JavaScript",2,"Leadership, Communication, Problem-Solving",1,Yes,Software Developer,No networking opportunities,Internship opportunities,,Self-study
-Valaree Lawfull,vlawfull14@va.gov,3rd Year,B.Tech IT,"Python, SQL",Java,4,"Leadership, Time Management, Problem-Solving",1,No,Business Analyst,No networking opportunities,Mentorship programs,,Self-study
-Heindrick Michele,hmichele15@prlog.org,3rd Year,B.Sc Data Science,"Machine Learning, Java","Go, C#",4,"Teamwork, Problem-Solving, Communication",5,Yes,Business Analyst,Lack of experience,Internship opportunities,,College curriculum
-Mischa Portigall,mportigall16@ycombinator.com,2nd Year,B.Tech IT,"Java, SQL, Python",JavaScript,1,"Problem-Solving, Leadership, Communication",2,Yes,Cloud Architect,No networking opportunities,Mentorship programs,,College curriculum
-Homere Worling,hworling17@patch.com,3rd Year,BBA,"Python, SQL",C++,1,"Adaptability, Time Management, Leadership",2,Yes,Business Analyst,No networking opportunities,Internship opportunities,,Bootcamp
-Lorena Ackwood,lackwood18@addtoany.com,Final Year,BBA,"Machine Learning, Python, Cybersecurity, Blockchain",C#,4,"Leadership, Communication, Time Management",2,No,Cybersecurity Expert,Difficulty in resume building,Resume workshops,,Bootcamp
-Norby Larraway,nlarraway19@gnu.org,2nd Year,B.Tech CSE,"Machine Learning, Cybersecurity","JavaScript, C#, C++",1,"Communication, Problem-Solving",5,No,Cloud Architect,Difficulty in resume building,Internship opportunities,,Self-study
-Terrie Burkart,tburkart1a@webnode.com,2nd Year,B.Tech IT,"Cloud Computing, Data Analysis","C++, Python",4,"Adaptability, Communication",4,No,Data Scientist,Difficulty in resume building,Resume workshops,,Self-study
-Marchall Goard,mgoard1b@themeforest.net,1st Year,BBA,"Cloud Computing, Python","C++, JavaScript",4,"Problem-Solving, Teamwork, Time Management",2,Yes,Cloud Architect,Lack of experience,Internship opportunities,,Bootcamp
-Laure Haythorn,lhaythorn1c@blogspot.com,2nd Year,BBA,"Cloud Computing, Cybersecurity, SQL","R, Go, Python",5,"Teamwork, Leadership, Adaptability",1,Yes,Cloud Architect,No networking opportunities,Mentorship programs,,Self-study
-Glenine Cannam,gcannam1d@photobucket.com,2nd Year,B.Tech CSE,"Blockchain, SQL, Cybersecurity, Cloud Computing","Java, Python",3,"Time Management, Communication, Teamwork",3,No,Software Developer,No networking opportunities,Internship opportunities,,Self-study
-Eal Paulig,epaulig1e@ucoz.com,Final Year,BBA,"Java, Machine Learning",Java,4,"Problem-Solving, Adaptability, Time Management",4,Yes,AI Engineer,Interview anxiety,Resume workshops,,Online
-Durant Crampsey,dcrampsey1f@istockphoto.com,Final Year,MBA,"SQL, Cybersecurity, Cloud Computing, Python","R, C++, Go",5,"Problem-Solving, Teamwork",4,No,Cybersecurity Expert,Limited guidance,Resume workshops,,College curriculum
-Gertrud Syphas,gsyphas1g@twitpic.com,2nd Year,M.Tech AI,"Cybersecurity, SQL, Blockchain","JavaScript, Python",3,"Problem-Solving, Leadership, Time Management",5,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,Bootcamp
-Teodorico Tattoo,ttattoo1h@cdc.gov,2nd Year,M.Tech AI,"Python, Cybersecurity, Blockchain, Machine Learning",R,5,"Time Management, Adaptability, Problem-Solving",4,Yes,Data Scientist,Lack of experience,Mentorship programs,,Bootcamp
-Bordy Heaslip,bheaslip1i@angelfire.com,Final Year,B.Tech IT,"Machine Learning, Blockchain, Data Analysis, Cloud Computing",Go,1,"Time Management, Teamwork",5,Yes,Cybersecurity Expert,Difficulty in resume building,Technical skill training,,Self-study
-Baillie Loudian,bloudian1j@dot.gov,2nd Year,B.Tech CSE,"Cloud Computing, SQL, Cybersecurity",R,1,"Leadership, Communication",1,No,Cloud Architect,Lack of experience,Internship opportunities,,Online
-Francesca Presley,fpresley1k@facebook.com,Final Year,B.Tech IT,"Java, Blockchain, Data Analysis, SQL","Python, C++",3,"Leadership, Communication",2,No,Cloud Architect,Lack of experience,Resume workshops,,Bootcamp
-Tami Goozee,tgoozee1l@eepurl.com,1st Year,B.Tech CSE,"SQL, Blockchain, Machine Learning","C++, Python",1,"Time Management, Problem-Solving",2,Yes,Business Analyst,Interview anxiety,Resume workshops,,Bootcamp
-Rees Cushe,rcushe1m@wp.com,2nd Year,B.Tech IT,"SQL, Java, Blockchain, Data Analysis",JavaScript,5,"Problem-Solving, Adaptability",4,Yes,Data Scientist,Lack of experience,Internship opportunities,,Self-study
-Lavina Fisbey,lfisbey1n@shinystat.com,1st Year,MBA,"Blockchain, SQL, Data Analysis, Cloud Computing",Go,4,"Teamwork, Adaptability",1,No,Business Analyst,Lack of experience,Mentorship programs,,Bootcamp
-Allie Ratlee,aratlee1o@yahoo.co.jp,Final Year,B.Tech IT,"Machine Learning, Data Analysis","C#, R, JavaScript",3,"Problem-Solving, Leadership",1,No,AI Engineer,Lack of experience,Resume workshops,,Bootcamp
-Therine Collman,tcollman1p@time.com,Final Year,B.Tech CSE,"SQL, Java","Python, C#, JavaScript",4,"Teamwork, Time Management, Problem-Solving",5,No,Data Scientist,No networking opportunities,Technical skill training,,College curriculum
-Rozanne Petyakov,rpetyakov1q@webmd.com,Final Year,B.Tech IT,"Data Analysis, Cybersecurity","Java, C++, Python",1,"Communication, Teamwork",1,No,Cloud Architect,Lack of experience,Resume workshops,,Self-study
-Minette Tofanini,mtofanini1r@epa.gov,3rd Year,MBA,"Blockchain, SQL, Data Analysis","C#, Python",3,"Leadership, Time Management, Adaptability",2,Yes,Data Scientist,No networking opportunities,Technical skill training,,Online
-Maisie Wescott,mwescott1s@nymag.com,Final Year,M.Tech AI,"SQL, Machine Learning","R, C++, Java",1,"Time Management, Leadership, Problem-Solving",1,Yes,Software Developer,Limited guidance,Resume workshops,,College curriculum
-Dalton Anthoine,danthoine1t@theatlantic.com,1st Year,BBA,"SQL, Cybersecurity, Blockchain, Python","C#, Go",5,"Time Management, Leadership, Teamwork",1,No,Data Scientist,Lack of experience,Technical skill training,,Self-study
-Berri Ream,bream1u@xing.com,3rd Year,MBA,"Cybersecurity, Blockchain","C++, C#, JavaScript",1,"Teamwork, Communication",2,No,Cloud Architect,Interview anxiety,Technical skill training,,College curriculum
-Dayna MacCumiskey,dmaccumiskey1v@amazonaws.com,1st Year,B.Tech CSE,"Python, Machine Learning","Go, Python",2,"Problem-Solving, Time Management, Communication",3,Yes,Cloud Architect,Lack of experience,Mentorship programs,,Bootcamp
-Cart Playhill,cplayhill1w@unicef.org,1st Year,B.Sc Data Science,"Java, SQL, Python",R,3,"Communication, Teamwork, Problem-Solving",4,Yes,Business Analyst,No networking opportunities,Technical skill training,,Self-study
-Deva Housaman,dhousaman1x@npr.org,1st Year,M.Tech AI,"Machine Learning, Java, Blockchain, Cloud Computing","Go, Java",1,"Problem-Solving, Teamwork, Time Management",4,Yes,Business Analyst,No networking opportunities,Mentorship programs,,College curriculum
-Mordy Sultana,msultana1y@nps.gov,3rd Year,M.Tech AI,"Cybersecurity, Blockchain, Java, Machine Learning",Java,1,"Adaptability, Teamwork",5,No,Cloud Architect,Limited guidance,Internship opportunities,,College curriculum
-Shep Blundin,sblundin1z@over-blog.com,1st Year,BBA,"Blockchain, Java, Cybersecurity, SQL",JavaScript,1,"Leadership, Teamwork",1,No,Data Scientist,Difficulty in resume building,Internship opportunities,,College curriculum
-Dyanne Bezarra,dbezarra20@free.fr,Final Year,B.Sc Data Science,"SQL, Java, Data Analysis, Cybersecurity",Python,4,"Time Management, Teamwork, Communication",5,No,Data Scientist,Interview anxiety,Resume workshops,,Bootcamp
-Odell Shreeve,oshreeve21@gmpg.org,3rd Year,MBA,"Cloud Computing, SQL","Python, JavaScript",5,"Communication, Leadership",2,Yes,AI Engineer,Interview anxiety,Internship opportunities,,Self-study
-Dorry Feacham,dfeacham22@ft.com,3rd Year,MBA,"Machine Learning, Python, SQL, Cybersecurity","C#, C++",1,"Problem-Solving, Teamwork, Adaptability",2,Yes,Software Developer,Interview anxiety,Internship opportunities,,Bootcamp
-Cam Norbury,cnorbury23@paypal.com,3rd Year,BBA,"SQL, Machine Learning, Data Analysis, Cybersecurity","R, JavaScript, Python",4,"Problem-Solving, Teamwork, Leadership",4,No,Cybersecurity Expert,Limited guidance,Internship opportunities,,Online
-Abram Holbury,aholbury24@bbc.co.uk,3rd Year,MBA,"Cybersecurity, Machine Learning",JavaScript,2,"Time Management, Communication",3,Yes,Data Scientist,No networking opportunities,Internship opportunities,,Online
-Kathi Sigars,ksigars25@msu.edu,Final Year,B.Tech IT,"Blockchain, Data Analysis, Java","C++, R, JavaScript",5,"Leadership, Time Management, Problem-Solving",2,Yes,AI Engineer,Difficulty in resume building,Internship opportunities,,Self-study
-Justino MacGillespie,jmacgillespie26@ameblo.jp,Final Year,M.Tech AI,"Data Analysis, Cybersecurity",C++,1,"Time Management, Problem-Solving",4,Yes,Data Scientist,No networking opportunities,Technical skill training,,Self-study
-Garry Revie,grevie27@stanford.edu,Final Year,M.Tech AI,"Blockchain, Java","R, Go",2,"Adaptability, Communication",1,Yes,Data Scientist,Limited guidance,Mentorship programs,,Self-study
-Ashley Greiser,agreiser28@tinyurl.com,Final Year,B.Tech CSE,"Data Analysis, Machine Learning, Cloud Computing","Go, C++, JavaScript",2,"Communication, Adaptability, Teamwork",5,Yes,Software Developer,Difficulty in resume building,Internship opportunities,,Bootcamp
-Gaven Jackson,gjackson29@infoseek.co.jp,1st Year,B.Sc Data Science,"Cloud Computing, Machine Learning, Python","Java, Python, JavaScript",1,"Time Management, Communication, Adaptability",2,Yes,Business Analyst,Interview anxiety,Resume workshops,,Self-study
-Jarid Tabor,jtabor2a@people.com.cn,1st Year,BBA,"SQL, Cloud Computing, Blockchain, Data Analysis","Python, Go, Java",3,"Problem-Solving, Teamwork",5,Yes,Data Scientist,No networking opportunities,Internship opportunities,,Online
-Yard Peasey,ypeasey2b@europa.eu,1st Year,BBA,"Java, SQL, Machine Learning",C++,2,"Communication, Problem-Solving, Time Management",5,No,Cybersecurity Expert,No networking opportunities,Internship opportunities,,Bootcamp
-Arnie Croysdale,acroysdale2c@nasa.gov,3rd Year,B.Tech IT,"Cloud Computing, Python, Data Analysis",C++,2,"Time Management, Communication",3,Yes,AI Engineer,Lack of experience,Internship opportunities,,Self-study
-Del Hullins,dhullins2d@geocities.jp,3rd Year,B.Sc Data Science,"Cloud Computing, Cybersecurity",R,3,"Adaptability, Time Management",3,Yes,Business Analyst,Lack of experience,Technical skill training,,Self-study
-Pansie Flynn,pflynn2e@disqus.com,2nd Year,MBA,"Data Analysis, Blockchain",R,5,"Time Management, Adaptability",5,Yes,AI Engineer,Lack of experience,Internship opportunities,,Self-study
-Hershel Crowd,hcrowd2f@google.de,Final Year,M.Tech AI,"Data Analysis, Machine Learning, Cybersecurity, Blockchain","Python, Go",2,"Problem-Solving, Communication, Leadership",3,No,Software Developer,Limited guidance,Mentorship programs,,Bootcamp
-Ashlen Dowd,adowd2g@msn.com,1st Year,BBA,"Cloud Computing, SQL","Go, C#",3,"Problem-Solving, Communication",2,Yes,Data Scientist,No networking opportunities,Resume workshops,,College curriculum
-Berky Cockshot,bcockshot2h@vkontakte.ru,2nd Year,MBA,"Java, Machine Learning","C++, Java, C#",4,"Problem-Solving, Adaptability",3,Yes,Cybersecurity Expert,Difficulty in resume building,Resume workshops,,Online
-Charles Le Cornu,cle2i@newsvine.com,2nd Year,B.Sc Data Science,"Cybersecurity, SQL, Machine Learning","R, Java",1,"Leadership, Communication",1,Yes,Cybersecurity Expert,Lack of experience,Mentorship programs,,Bootcamp
-Onfre Pfleger,opfleger2j@cpanel.net,Final Year,MBA,"Java, Cybersecurity, Machine Learning, SQL","Java, R",4,"Leadership, Adaptability",3,Yes,Software Developer,Interview anxiety,Internship opportunities,,Self-study
-Annie Kynder,akynder2k@house.gov,2nd Year,MBA,"SQL, Machine Learning, Blockchain","R, Python",5,"Communication, Adaptability",3,No,AI Engineer,Interview anxiety,Technical skill training,,Online
-Suzie Kisar,skisar2l@google.nl,Final Year,BBA,"Java, Python, Machine Learning",Python,1,"Communication, Adaptability, Teamwork",2,Yes,Software Developer,No networking opportunities,Internship opportunities,,Bootcamp
-Andres Matterdace,amatterdace2m@dell.com,Final Year,B.Tech CSE,"SQL, Machine Learning, Data Analysis","Python, C++",1,"Leadership, Communication",3,Yes,Cloud Architect,Limited guidance,Mentorship programs,,College curriculum
-Dallas Henderson,dhenderson2n@quantcast.com,Final Year,M.Tech AI,"Cloud Computing, Python, SQL",JavaScript,5,"Time Management, Leadership",5,No,Cybersecurity Expert,No networking opportunities,Technical skill training,,Online
-Eula Pendlenton,ependlenton2o@booking.com,1st Year,B.Tech CSE,"Java, Blockchain, Machine Learning",C#,2,"Teamwork, Adaptability",3,No,Software Developer,Limited guidance,Technical skill training,,College curriculum
-Syd Scapelhorn,sscapelhorn2p@youtu.be,1st Year,B.Tech IT,"SQL, Data Analysis, Java, Python","Go, JavaScript, C++",5,"Communication, Problem-Solving",2,Yes,Cloud Architect,Interview anxiety,Technical skill training,,Online
-Frederica O'Gaven,fogaven2q@desdev.cn,2nd Year,B.Tech IT,"Cloud Computing, Data Analysis, Cybersecurity, Machine Learning","R, Go, JavaScript",4,"Time Management, Problem-Solving, Leadership",4,Yes,Cloud Architect,Limited guidance,Mentorship programs,,College curriculum
-Norah Baldini,nbaldini2r@51.la,Final Year,B.Tech CSE,"SQL, Machine Learning, Cybersecurity, Python",Python,2,"Communication, Problem-Solving",1,Yes,Cybersecurity Expert,Limited guidance,Internship opportunities,,Online
-Wanids Shaxby,wshaxby2s@phoca.cz,3rd Year,MBA,"Python, Cybersecurity, Data Analysis","R, C#, Java",2,"Problem-Solving, Time Management, Communication",5,Yes,Data Scientist,No networking opportunities,Resume workshops,,Bootcamp
-Emalee Lythgoe,elythgoe2t@com.com,Final Year,MBA,"Cloud Computing, Data Analysis, Python, Blockchain","Python, Java, R",2,"Problem-Solving, Leadership",2,Yes,Cloud Architect,Difficulty in resume building,Mentorship programs,,College curriculum
-Rayna Dandie,rdandie2u@delicious.com,Final Year,BBA,"Java, SQL","Python, Java, C#",2,"Leadership, Time Management, Problem-Solving",5,Yes,Business Analyst,Difficulty in resume building,Internship opportunities,,Self-study
-Odette Zanotti,ozanotti2v@pen.io,3rd Year,B.Tech IT,"Machine Learning, Cloud Computing","Java, C++, JavaScript",1,"Teamwork, Adaptability",2,No,Cybersecurity Expert,Interview anxiety,Internship opportunities,,Self-study
-Kiri Greedier,kgreedier2w@ehow.com,3rd Year,B.Sc Data Science,"Java, Python, Cloud Computing","JavaScript, Java, C#",1,"Leadership, Communication, Problem-Solving",3,No,AI Engineer,Interview anxiety,Technical skill training,,College curriculum
-Darya Clint,dclint2x@unc.edu,1st Year,M.Tech AI,"Machine Learning, Java","Go, C#, JavaScript",4,"Problem-Solving, Leadership, Time Management",4,Yes,Cloud Architect,No networking opportunities,Mentorship programs,,College curriculum
-Mathew Clemmow,mclemmow2y@mysql.com,1st Year,B.Tech IT,"Cloud Computing, Java",C++,4,"Adaptability, Problem-Solving",2,Yes,Cybersecurity Expert,Interview anxiety,Internship opportunities,,Self-study
-Vina Tupie,vtupie2z@globo.com,Final Year,B.Tech IT,"Cybersecurity, Python","Go, C++",2,"Time Management, Problem-Solving, Communication",1,No,Software Developer,Limited guidance,Resume workshops,,Self-study
-Dill Walkey,dwalkey30@disqus.com,3rd Year,BBA,"Blockchain, Cybersecurity","Java, JavaScript",2,"Adaptability, Communication",3,Yes,Cloud Architect,No networking opportunities,Technical skill training,,College curriculum
-Janaya Balint,jbalint31@ehow.com,1st Year,M.Tech AI,"Cybersecurity, Java, Python, SQL","JavaScript, C++",2,"Leadership, Adaptability",5,Yes,Cybersecurity Expert,Difficulty in resume building,Technical skill training,,College curriculum
-Oliviero Soitoux,osoitoux32@uol.com.br,2nd Year,MBA,"Blockchain, Cloud Computing, Data Analysis","R, Go",1,"Leadership, Adaptability, Problem-Solving",3,Yes,Software Developer,Interview anxiety,Resume workshops,,Bootcamp
-Jaime Tuxwell,jtuxwell33@msn.com,3rd Year,MBA,"Data Analysis, Python, Cybersecurity","JavaScript, R",1,"Adaptability, Communication",3,No,AI Engineer,Difficulty in resume building,Resume workshops,,Online
-Westbrooke Graalman,wgraalman34@themeforest.net,2nd Year,B.Tech CSE,"Blockchain, Cybersecurity, Data Analysis, Cloud Computing","C++, JavaScript",5,"Leadership, Problem-Solving",3,Yes,Cloud Architect,Difficulty in resume building,Internship opportunities,,Online
-Kingsley Lesser,klesser35@accuweather.com,Final Year,B.Tech CSE,"Blockchain, Cloud Computing, Machine Learning, Data Analysis","Python, JavaScript",5,"Teamwork, Adaptability",1,No,Software Developer,No networking opportunities,Resume workshops,,Self-study
-Prudi Sterman,psterman36@ebay.com,Final Year,B.Tech IT,"Blockchain, Machine Learning, Python",C#,5,"Leadership, Problem-Solving, Adaptability",2,Yes,Cloud Architect,No networking opportunities,Internship opportunities,,Self-study
-Bobbie Gosenell,bgosenell37@admin.ch,2nd Year,B.Tech CSE,"Cloud Computing, Cybersecurity, Data Analysis","C++, Java, C#",4,"Time Management, Communication, Teamwork",4,No,Cloud Architect,Interview anxiety,Resume workshops,,Bootcamp
-Dorothee Pople,dpople38@blogger.com,3rd Year,M.Tech AI,"Blockchain, Cloud Computing, Python, SQL",Python,4,"Teamwork, Problem-Solving",5,No,Cloud Architect,Interview anxiety,Mentorship programs,,Self-study
-Gregoire Ivchenko,givchenko39@yandex.ru,3rd Year,BBA,"Cloud Computing, Blockchain, Cybersecurity",R,5,"Problem-Solving, Leadership, Communication",5,No,AI Engineer,Difficulty in resume building,Resume workshops,,Online
-Alisun Geipel,ageipel3a@mit.edu,3rd Year,M.Tech AI,"Machine Learning, Cybersecurity, SQL","Java, JavaScript",5,"Time Management, Problem-Solving, Teamwork",3,No,AI Engineer,Limited guidance,Resume workshops,,Self-study
-Dietrich Bumphries,dbumphries3b@bloomberg.com,3rd Year,BBA,"Data Analysis, Blockchain","C#, JavaScript, R",1,"Problem-Solving, Teamwork",4,No,Data Scientist,Difficulty in resume building,Mentorship programs,,College curriculum
-Katha Trenouth,ktrenouth3c@elegantthemes.com,Final Year,M.Tech AI,"Data Analysis, Python","Go, R",2,"Communication, Problem-Solving, Leadership",2,No,Cybersecurity Expert,Limited guidance,Mentorship programs,,Bootcamp
-Amanda Bourner,abourner3d@usda.gov,Final Year,M.Tech AI,"Blockchain, Data Analysis, Python, Cloud Computing","R, Python",1,"Adaptability, Communication, Leadership",2,No,Business Analyst,Difficulty in resume building,Mentorship programs,,Self-study
-Julian Fetteplace,jfetteplace3e@nymag.com,1st Year,MBA,"Python, Blockchain","R, JavaScript, Java",2,"Communication, Problem-Solving, Time Management",5,Yes,Cloud Architect,Limited guidance,Mentorship programs,,College curriculum
-Jeremias Node,jnode3f@live.com,Final Year,M.Tech AI,"SQL, Machine Learning, Blockchain, Java","JavaScript, C#, R",4,"Leadership, Problem-Solving, Communication",5,Yes,Cybersecurity Expert,Difficulty in resume building,Mentorship programs,,College curriculum
-Randa Pressman,rpressman3g@google.com.br,Final Year,BBA,"Cybersecurity, SQL","Python, Go, JavaScript",1,"Leadership, Time Management, Problem-Solving",4,No,Data Scientist,Difficulty in resume building,Internship opportunities,,Online
-Madelon Poyntz,mpoyntz3h@cbsnews.com,1st Year,B.Sc Data Science,"Python, Java, Cybersecurity","JavaScript, Java",5,"Communication, Leadership, Time Management",5,Yes,Cloud Architect,Limited guidance,Mentorship programs,,Online
-Ira Doram,idoram3i@arstechnica.com,3rd Year,BBA,"Cloud Computing, Java","Java, C++",4,"Time Management, Problem-Solving",2,No,Data Scientist,No networking opportunities,Internship opportunities,,College curriculum
-Ferdinanda Birth,fbirth3j@wikimedia.org,2nd Year,B.Tech IT,"Blockchain, Python, Java","JavaScript, Java",2,"Adaptability, Teamwork",3,Yes,AI Engineer,Limited guidance,Resume workshops,,Bootcamp
-Ingar Lilburn,ililburn3k@youku.com,3rd Year,B.Tech IT,"Cloud Computing, Cybersecurity, SQL, Machine Learning","Go, C#, Python",3,"Adaptability, Teamwork, Communication",3,Yes,Cloud Architect,Difficulty in resume building,Internship opportunities,,Self-study
-Nelie Audiss,naudiss3l@devhub.com,2nd Year,BBA,"Blockchain, Python","C#, Python, Java",5,"Time Management, Communication",4,Yes,AI Engineer,Interview anxiety,Resume workshops,,Self-study
-Harri Rodder,hrodder3m@house.gov,2nd Year,B.Sc Data Science,"Blockchain, SQL, Cybersecurity","Go, R",5,"Communication, Teamwork, Adaptability",4,No,Cloud Architect,Difficulty in resume building,Internship opportunities,,Self-study
-Cindelyn O'Henery,cohenery3n@shinystat.com,Final Year,B.Sc Data Science,"Data Analysis, Python",Python,3,"Communication, Problem-Solving",1,Yes,Data Scientist,Interview anxiety,Technical skill training,,College curriculum
-Letisha Rabjohns,lrabjohns3o@yelp.com,1st Year,B.Sc Data Science,"Cybersecurity, Data Analysis, Blockchain",JavaScript,5,"Leadership, Adaptability, Communication",2,No,AI Engineer,No networking opportunities,Technical skill training,,Self-study
-Samson Buckby,sbuckby3p@photobucket.com,1st Year,B.Tech CSE,"Java, Cloud Computing, Blockchain","C++, JavaScript",3,"Communication, Leadership, Adaptability",4,No,Business Analyst,Limited guidance,Resume workshops,,Self-study
-Barbra Tindle,btindle3q@mapquest.com,2nd Year,B.Tech CSE,"Cloud Computing, Cybersecurity, Java",C++,2,"Problem-Solving, Teamwork",1,Yes,Software Developer,Difficulty in resume building,Resume workshops,,Self-study
-Ellis Spracklin,espracklin3r@hao123.com,Final Year,MBA,"SQL, Cloud Computing","Java, Go, C#",3,"Teamwork, Communication, Adaptability",3,Yes,Data Scientist,Lack of experience,Mentorship programs,,College curriculum
-Valeria Watford,vwatford3s@kickstarter.com,2nd Year,B.Tech CSE,"Data Analysis, Blockchain, Cybersecurity","JavaScript, C#",3,"Adaptability, Teamwork, Time Management",1,No,Cybersecurity Expert,Limited guidance,Mentorship programs,,College curriculum
-Eileen Stephenson,estephenson3t@webnode.com,2nd Year,B.Tech IT,"Blockchain, Machine Learning, Java","JavaScript, Java, Go",1,"Leadership, Adaptability, Problem-Solving",2,Yes,AI Engineer,Limited guidance,Resume workshops,,Online
-Suzy Hatry,shatry3u@squidoo.com,Final Year,M.Tech AI,"Cloud Computing, Blockchain, SQL, Machine Learning","JavaScript, C++",2,"Teamwork, Adaptability",1,No,AI Engineer,No networking opportunities,Mentorship programs,,Bootcamp
-Lelia Beange,lbeange3v@yandex.ru,2nd Year,B.Sc Data Science,"Cloud Computing, Java, Machine Learning, Blockchain",C#,5,"Problem-Solving, Time Management",2,No,Business Analyst,Difficulty in resume building,Resume workshops,,Self-study
-Atlanta Fyfe,afyfe3w@china.com.cn,3rd Year,B.Tech IT,"Python, SQL, Blockchain","Java, C#",2,"Adaptability, Communication",5,No,Software Developer,No networking opportunities,Technical skill training,,Online
-Janella Codlin,jcodlin3x@apache.org,2nd Year,M.Tech AI,"Cybersecurity, Blockchain","C#, Java",4,"Time Management, Leadership",4,No,Data Scientist,No networking opportunities,Resume workshops,,Online
-Keeley Crosse,kcrosse3y@auda.org.au,3rd Year,BBA,"Java, Blockchain, Cloud Computing",R,2,"Adaptability, Time Management",5,Yes,Cloud Architect,Interview anxiety,Internship opportunities,,College curriculum
-Jada Bidder,jbidder3z@marketwatch.com,Final Year,B.Tech CSE,"SQL, Cybersecurity, Python",Java,4,"Time Management, Teamwork",3,Yes,Cloud Architect,No networking opportunities,Internship opportunities,,Online
-Bari Meaney,bmeaney40@example.com,3rd Year,MBA,"SQL, Data Analysis, Java, Machine Learning",Java,3,"Adaptability, Problem-Solving",1,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,Self-study
-Monika Porritt,mporritt41@cornell.edu,1st Year,MBA,"Blockchain, Cloud Computing","R, C#",3,"Adaptability, Teamwork",3,No,Data Scientist,Limited guidance,Internship opportunities,,Online
-Korney Simonian,ksimonian42@bloglovin.com,Final Year,M.Tech AI,"Cybersecurity, SQL, Machine Learning, Cloud Computing","C++, JavaScript",3,"Problem-Solving, Leadership, Communication",4,No,Cybersecurity Expert,Limited guidance,Technical skill training,,College curriculum
-Shelden Thrussell,sthrussell43@tinypic.com,2nd Year,MBA,"Java, Cybersecurity, SQL, Cloud Computing","Python, Java, C++",3,"Problem-Solving, Leadership, Teamwork",2,Yes,Data Scientist,Limited guidance,Technical skill training,,College curriculum
-Sonnie Linnell,slinnell44@nyu.edu,1st Year,B.Sc Data Science,"Data Analysis, Java","Go, Java, C++",3,"Teamwork, Problem-Solving, Communication",3,Yes,Business Analyst,Interview anxiety,Internship opportunities,,Self-study
-Maribelle Pinnington,mpinnington45@hugedomains.com,3rd Year,B.Tech IT,"Python, Blockchain","R, Go",5,"Adaptability, Problem-Solving",3,Yes,Cloud Architect,Difficulty in resume building,Technical skill training,,Online
-Nadean Mandifield,nmandifield46@tripadvisor.com,1st Year,B.Tech CSE,"Blockchain, Data Analysis","Java, C#, C++",5,"Teamwork, Communication",3,Yes,Business Analyst,Lack of experience,Internship opportunities,,Self-study
-Thaddus Starrs,tstarrs47@cbc.ca,3rd Year,B.Sc Data Science,"Cybersecurity, Data Analysis, SQL","C#, Go, Python",2,"Leadership, Time Management",2,Yes,Data Scientist,Interview anxiety,Technical skill training,,Online
-Kelli Edlington,kedlington48@twitter.com,Final Year,BBA,"Machine Learning, SQL, Python, Cloud Computing","JavaScript, R",1,"Teamwork, Adaptability, Communication",5,No,AI Engineer,No networking opportunities,Mentorship programs,,Bootcamp
-Vinny Raithbie,vraithbie49@tinypic.com,3rd Year,M.Tech AI,"Python, Java, Cybersecurity","Python, Go, R",3,"Problem-Solving, Teamwork, Communication",5,Yes,AI Engineer,Limited guidance,Technical skill training,,College curriculum
-Crosby Whittingham,cwhittingham4a@java.com,3rd Year,B.Tech CSE,"Cybersecurity, SQL, Data Analysis","Go, Python, Java",3,"Communication, Adaptability, Time Management",5,Yes,AI Engineer,Interview anxiety,Resume workshops,,Bootcamp
-Mendel Owens,mowens4b@ft.com,3rd Year,MBA,"Data Analysis, Python","Python, C#",3,"Leadership, Teamwork, Time Management",1,No,Software Developer,Lack of experience,Internship opportunities,,College curriculum
-Stefania Rosen,srosen4c@gmpg.org,3rd Year,M.Tech AI,"Java, SQL, Data Analysis",R,5,"Leadership, Communication",1,No,Cloud Architect,Interview anxiety,Internship opportunities,,Self-study
-Jacynth McNally,jmcnally4d@exblog.jp,2nd Year,B.Tech IT,"Cybersecurity, Machine Learning, Blockchain","C++, Go",3,"Teamwork, Leadership, Time Management",1,No,Software Developer,No networking opportunities,Technical skill training,,Online
-Britta Minthorpe,bminthorpe4e@4shared.com,2nd Year,M.Tech AI,"Java, Data Analysis, Machine Learning, Python","C++, R, Go",2,"Problem-Solving, Teamwork",4,Yes,Data Scientist,Lack of experience,Mentorship programs,,Online
-Janela Janota,jjanota4f@hubpages.com,2nd Year,B.Tech IT,"SQL, Java","C#, C++, Go",4,"Problem-Solving, Teamwork",2,Yes,Cloud Architect,No networking opportunities,Mentorship programs,,College curriculum
-Kean Simpole,ksimpole4g@washington.edu,2nd Year,M.Tech AI,"Blockchain, Machine Learning, Java, Cloud Computing","JavaScript, Java, Go",1,"Communication, Time Management",2,No,Cloud Architect,Lack of experience,Resume workshops,,Online
-Charis Chiverton,cchiverton4h@usda.gov,3rd Year,B.Tech CSE,"SQL, Java",Java,5,"Teamwork, Time Management",2,No,Cloud Architect,Limited guidance,Mentorship programs,,Online
-Lammond Antonovic,lantonovic4i@artisteer.com,Final Year,BBA,"Cybersecurity, Java, Python, Cloud Computing","Python, JavaScript, C++",2,"Time Management, Communication, Problem-Solving",3,Yes,Data Scientist,Difficulty in resume building,Technical skill training,,College curriculum
-Brantley Timlett,btimlett4j@liveinternet.ru,2nd Year,BBA,"Python, Java, Blockchain, Machine Learning","Java, C++, JavaScript",1,"Teamwork, Time Management",5,No,AI Engineer,Interview anxiety,Resume workshops,,Bootcamp
-Doll Claypole,dclaypole4k@themeforest.net,3rd Year,B.Tech IT,"Cloud Computing, Java, Cybersecurity, Python","Go, R",2,"Adaptability, Time Management, Leadership",3,Yes,Data Scientist,Lack of experience,Mentorship programs,,Self-study
-Wandis Spybey,wspybey4l@toplist.cz,3rd Year,BBA,"Python, Cybersecurity",R,1,"Problem-Solving, Leadership, Adaptability",4,Yes,Cloud Architect,Difficulty in resume building,Resume workshops,,Bootcamp
-Lindsey McShane,lmcshane4m@4shared.com,1st Year,M.Tech AI,"Cybersecurity, SQL, Cloud Computing","JavaScript, Java",2,"Communication, Leadership",5,No,AI Engineer,Difficulty in resume building,Mentorship programs,,Online
-Jarad Tortis,jtortis4n@linkedin.com,Final Year,B.Tech CSE,"Cloud Computing, Blockchain",Go,2,"Leadership, Time Management, Communication",1,No,Software Developer,Interview anxiety,Mentorship programs,,College curriculum
-Nevins McCardle,nmccardle4o@biglobe.ne.jp,2nd Year,B.Tech IT,"Cybersecurity, Blockchain, Python","C++, C#",2,"Communication, Teamwork, Time Management",2,No,Business Analyst,Lack of experience,Technical skill training,,Bootcamp
-Shaun Offin,soffin4p@si.edu,Final Year,BBA,"Java, SQL, Cloud Computing","Python, C++",5,"Teamwork, Communication, Time Management",3,Yes,Data Scientist,Interview anxiety,Technical skill training,,Online
-Roseline Claypoole,rclaypoole4q@imageshack.us,2nd Year,B.Tech CSE,"Java, Data Analysis, Python","Python, Java",4,"Teamwork, Time Management",1,No,Software Developer,Limited guidance,Resume workshops,,College curriculum
-Prudence Peret,pperet4r@is.gd,1st Year,MBA,"Cloud Computing, Data Analysis, Java, Machine Learning",Python,3,"Teamwork, Time Management, Leadership",1,Yes,AI Engineer,Lack of experience,Mentorship programs,,Self-study
-Scottie Rebeiro,srebeiro4s@dailymail.co.uk,Final Year,M.Tech AI,"Blockchain, Data Analysis, Machine Learning","Java, C#, R",5,"Adaptability, Leadership, Communication",4,No,Cybersecurity Expert,No networking opportunities,Resume workshops,,Online
-Hadley Kildale,hkildale4t@arstechnica.com,Final Year,B.Tech CSE,"Data Analysis, Machine Learning, Blockchain, Java","Python, C#, C++",5,"Time Management, Problem-Solving",3,Yes,Business Analyst,Lack of experience,Technical skill training,,Bootcamp
-Dagny Pady,dpady4u@hostgator.com,1st Year,B.Tech CSE,"Cloud Computing, Machine Learning","C#, Python",2,"Communication, Leadership, Teamwork",5,No,Software Developer,Lack of experience,Internship opportunities,,College curriculum
-Pancho Pfeifer,ppfeifer4v@squarespace.com,Final Year,B.Tech CSE,"Cybersecurity, Python, SQL","Java, R",3,"Leadership, Problem-Solving, Time Management",1,No,Software Developer,Interview anxiety,Technical skill training,,Online
-Aldin Haglinton,ahaglinton4w@yellowpages.com,2nd Year,M.Tech AI,"Blockchain, Python","R, Go, Python",4,"Teamwork, Adaptability, Problem-Solving",5,Yes,Software Developer,Lack of experience,Resume workshops,,College curriculum
-Alexandra Sartain,asartain4x@kickstarter.com,Final Year,B.Tech IT,"Cybersecurity, SQL, Java","R, C++",4,"Adaptability, Time Management, Teamwork",5,No,Software Developer,No networking opportunities,Technical skill training,,College curriculum
-Darius Medlicott,dmedlicott4y@businessweek.com,2nd Year,B.Sc Data Science,"SQL, Data Analysis, Java, Blockchain","C++, JavaScript, Java",4,"Teamwork, Time Management, Leadership",3,Yes,Software Developer,Lack of experience,Technical skill training,,Online
-Adel Cockman,acockman4z@oaic.gov.au,2nd Year,B.Tech IT,"Python, Cybersecurity, Machine Learning, SQL","R, JavaScript",5,"Communication, Time Management, Adaptability",1,Yes,Business Analyst,No networking opportunities,Resume workshops,,Bootcamp
-Midge Joly,mjoly50@japanpost.jp,3rd Year,B.Sc Data Science,"Data Analysis, Blockchain, Machine Learning",Python,1,"Problem-Solving, Time Management, Adaptability",2,No,Data Scientist,No networking opportunities,Mentorship programs,,College curriculum
-Mylo Stockill,mstockill51@cdbaby.com,Final Year,B.Sc Data Science,"Blockchain, SQL, Data Analysis, Python",Java,2,"Time Management, Leadership, Adaptability",1,Yes,AI Engineer,Lack of experience,Internship opportunities,,Online
-Sigrid Stiff,sstiff52@imgur.com,3rd Year,M.Tech AI,"Java, Python, Blockchain","Java, C#",4,"Adaptability, Leadership",5,Yes,Cloud Architect,Interview anxiety,Internship opportunities,,College curriculum
-Shaun Cunniffe,scunniffe53@sogou.com,2nd Year,M.Tech AI,"Data Analysis, SQL","Go, Java",3,"Time Management, Problem-Solving",1,Yes,AI Engineer,Limited guidance,Resume workshops,,Self-study
-Tommi Roscoe,troscoe54@cam.ac.uk,1st Year,MBA,"Data Analysis, Python","Java, C#",3,"Problem-Solving, Leadership, Teamwork",1,No,Business Analyst,No networking opportunities,Mentorship programs,,Bootcamp
-Fanchon Dungate,fdungate55@moonfruit.com,Final Year,BBA,"Java, Cybersecurity, Data Analysis, Cloud Computing",C#,3,"Problem-Solving, Leadership",2,No,Cloud Architect,Interview anxiety,Resume workshops,,College curriculum
-Lawton Terbruggen,lterbruggen56@sakura.ne.jp,3rd Year,B.Sc Data Science,"Python, Java, Cloud Computing, Cybersecurity","Python, C++, JavaScript",2,"Communication, Teamwork, Problem-Solving",4,Yes,Business Analyst,Difficulty in resume building,Mentorship programs,,Self-study
-Brit Claussen,bclaussen57@yahoo.co.jp,1st Year,BBA,"SQL, Machine Learning, Cybersecurity",C++,2,"Leadership, Adaptability",5,Yes,Software Developer,Difficulty in resume building,Technical skill training,,College curriculum
-Molli Wickey,mwickey58@tumblr.com,3rd Year,B.Sc Data Science,"Machine Learning, Python, Data Analysis","Python, C#",3,"Adaptability, Time Management",5,No,Business Analyst,No networking opportunities,Internship opportunities,,College curriculum
-Edna Dobrowlski,edobrowlski59@yellowbook.com,Final Year,BBA,"Cybersecurity, Python, Cloud Computing, Java","Python, C++, Java",3,"Adaptability, Time Management, Teamwork",1,No,Cybersecurity Expert,Lack of experience,Technical skill training,,College curriculum
-Ian Tewnion,itewnion5a@globo.com,2nd Year,B.Tech IT,"Python, Java, Cloud Computing, SQL","Java, JavaScript",3,"Communication, Time Management",3,Yes,AI Engineer,Lack of experience,Technical skill training,,Bootcamp
-Paule Robertelli,probertelli5b@squidoo.com,Final Year,B.Sc Data Science,"Python, Data Analysis, Cybersecurity","Python, Go, JavaScript",4,"Leadership, Adaptability",4,Yes,Cybersecurity Expert,Limited guidance,Technical skill training,,College curriculum
-Theobald Witcherley,twitcherley5c@moonfruit.com,3rd Year,B.Sc Data Science,"Data Analysis, Python, Blockchain, Cloud Computing",C#,3,"Time Management, Leadership",1,No,Software Developer,Lack of experience,Technical skill training,,Self-study
-Cindelyn Storrar,cstorrar5d@wiley.com,Final Year,B.Tech IT,"Cybersecurity, Blockchain, Java","C++, Go",3,"Adaptability, Time Management, Teamwork",5,No,Software Developer,Interview anxiety,Internship opportunities,,Bootcamp
-Barbee Flook,bflook5e@last.fm,2nd Year,B.Tech IT,"Java, Cybersecurity, Cloud Computing, Machine Learning",JavaScript,3,"Teamwork, Problem-Solving",3,No,AI Engineer,Lack of experience,Mentorship programs,,Bootcamp
-Arline McNutt,amcnutt5f@biblegateway.com,1st Year,BBA,"SQL, Blockchain, Data Analysis, Cloud Computing",C++,2,"Time Management, Problem-Solving, Communication",1,No,Software Developer,Lack of experience,Mentorship programs,,Bootcamp
-Kirby Brettle,kbrettle5g@dmoz.org,1st Year,B.Sc Data Science,"SQL, Python, Machine Learning","R, Python, C++",4,"Leadership, Teamwork, Communication",5,No,Data Scientist,Difficulty in resume building,Mentorship programs,,Self-study
-Kenton Ladon,kladon5h@shop-pro.jp,1st Year,BBA,"Python, Data Analysis, Cloud Computing","C++, C#",3,"Leadership, Time Management",3,No,Software Developer,Interview anxiety,Technical skill training,,Self-study
-Delmor Scutcheon,dscutcheon5i@time.com,1st Year,B.Sc Data Science,"Python, Cloud Computing","C#, JavaScript",2,"Leadership, Problem-Solving",4,No,Cybersecurity Expert,Lack of experience,Technical skill training,,Bootcamp
-Conny McVeagh,cmcveagh5j@odnoklassniki.ru,Final Year,B.Tech CSE,"Java, Machine Learning, Blockchain",Java,5,"Leadership, Teamwork, Problem-Solving",3,No,AI Engineer,Lack of experience,Internship opportunities,,Bootcamp
-Maurine Hoxey,mhoxey5k@theglobeandmail.com,Final Year,M.Tech AI,"Data Analysis, Cybersecurity","R, C#",5,"Problem-Solving, Leadership, Time Management",3,No,Cybersecurity Expert,Difficulty in resume building,Mentorship programs,,Self-study
-Gratia Wolfarth,gwolfarth5l@alibaba.com,1st Year,BBA,"Java, SQL, Python, Machine Learning",Java,1,"Leadership, Teamwork",4,Yes,AI Engineer,Lack of experience,Technical skill training,,Bootcamp
-Saleem Frome,sfrome5m@whitehouse.gov,2nd Year,M.Tech AI,"Blockchain, Data Analysis, Cybersecurity","Python, JavaScript, Java",2,"Time Management, Communication, Adaptability",3,No,Data Scientist,No networking opportunities,Mentorship programs,,Self-study
-Alair Acedo,aacedo5n@hubpages.com,Final Year,B.Tech IT,"Python, Blockchain, Java","C#, C++, JavaScript",2,"Leadership, Problem-Solving, Teamwork",4,No,AI Engineer,Difficulty in resume building,Resume workshops,,Self-study
-Yolanda Maylour,ymaylour5o@feedburner.com,Final Year,MBA,"Cloud Computing, Cybersecurity, SQL","C#, Java",5,"Teamwork, Adaptability",4,Yes,Business Analyst,No networking opportunities,Internship opportunities,,Self-study
-Matelda Pumfrey,mpumfrey5p@mac.com,1st Year,BBA,"Machine Learning, Blockchain, SQL",C#,5,"Time Management, Leadership, Teamwork",5,No,Business Analyst,Difficulty in resume building,Technical skill training,,Bootcamp
-Harv Elijahu,helijahu5q@ft.com,Final Year,MBA,"Cybersecurity, Java, Machine Learning, Blockchain","R, JavaScript, Go",4,"Leadership, Adaptability",3,Yes,Business Analyst,Interview anxiety,Internship opportunities,,College curriculum
-Kylila Waud,kwaud5r@va.gov,1st Year,M.Tech AI,"Data Analysis, Java","C#, C++",1,"Teamwork, Problem-Solving",1,Yes,Cloud Architect,Lack of experience,Internship opportunities,,Bootcamp
-Ruy Threadgall,rthreadgall5s@chronoengine.com,1st Year,B.Tech IT,"Machine Learning, Python, Cybersecurity, SQL","R, Python",5,"Teamwork, Adaptability",5,No,Cloud Architect,Interview anxiety,Mentorship programs,,College curriculum
-Evered Standidge,estandidge5t@elpais.com,1st Year,B.Sc Data Science,"Blockchain, SQL, Cloud Computing",R,3,"Problem-Solving, Time Management, Adaptability",1,Yes,Business Analyst,No networking opportunities,Resume workshops,,Bootcamp
-Bev Baszkiewicz,bbaszkiewicz5u@time.com,Final Year,MBA,"Blockchain, Java",Java,5,"Leadership, Adaptability",3,Yes,Cloud Architect,Interview anxiety,Resume workshops,,Self-study
-Sigismund Axelbee,saxelbee5v@sogou.com,2nd Year,B.Sc Data Science,"Data Analysis, Machine Learning, Cloud Computing, Python",C++,2,"Time Management, Communication",2,No,Business Analyst,No networking opportunities,Technical skill training,,College curriculum
-Quent Portsmouth,qportsmouth5w@ucla.edu,Final Year,MBA,"Python, Blockchain, SQL, Cybersecurity",C++,4,"Problem-Solving, Adaptability",3,Yes,Business Analyst,Limited guidance,Resume workshops,,Self-study
-Nester Claringbold,nclaringbold5x@themeforest.net,2nd Year,B.Tech CSE,"Java, Cybersecurity","C#, Python",2,"Teamwork, Communication, Leadership",4,No,Software Developer,No networking opportunities,Technical skill training,,College curriculum
-Nicol Balnave,nbalnave5y@ning.com,1st Year,B.Sc Data Science,"Cybersecurity, Data Analysis, Python","JavaScript, Go",1,"Adaptability, Problem-Solving, Communication",5,No,Software Developer,Interview anxiety,Internship opportunities,,Self-study
-Shawna Rainville,srainville5z@tmall.com,2nd Year,B.Sc Data Science,"SQL, Cybersecurity, Machine Learning, Python","Java, C++, JavaScript",5,"Problem-Solving, Communication, Teamwork",4,No,Data Scientist,Interview anxiety,Technical skill training,,Self-study
-Aurthur Verny,averny60@uiuc.edu,2nd Year,BBA,"Python, Cybersecurity, Machine Learning","Python, JavaScript, Go",5,"Leadership, Adaptability, Time Management",4,Yes,AI Engineer,No networking opportunities,Resume workshops,,Self-study
-Hakeem Bernot,hbernot61@opera.com,3rd Year,M.Tech AI,"Cloud Computing, Blockchain",Java,1,"Communication, Leadership, Adaptability",5,No,Cybersecurity Expert,Difficulty in resume building,Internship opportunities,,College curriculum
-Olivie Brake,obrake62@rakuten.co.jp,3rd Year,B.Tech IT,"Machine Learning, SQL, Python",Java,3,"Time Management, Problem-Solving",5,Yes,AI Engineer,Lack of experience,Mentorship programs,,Online
-Normand Claydon,nclaydon63@fda.gov,2nd Year,BBA,"Cloud Computing, Java",Java,1,"Time Management, Leadership, Problem-Solving",1,No,Business Analyst,Interview anxiety,Internship opportunities,,Self-study
-Jeff D'Agostini,jdagostini64@linkedin.com,Final Year,B.Tech IT,"SQL, Python","Python, R, C#",4,"Adaptability, Communication",4,Yes,Cloud Architect,No networking opportunities,Resume workshops,,Online
-Lynea Palatini,lpalatini65@domainmarket.com,Final Year,B.Sc Data Science,"Python, SQL, Cybersecurity",Python,1,"Communication, Leadership",4,No,Business Analyst,Difficulty in resume building,Technical skill training,,Self-study
-Ruperta Skewis,rskewis66@freewebs.com,2nd Year,M.Tech AI,"Blockchain, Data Analysis, Cloud Computing, Python","C#, JavaScript",1,"Time Management, Leadership, Teamwork",2,Yes,Business Analyst,Limited guidance,Resume workshops,,Online
-Godwin Kohneke,gkohneke67@usa.gov,3rd Year,BBA,"Python, Data Analysis",Go,2,"Communication, Adaptability, Problem-Solving",4,No,AI Engineer,No networking opportunities,Mentorship programs,,College curriculum
-Alayne Drew,adrew68@mozilla.org,1st Year,MBA,"Data Analysis, Java","Java, JavaScript, R",2,"Problem-Solving, Communication, Leadership",3,Yes,Data Scientist,No networking opportunities,Mentorship programs,,College curriculum
-Renelle Midlane,rmidlane69@istockphoto.com,2nd Year,B.Tech IT,"Cloud Computing, Machine Learning",C#,5,"Leadership, Adaptability",2,No,Data Scientist,Difficulty in resume building,Resume workshops,,Online
-Marc Pinxton,mpinxton6a@spiegel.de,3rd Year,M.Tech AI,"Blockchain, Data Analysis","JavaScript, R, Go",4,"Adaptability, Teamwork",4,No,Business Analyst,Interview anxiety,Technical skill training,,Bootcamp
-Krishna Massard,kmassard6b@cam.ac.uk,2nd Year,MBA,"Blockchain, Machine Learning, Python","Go, Java, C++",4,"Problem-Solving, Teamwork, Leadership",5,No,Cloud Architect,Lack of experience,Technical skill training,,Bootcamp
-Stavro Havercroft,shavercroft6c@netvibes.com,3rd Year,BBA,"Java, Data Analysis",Java,5,"Problem-Solving, Adaptability",4,No,AI Engineer,Limited guidance,Internship opportunities,,Online
-Thekla McCarrick,tmccarrick6d@house.gov,2nd Year,MBA,"Java, SQL, Data Analysis","C#, R",2,"Adaptability, Problem-Solving, Leadership",1,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,Online
-Leonanie Noseworthy,lnoseworthy6e@ed.gov,1st Year,M.Tech AI,"Python, Blockchain","Go, C#",3,"Communication, Teamwork, Problem-Solving",5,No,Data Scientist,Lack of experience,Resume workshops,,Bootcamp
-Worthington Attreed,wattreed6f@nbcnews.com,2nd Year,B.Tech CSE,"SQL, Java","Go, R",3,"Teamwork, Problem-Solving, Communication",1,No,Cybersecurity Expert,Difficulty in resume building,Technical skill training,,Self-study
-Hubert Hachette,hhachette6g@indiegogo.com,1st Year,B.Tech CSE,"Blockchain, Python, Java, SQL","Go, C++",2,"Adaptability, Problem-Solving",5,Yes,Cybersecurity Expert,Difficulty in resume building,Mentorship programs,,Self-study
-Miguel Hinrichs,mhinrichs6h@chicagotribune.com,Final Year,B.Sc Data Science,"Blockchain, Java, SQL","C++, Java",5,"Problem-Solving, Leadership",3,Yes,Business Analyst,Limited guidance,Resume workshops,,Self-study
-Morse Thurston,mthurston6i@4shared.com,3rd Year,BBA,"Cloud Computing, Java, Data Analysis",C#,1,"Time Management, Problem-Solving",1,No,Software Developer,Lack of experience,Resume workshops,,College curriculum
-Mollie Donner,mdonner6j@mozilla.com,2nd Year,BBA,"Blockchain, Java",JavaScript,1,"Teamwork, Communication",1,No,Cloud Architect,Interview anxiety,Mentorship programs,,Online
-Farrand Fardy,ffardy6k@webeden.co.uk,Final Year,B.Tech IT,"Blockchain, Data Analysis, Machine Learning","JavaScript, Java",4,"Adaptability, Leadership",1,Yes,Business Analyst,Limited guidance,Mentorship programs,,Online
-Theo Ashwell,tashwell6l@xinhuanet.com,3rd Year,B.Tech IT,"Blockchain, Cloud Computing","Python, JavaScript, Java",3,"Time Management, Teamwork",3,No,Data Scientist,Difficulty in resume building,Internship opportunities,,Self-study
-Elsey Crebbin,ecrebbin6m@scientificamerican.com,2nd Year,B.Sc Data Science,"Python, SQL, Java, Cybersecurity",C#,5,"Time Management, Problem-Solving",3,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,College curriculum
-Benni Harbison,bharbison6n@friendfeed.com,3rd Year,B.Sc Data Science,"Blockchain, Python, Cloud Computing",Python,2,"Teamwork, Problem-Solving",4,Yes,AI Engineer,Lack of experience,Resume workshops,,College curriculum
-Dud Aitchinson,daitchinson6o@eepurl.com,1st Year,BBA,"Data Analysis, SQL, Machine Learning","C++, Java",5,"Problem-Solving, Communication, Time Management",5,No,Data Scientist,Limited guidance,Resume workshops,,Online
-Benedicta Charnick,bcharnick6p@slashdot.org,2nd Year,M.Tech AI,"Data Analysis, Cybersecurity","Java, R",1,"Communication, Time Management, Teamwork",3,Yes,Cloud Architect,Difficulty in resume building,Resume workshops,,Bootcamp
-Pauletta Olsson,polsson6q@globo.com,1st Year,B.Tech CSE,"Machine Learning, Data Analysis, Cybersecurity","C#, Python",5,"Problem-Solving, Communication",4,Yes,Cybersecurity Expert,No networking opportunities,Mentorship programs,,Online
-Lonnie Dansken,ldansken6r@hostgator.com,Final Year,MBA,"Data Analysis, Java","Go, C++, R",5,"Communication, Time Management",5,No,Data Scientist,Limited guidance,Technical skill training,,Self-study
-Xaviera Romanin,xromanin6s@github.com,3rd Year,B.Tech CSE,"Machine Learning, SQL, Java",C++,4,"Problem-Solving, Teamwork",1,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,College curriculum
-Genvieve Gurry,ggurry6t@cnet.com,1st Year,B.Tech CSE,"Blockchain, Cloud Computing, Python, Machine Learning","Java, Python",5,"Problem-Solving, Teamwork, Adaptability",4,No,AI Engineer,No networking opportunities,Technical skill training,,Online
-Christopher Fansy,cfansy6u@canalblog.com,2nd Year,B.Tech CSE,"Cybersecurity, Java, Data Analysis, Blockchain","JavaScript, R, C++",2,"Adaptability, Teamwork",1,Yes,Software Developer,Difficulty in resume building,Resume workshops,,Self-study
-Chantalle Doche,cdoche6v@webmd.com,1st Year,M.Tech AI,"SQL, Python, Data Analysis","C++, JavaScript, Go",3,"Adaptability, Leadership",5,Yes,Data Scientist,No networking opportunities,Technical skill training,,Self-study
-Lowell Tydd,ltydd6w@seesaa.net,1st Year,B.Tech CSE,"Machine Learning, Blockchain, Data Analysis",Go,1,"Problem-Solving, Communication, Time Management",5,No,Data Scientist,Difficulty in resume building,Mentorship programs,,Online
-Rufe Stanislaw,rstanislaw6x@symantec.com,Final Year,MBA,"Cloud Computing, Machine Learning","Python, Java, Go",3,"Time Management, Problem-Solving, Communication",5,No,Cloud Architect,Interview anxiety,Resume workshops,,College curriculum
-Linzy Ord,lord6y@washingtonpost.com,1st Year,B.Sc Data Science,"Data Analysis, Cybersecurity",Python,1,"Problem-Solving, Communication",5,No,AI Engineer,Lack of experience,Technical skill training,,College curriculum
-Bern Bagworth,bbagworth6z@mysql.com,1st Year,BBA,"Cloud Computing, Blockchain, Java","C#, Python",2,"Problem-Solving, Teamwork, Time Management",3,Yes,Cybersecurity Expert,No networking opportunities,Internship opportunities,,Bootcamp
-Jasper Grabham,jgrabham70@redcross.org,3rd Year,M.Tech AI,"Python, Cybersecurity",C#,3,"Communication, Teamwork",3,Yes,Data Scientist,No networking opportunities,Internship opportunities,,Self-study
-Renelle Finney,rfinney71@t-online.de,2nd Year,B.Tech CSE,"Cybersecurity, Python",C++,1,"Leadership, Communication",3,Yes,Data Scientist,Lack of experience,Technical skill training,,College curriculum
-Pepita Rahl,prahl72@yandex.ru,Final Year,B.Tech IT,"Blockchain, SQL, Machine Learning, Java","Java, R, C++",3,"Time Management, Leadership, Adaptability",2,Yes,Business Analyst,Limited guidance,Mentorship programs,,Bootcamp
-Florrie Kubiak,fkubiak73@adobe.com,1st Year,B.Tech IT,"Python, Blockchain","Go, Java, R",3,"Adaptability, Time Management, Problem-Solving",1,No,Business Analyst,No networking opportunities,Internship opportunities,,Online
-Ibby Frid,ifrid74@guardian.co.uk,2nd Year,B.Sc Data Science,"Python, Blockchain, Cybersecurity, Machine Learning","Go, Java, C++",2,"Adaptability, Problem-Solving, Time Management",2,Yes,Software Developer,Limited guidance,Mentorship programs,,Online
-Link Grout,lgrout75@devhub.com,1st Year,MBA,"Data Analysis, Python, SQL, Cybersecurity","C#, R",2,"Communication, Time Management, Problem-Solving",1,No,AI Engineer,Lack of experience,Internship opportunities,,Self-study
-Agnes Fasham,afasham76@clickbank.net,1st Year,B.Sc Data Science,"Blockchain, SQL, Machine Learning, Java",JavaScript,3,"Leadership, Communication, Teamwork",1,Yes,Software Developer,No networking opportunities,Mentorship programs,,Online
-Veronique Spritt,vspritt77@woothemes.com,3rd Year,M.Tech AI,"Python, SQL","R, Python",4,"Time Management, Problem-Solving",1,No,Software Developer,Lack of experience,Resume workshops,,College curriculum
-Cyndie Hill,chill78@msu.edu,2nd Year,B.Tech CSE,"Python, Data Analysis, Java, Blockchain","R, Go, JavaScript",3,"Time Management, Leadership",2,Yes,Cloud Architect,Difficulty in resume building,Mentorship programs,,Self-study
-Jammie Linay,jlinay79@sourceforge.net,2nd Year,B.Tech IT,"Python, Data Analysis",JavaScript,5,"Time Management, Communication, Teamwork",4,Yes,Software Developer,Limited guidance,Resume workshops,,Bootcamp
-Vivie Bruneau,vbruneau7a@theatlantic.com,3rd Year,B.Tech IT,"Blockchain, SQL, Cybersecurity","Python, C#, R",4,"Problem-Solving, Leadership",3,No,Business Analyst,Limited guidance,Resume workshops,,Online
-Stefan Dellenbrok,sdellenbrok7b@npr.org,1st Year,M.Tech AI,"SQL, Machine Learning, Cloud Computing","Go, C#, JavaScript",5,"Time Management, Problem-Solving, Adaptability",1,No,AI Engineer,No networking opportunities,Internship opportunities,,Self-study
-Nert Francillo,nfrancillo7c@jiathis.com,Final Year,B.Tech IT,"Cybersecurity, Cloud Computing, SQL, Machine Learning","C++, JavaScript, C#",1,"Communication, Time Management, Leadership",4,No,Software Developer,Difficulty in resume building,Internship opportunities,,Online
-Matteo Bawdon,mbawdon7d@apache.org,2nd Year,M.Tech AI,"SQL, Data Analysis",Python,1,"Time Management, Communication, Adaptability",1,Yes,Business Analyst,Difficulty in resume building,Technical skill training,,Online
-Kristos Hurt,khurt7e@constantcontact.com,Final Year,BBA,"Python, Java, SQL","C#, JavaScript, Python",5,"Teamwork, Leadership",3,Yes,Business Analyst,No networking opportunities,Technical skill training,,College curriculum
-Debbie Pitson,dpitson7f@zdnet.com,2nd Year,M.Tech AI,"SQL, Machine Learning",Java,2,"Time Management, Teamwork",3,Yes,Business Analyst,Interview anxiety,Technical skill training,,Online
-Reagan Lacroux,rlacroux7g@about.me,1st Year,MBA,"Blockchain, Cloud Computing","JavaScript, C#",2,"Time Management, Adaptability",4,No,Software Developer,Limited guidance,Resume workshops,,Self-study
-Gayle Legate,glegate7h@weebly.com,1st Year,BBA,"Data Analysis, Python","C#, Python",1,"Teamwork, Adaptability, Communication",2,Yes,Software Developer,Interview anxiety,Technical skill training,,Bootcamp
-Trula Pashley,tpashley7i@virginia.edu,Final Year,B.Sc Data Science,"Java, Machine Learning, Cloud Computing","R, JavaScript, Python",3,"Problem-Solving, Teamwork",1,Yes,Business Analyst,Interview anxiety,Resume workshops,,College curriculum
-Vernen Screen,vscreen7j@npr.org,3rd Year,B.Sc Data Science,"Data Analysis, Cybersecurity","Python, JavaScript",4,"Leadership, Communication, Time Management",4,No,Business Analyst,No networking opportunities,Resume workshops,,Self-study
-Laura Doag,ldoag7k@cdbaby.com,3rd Year,MBA,"SQL, Cloud Computing, Cybersecurity","C#, C++",1,"Problem-Solving, Time Management, Leadership",3,Yes,Software Developer,Interview anxiety,Resume workshops,,Online
-Archibald Simacek,asimacek7l@tripod.com,Final Year,B.Sc Data Science,"Data Analysis, Cybersecurity, Machine Learning","C#, C++",5,"Problem-Solving, Teamwork",4,No,Cloud Architect,Interview anxiety,Mentorship programs,,Self-study
-Augusto Thieme,athieme7m@engadget.com,1st Year,B.Tech CSE,"Python, Java, Cloud Computing","C#, Java, C++",1,"Teamwork, Problem-Solving",3,Yes,Business Analyst,Limited guidance,Internship opportunities,,College curriculum
-Egon Petr,epetr7n@europa.eu,2nd Year,B.Tech CSE,"Machine Learning, Cybersecurity, Python","Python, R",4,"Adaptability, Leadership",5,No,AI Engineer,Interview anxiety,Mentorship programs,,College curriculum
-Letti Riolfi,lriolfi7o@smh.com.au,Final Year,BBA,"Java, Data Analysis","Java, R",4,"Problem-Solving, Adaptability, Communication",5,No,AI Engineer,Limited guidance,Internship opportunities,,Online
-Rebbecca Lernihan,rlernihan7p@whitehouse.gov,1st Year,B.Tech IT,"Data Analysis, Python, Blockchain, Cybersecurity",C#,4,"Adaptability, Teamwork",5,Yes,Data Scientist,Limited guidance,Resume workshops,,Online
-Dorey Sampson,dsampson7q@sfgate.com,Final Year,M.Tech AI,"Machine Learning, Cybersecurity",C++,4,"Time Management, Teamwork",3,Yes,Software Developer,No networking opportunities,Technical skill training,,Self-study
-Fanchette Titmarsh,ftitmarsh7r@soup.io,3rd Year,M.Tech AI,"Cloud Computing, Machine Learning, Java, SQL","Go, C++",2,"Communication, Time Management, Teamwork",2,No,Cloud Architect,Lack of experience,Mentorship programs,,Self-study
-Obidiah Barnwill,obarnwill7s@macromedia.com,Final Year,BBA,"Java, Python, Cybersecurity","C++, Java",1,"Communication, Time Management, Teamwork",2,Yes,Business Analyst,Interview anxiety,Resume workshops,,College curriculum
-Timothee Meldrum,tmeldrum7t@imageshack.us,2nd Year,BBA,"Data Analysis, Blockchain, Cybersecurity","Go, R",3,"Adaptability, Communication",2,Yes,Cybersecurity Expert,No networking opportunities,Technical skill training,,Self-study
-Tera Ashdown,tashdown7u@army.mil,Final Year,M.Tech AI,"Java, Blockchain, Python","JavaScript, C++, C#",1,"Communication, Leadership",1,No,Software Developer,Difficulty in resume building,Resume workshops,,College curriculum
-Clara Dunseath,cdunseath7v@wired.com,2nd Year,MBA,"Python, Cybersecurity, Java, Blockchain","JavaScript, C++",1,"Adaptability, Problem-Solving",3,No,Software Developer,Lack of experience,Resume workshops,,Online
-Salaidh Gibling,sgibling7w@smugmug.com,3rd Year,BBA,"Java, Machine Learning, SQL, Python","Go, C++, Python",4,"Adaptability, Leadership",2,No,Business Analyst,No networking opportunities,Technical skill training,,Self-study
-Alie Ledgeway,aledgeway7x@apache.org,1st Year,B.Tech CSE,"Blockchain, Cloud Computing, Data Analysis, Cybersecurity","C++, R, Python",1,"Time Management, Communication",1,Yes,Data Scientist,Limited guidance,Internship opportunities,,Self-study
-Pren Hedworth,phedworth7y@tuttocitta.it,2nd Year,B.Sc Data Science,"Cybersecurity, Blockchain, Data Analysis","C#, Java, Python",1,"Problem-Solving, Communication",4,Yes,Cybersecurity Expert,Interview anxiety,Technical skill training,,Online
-Zsazsa Saipy,zsaipy7z@ebay.co.uk,Final Year,M.Tech AI,"Machine Learning, Cybersecurity",Java,3,"Teamwork, Leadership",1,Yes,Cloud Architect,Difficulty in resume building,Internship opportunities,,College curriculum
-Magdalena Loffel,mloffel80@mayoclinic.com,1st Year,M.Tech AI,"Cloud Computing, Cybersecurity",C#,4,"Leadership, Time Management",3,Yes,AI Engineer,Difficulty in resume building,Resume workshops,,Self-study
-Lexie Whyke,lwhyke81@addthis.com,2nd Year,MBA,"Machine Learning, Blockchain","C#, JavaScript",5,"Teamwork, Leadership, Time Management",2,No,Cybersecurity Expert,Lack of experience,Internship opportunities,,Bootcamp
-Eydie Pepall,epepall82@shinystat.com,Final Year,M.Tech AI,"Blockchain, SQL","Java, R, Go",3,"Leadership, Communication",1,Yes,Business Analyst,Limited guidance,Mentorship programs,,Online
-Jasmin Croston,jcroston83@fema.gov,3rd Year,B.Tech CSE,"Python, Data Analysis","Go, R, C++",2,"Leadership, Problem-Solving, Communication",2,No,Cybersecurity Expert,No networking opportunities,Resume workshops,,Self-study
-Morlee Morgan,mmorgan84@dailymotion.com,2nd Year,MBA,"Python, Machine Learning, SQL, Java","Python, Go",3,"Time Management, Adaptability, Communication",5,No,Business Analyst,Limited guidance,Internship opportunities,,Bootcamp
-Manny Brennon,mbrennon85@fastcompany.com,Final Year,M.Tech AI,"Blockchain, Data Analysis, Java",C#,5,"Adaptability, Teamwork, Time Management",3,No,Data Scientist,Lack of experience,Mentorship programs,,College curriculum
-Quentin Stokey,qstokey86@xing.com,Final Year,BBA,"SQL, Cloud Computing, Java","C#, Go, Python",1,"Time Management, Teamwork, Leadership",5,No,Software Developer,Difficulty in resume building,Mentorship programs,,Self-study
-Amity Luetkemeyers,aluetkemeyers87@salon.com,Final Year,B.Tech CSE,"Java, Data Analysis, Cloud Computing, Cybersecurity","Python, JavaScript, R",2,"Adaptability, Communication, Time Management",4,Yes,Cloud Architect,No networking opportunities,Technical skill training,,Self-study
-Hadrian Fogel,hfogel88@irs.gov,1st Year,B.Tech CSE,"Java, Python, SQL",Python,3,"Teamwork, Leadership",1,No,Software Developer,Difficulty in resume building,Mentorship programs,,Self-study
-Leanna Hincks,lhincks89@t.co,2nd Year,BBA,"Blockchain, Cybersecurity, Cloud Computing, Data Analysis","Go, Python",5,"Time Management, Adaptability",3,Yes,Cloud Architect,Difficulty in resume building,Resume workshops,,Online
-Merrie Cogdell,mcogdell8a@ed.gov,3rd Year,B.Sc Data Science,"Machine Learning, SQL, Python",R,2,"Problem-Solving, Teamwork, Time Management",3,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,College curriculum
-Janaya Boater,jboater8b@stanford.edu,Final Year,B.Tech IT,"Python, Cloud Computing, Blockchain, SQL","Java, Go",3,"Problem-Solving, Communication, Time Management",3,Yes,Cloud Architect,Interview anxiety,Resume workshops,,Bootcamp
-Kalina Saxelby,ksaxelby8c@kickstarter.com,3rd Year,MBA,"Cybersecurity, Data Analysis, Blockchain, Machine Learning","C#, Go, R",2,"Problem-Solving, Time Management",2,Yes,Software Developer,Limited guidance,Mentorship programs,,Self-study
-Dahlia Godier,dgodier8d@pagesperso-orange.fr,3rd Year,M.Tech AI,"Cybersecurity, Cloud Computing","Java, C#, R",3,"Teamwork, Leadership, Communication",4,Yes,Software Developer,Limited guidance,Mentorship programs,,Online
-Katerina Tinkham,ktinkham8e@xing.com,Final Year,B.Tech IT,"Cybersecurity, Cloud Computing","Java, Go, C#",5,"Adaptability, Communication, Time Management",2,No,Software Developer,Limited guidance,Mentorship programs,,Bootcamp
-Frants L' Anglois,fl8f@cornell.edu,Final Year,BBA,"Python, SQL, Java, Blockchain","Java, C++, R",3,"Time Management, Adaptability",5,No,Cloud Architect,Interview anxiety,Internship opportunities,,Bootcamp
-Kirstyn Scougall,kscougall8g@jugem.jp,2nd Year,MBA,"Cybersecurity, Python, Cloud Computing, Data Analysis",R,4,"Leadership, Adaptability",1,No,Cybersecurity Expert,Lack of experience,Mentorship programs,,Self-study
-Phillis Hrycek,phrycek8h@reddit.com,Final Year,MBA,"Java, Python, Cybersecurity, Cloud Computing","Java, Go, JavaScript",5,"Leadership, Adaptability",1,Yes,Cloud Architect,Lack of experience,Resume workshops,,College curriculum
-Breanne Ravillas,bravillas8i@edublogs.org,3rd Year,BBA,"Java, Python","Java, R",4,"Time Management, Leadership, Problem-Solving",2,Yes,Cloud Architect,Difficulty in resume building,Mentorship programs,,Online
-Kaspar Colleymore,kcolleymore8j@privacy.gov.au,2nd Year,BBA,"Blockchain, Cloud Computing, Machine Learning",Python,4,"Leadership, Problem-Solving, Time Management",1,Yes,Cybersecurity Expert,Difficulty in resume building,Technical skill training,,Self-study
-Coretta Creech,ccreech8k@weibo.com,1st Year,B.Tech CSE,"Java, Blockchain","Go, JavaScript, C++",3,"Adaptability, Problem-Solving, Teamwork",1,No,Software Developer,Difficulty in resume building,Mentorship programs,,Bootcamp
-Forest Goodnow,fgoodnow8l@merriam-webster.com,Final Year,BBA,"Cybersecurity, Blockchain, Java",R,2,"Leadership, Adaptability",5,Yes,Cloud Architect,No networking opportunities,Resume workshops,,Online
-Orel Costi,ocosti8m@reverbnation.com,3rd Year,B.Sc Data Science,"Java, Cybersecurity","Go, C#, JavaScript",2,"Teamwork, Communication",4,No,Software Developer,Difficulty in resume building,Resume workshops,,College curriculum
-Margaretta Fley,mfley8n@linkedin.com,3rd Year,BBA,"Cloud Computing, Cybersecurity, Python, SQL",C#,3,"Teamwork, Communication, Time Management",5,Yes,Cloud Architect,Lack of experience,Resume workshops,,College curriculum
-Lark Hunton,lhunton8o@amazon.com,3rd Year,B.Tech CSE,"Machine Learning, Java",R,1,"Leadership, Teamwork, Communication",4,No,Software Developer,Interview anxiety,Mentorship programs,,College curriculum
-Morey MacCurtain,mmaccurtain8p@chronoengine.com,3rd Year,MBA,"Machine Learning, Cybersecurity","R, C++",4,"Time Management, Problem-Solving, Adaptability",3,Yes,Business Analyst,No networking opportunities,Resume workshops,,Bootcamp
-Gill Cordero,gcordero8q@si.edu,1st Year,M.Tech AI,"Blockchain, SQL, Machine Learning, Cloud Computing","Python, C#, JavaScript",2,"Leadership, Adaptability, Time Management",3,No,Data Scientist,Interview anxiety,Technical skill training,,Online
-Carolee Corona,ccorona8r@independent.co.uk,1st Year,MBA,"Cybersecurity, SQL, Cloud Computing","C#, JavaScript",2,"Communication, Time Management",1,Yes,Cloud Architect,Interview anxiety,Mentorship programs,,Online
-Cchaddie Caulcutt,ccaulcutt8s@multiply.com,Final Year,M.Tech AI,"Blockchain, Machine Learning, Cybersecurity, Cloud Computing",Go,1,"Teamwork, Time Management, Problem-Solving",3,No,AI Engineer,Lack of experience,Resume workshops,,Online
-Jan Barriball,jbarriball8t@dmoz.org,Final Year,B.Sc Data Science,"Machine Learning, Cybersecurity, Java, SQL",R,2,"Teamwork, Communication, Adaptability",1,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,Self-study
-Kim Faulder,kfaulder8u@weebly.com,2nd Year,M.Tech AI,"SQL, Cloud Computing, Python, Data Analysis",R,1,"Time Management, Leadership, Teamwork",1,Yes,Software Developer,Difficulty in resume building,Mentorship programs,,Bootcamp
-Juliane Ambrosetti,jambrosetti8v@loc.gov,3rd Year,B.Tech IT,"Blockchain, Python, Machine Learning, Data Analysis","R, C#, Python",3,"Adaptability, Leadership, Time Management",5,No,Business Analyst,Limited guidance,Mentorship programs,,College curriculum
-Reinaldos Harrop,rharrop8w@weather.com,Final Year,BBA,"Data Analysis, SQL",C++,1,"Problem-Solving, Time Management, Adaptability",5,No,Business Analyst,Difficulty in resume building,Technical skill training,,College curriculum
-Enos Portman,eportman8x@si.edu,2nd Year,M.Tech AI,"Cloud Computing, Java","R, Go",1,"Time Management, Adaptability, Leadership",2,No,Business Analyst,Interview anxiety,Resume workshops,,Self-study
-Nissy Curson,ncurson8y@yahoo.com,Final Year,M.Tech AI,"Python, Cybersecurity, SQL, Machine Learning","JavaScript, Java",3,"Problem-Solving, Leadership, Communication",3,No,Cybersecurity Expert,Lack of experience,Resume workshops,,College curriculum
-Egor Conigsby,econigsby8z@exblog.jp,2nd Year,B.Tech IT,"Java, SQL, Machine Learning, Cloud Computing","JavaScript, R, Python",1,"Teamwork, Leadership",2,No,Data Scientist,Lack of experience,Technical skill training,,College curriculum
-Wrennie Tuite,wtuite90@clickbank.net,2nd Year,B.Tech IT,"Machine Learning, Cloud Computing, Data Analysis, Java","C#, Go",5,"Time Management, Problem-Solving, Communication",5,Yes,Business Analyst,No networking opportunities,Resume workshops,,College curriculum
-Ilaire Darkin,idarkin91@java.com,3rd Year,M.Tech AI,"Blockchain, SQL, Cloud Computing",C#,3,"Communication, Time Management",4,Yes,Cloud Architect,Difficulty in resume building,Internship opportunities,,Bootcamp
-Gunter Simioni,gsimioni92@aol.com,2nd Year,MBA,"Cloud Computing, Python, SQL, Java","Python, Go",2,"Teamwork, Adaptability",5,No,Software Developer,Interview anxiety,Resume workshops,,College curriculum
-Brandise Gulliford,bgulliford93@boston.com,1st Year,B.Tech IT,"Blockchain, Python, Java","C++, JavaScript",5,"Teamwork, Communication",2,No,Business Analyst,Difficulty in resume building,Internship opportunities,,College curriculum
-Ree Whiffin,rwhiffin94@xrea.com,Final Year,MBA,"Python, Blockchain, Cybersecurity, SQL","Java, JavaScript, R",5,"Time Management, Teamwork, Problem-Solving",5,No,Cloud Architect,No networking opportunities,Mentorship programs,,College curriculum
-Aksel Eckart,aeckart95@google.co.uk,1st Year,B.Sc Data Science,"Blockchain, Cybersecurity","Python, Java, C#",2,"Teamwork, Time Management, Adaptability",2,Yes,Data Scientist,Limited guidance,Mentorship programs,,College curriculum
-Truman Aimable,taimable96@woothemes.com,1st Year,B.Sc Data Science,"Data Analysis, Cybersecurity","Python, R, C++",4,"Time Management, Leadership, Problem-Solving",3,Yes,Cloud Architect,Lack of experience,Mentorship programs,,Self-study
-Drake Millin,dmillin97@slideshare.net,Final Year,B.Sc Data Science,"SQL, Python, Cybersecurity","R, Java",2,"Adaptability, Leadership, Teamwork",3,No,AI Engineer,Difficulty in resume building,Technical skill training,,Online
-Marabel Giacubo,mgiacubo98@xing.com,Final Year,B.Sc Data Science,"Cybersecurity, Blockchain, SQL","JavaScript, Python",1,"Time Management, Problem-Solving, Adaptability",2,Yes,Business Analyst,Interview anxiety,Technical skill training,,College curriculum
-Florri Wing,fwing99@oracle.com,3rd Year,MBA,"SQL, Cybersecurity, Python","C#, Java, Python",2,"Communication, Teamwork, Problem-Solving",2,Yes,Cloud Architect,Lack of experience,Internship opportunities,,Self-study
-Geoff Verbrugghen,gverbrugghen9a@comsenz.com,2nd Year,BBA,"Blockchain, Java","C#, Python",5,"Teamwork, Leadership",3,Yes,Software Developer,Limited guidance,Mentorship programs,,College curriculum
-Linnell Huyge,lhuyge9b@unblog.fr,1st Year,B.Tech CSE,"Data Analysis, Machine Learning, Python","Java, Go, Python",3,"Leadership, Teamwork",4,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,Online
-Rubi Gaffney,rgaffney9c@cargocollective.com,1st Year,M.Tech AI,"Java, Blockchain, Cybersecurity",R,5,"Leadership, Communication, Time Management",5,Yes,Cybersecurity Expert,Interview anxiety,Mentorship programs,,Online
-Christyna Tonkin,ctonkin9d@storify.com,3rd Year,B.Sc Data Science,"Data Analysis, Cybersecurity, Java",Python,5,"Problem-Solving, Teamwork",5,No,Data Scientist,Limited guidance,Technical skill training,,Bootcamp
-Gal Ramsted,gramsted9e@jalbum.net,2nd Year,B.Sc Data Science,"SQL, Cloud Computing","R, JavaScript, C++",5,"Communication, Time Management",3,Yes,Software Developer,Interview anxiety,Internship opportunities,,Online
-Verene Yeoland,vyeoland9f@pinterest.com,2nd Year,M.Tech AI,"Java, Machine Learning, Cloud Computing, Blockchain",JavaScript,2,"Time Management, Leadership, Communication",3,No,AI Engineer,Lack of experience,Internship opportunities,,Bootcamp
-Lonee Widdup,lwiddup9g@joomla.org,Final Year,B.Tech CSE,"Blockchain, Cloud Computing, Machine Learning, Data Analysis","Java, JavaScript",3,"Time Management, Teamwork, Communication",5,Yes,Data Scientist,Difficulty in resume building,Resume workshops,,Online
-Martha Batcheldor,mbatcheldor9h@whitehouse.gov,3rd Year,BBA,"Machine Learning, Java, Data Analysis","Java, C++, R",4,"Adaptability, Problem-Solving",3,Yes,Cybersecurity Expert,Limited guidance,Resume workshops,,Self-study
-Dewain Oxburgh,doxburgh9i@ifeng.com,3rd Year,B.Tech IT,"Cloud Computing, Cybersecurity, Blockchain",R,2,"Leadership, Problem-Solving",2,No,AI Engineer,No networking opportunities,Resume workshops,,Bootcamp
-Vicky Coster,vcoster9j@nymag.com,Final Year,B.Tech CSE,"Python, Machine Learning, Cybersecurity",Go,4,"Leadership, Adaptability, Communication",3,No,Business Analyst,Limited guidance,Technical skill training,,Self-study
-Ilise Mac,imac9k@google.com.hk,3rd Year,M.Tech AI,"Python, Java, Machine Learning, Cloud Computing","Go, C++, R",1,"Adaptability, Leadership",2,No,Data Scientist,No networking opportunities,Resume workshops,,Self-study
-Vinnie Camilio,vcamilio9l@usnews.com,Final Year,B.Sc Data Science,"SQL, Cybersecurity, Python","R, Python, C#",4,"Communication, Time Management, Teamwork",1,Yes,Cloud Architect,Interview anxiety,Mentorship programs,,Online
-Lucias Coathup,lcoathup9m@example.com,Final Year,MBA,"Java, Python","JavaScript, Java",2,"Communication, Leadership, Problem-Solving",2,No,AI Engineer,Limited guidance,Technical skill training,,Bootcamp
-Laryssa Arnaldi,larnaldi9n@yelp.com,1st Year,B.Tech IT,"Python, Cloud Computing",R,1,"Teamwork, Adaptability",5,Yes,Software Developer,Difficulty in resume building,Resume workshops,,Bootcamp
-Ignacius Chesman,ichesman9o@hc360.com,2nd Year,B.Tech IT,"Java, Cloud Computing, Machine Learning, SQL",Go,3,"Time Management, Adaptability",4,Yes,Software Developer,Limited guidance,Resume workshops,,Bootcamp
-Jae Lombard,jlombard9p@devhub.com,3rd Year,B.Tech CSE,"Cybersecurity, Data Analysis","JavaScript, Python",5,"Problem-Solving, Teamwork",1,Yes,Cybersecurity Expert,Difficulty in resume building,Mentorship programs,,Online
-Curcio MacGorman,cmacgorman9q@over-blog.com,3rd Year,B.Tech CSE,"Cloud Computing, SQL, Java, Cybersecurity","JavaScript, Java",4,"Problem-Solving, Adaptability",4,Yes,Cybersecurity Expert,Interview anxiety,Technical skill training,,Online
-Gipsy Ricardon,gricardon9r@mapy.cz,2nd Year,MBA,"Blockchain, Cloud Computing, Python, Machine Learning","C#, Python, Go",2,"Problem-Solving, Leadership",3,Yes,Cloud Architect,Lack of experience,Resume workshops,,Bootcamp
-Bonnibelle Doody,bdoody9s@china.com.cn,Final Year,M.Tech AI,"Blockchain, Cloud Computing","Python, R, Go",5,"Problem-Solving, Teamwork, Time Management",5,No,Business Analyst,Lack of experience,Internship opportunities,,Self-study
-Alfie Champneys,achampneys9t@addthis.com,Final Year,B.Tech CSE,"Python, Cybersecurity","JavaScript, Java",4,"Time Management, Leadership",5,Yes,Software Developer,No networking opportunities,Resume workshops,,Self-study
-Tanny Wolvey,twolvey9u@webmd.com,2nd Year,BBA,"Cybersecurity, Java, Cloud Computing",JavaScript,2,"Problem-Solving, Communication",1,No,AI Engineer,Limited guidance,Technical skill training,,Bootcamp
-Galvan Clashe,gclashe9v@miitbeian.gov.cn,3rd Year,MBA,"Machine Learning, Java, SQL","Go, JavaScript, C#",3,"Time Management, Communication",1,No,Business Analyst,No networking opportunities,Resume workshops,,Online
-Rufus Mateu,rmateu9w@360.cn,3rd Year,MBA,"Java, Blockchain, SQL, Python","Java, Python, JavaScript",1,"Communication, Leadership, Adaptability",5,No,Data Scientist,No networking opportunities,Resume workshops,,Bootcamp
-Aimil Brinson,abrinson9x@facebook.com,Final Year,B.Tech IT,"Cybersecurity, Java, Cloud Computing",JavaScript,2,"Leadership, Communication, Adaptability",1,No,Cloud Architect,Interview anxiety,Mentorship programs,,Online
-Barrett Ruit,bruit9y@sciencedirect.com,1st Year,B.Tech IT,"SQL, Data Analysis, Cloud Computing, Java","Java, Python",5,"Time Management, Problem-Solving, Teamwork",3,No,Business Analyst,No networking opportunities,Technical skill training,,College curriculum
-Dore Duerdin,dduerdin9z@de.vu,1st Year,M.Tech AI,"Machine Learning, Cybersecurity, SQL, Blockchain",Python,2,"Time Management, Problem-Solving, Leadership",2,No,Cybersecurity Expert,Limited guidance,Technical skill training,,Self-study
-William Cackett,wcacketta0@cornell.edu,2nd Year,M.Tech AI,"Machine Learning, Cybersecurity","C#, Go, C++",4,"Adaptability, Teamwork",2,No,Cybersecurity Expert,Lack of experience,Technical skill training,,Bootcamp
-Powell Twiname,ptwinamea1@nydailynews.com,1st Year,B.Sc Data Science,"Python, Blockchain, SQL","C#, C++, Python",3,"Time Management, Adaptability, Communication",3,Yes,Data Scientist,Difficulty in resume building,Internship opportunities,,College curriculum
-Christi Strasse,cstrassea2@spiegel.de,1st Year,B.Tech IT,"Cybersecurity, Cloud Computing, Machine Learning","C++, Java",4,"Time Management, Problem-Solving, Adaptability",2,No,AI Engineer,Lack of experience,Technical skill training,,Bootcamp
-Ashley Darque,adarquea3@quantcast.com,3rd Year,MBA,"SQL, Java",Go,1,"Problem-Solving, Communication, Teamwork",4,No,Business Analyst,Lack of experience,Mentorship programs,,Self-study
-Rufus Harniman,rharnimana4@howstuffworks.com,3rd Year,M.Tech AI,"Machine Learning, Cybersecurity, Python","C#, R",5,"Teamwork, Leadership",1,Yes,Software Developer,Limited guidance,Mentorship programs,,College curriculum
-Carlyle Hedge,chedgea5@examiner.com,1st Year,MBA,"SQL, Blockchain","C#, C++, Java",5,"Problem-Solving, Teamwork",2,No,Business Analyst,Limited guidance,Resume workshops,,Online
-Maddy Mynard,mmynarda6@tamu.edu,2nd Year,B.Sc Data Science,"Cybersecurity, SQL","R, JavaScript, Java",3,"Time Management, Adaptability",5,No,AI Engineer,Limited guidance,Internship opportunities,,College curriculum
-Lia Renn,lrenna7@youtube.com,1st Year,BBA,"Cloud Computing, Python","C#, JavaScript, Go",3,"Time Management, Adaptability, Communication",5,No,Cybersecurity Expert,Difficulty in resume building,Internship opportunities,,College curriculum
-Lebbie Print,lprinta8@amazon.com,2nd Year,B.Tech CSE,"Data Analysis, Python",C++,4,"Communication, Problem-Solving",1,Yes,Software Developer,Limited guidance,Resume workshops,,Online
-Florenza Sallans,fsallansa9@intel.com,Final Year,BBA,"Data Analysis, Python, Cloud Computing, Machine Learning","Python, JavaScript",1,"Time Management, Problem-Solving, Leadership",2,No,AI Engineer,Lack of experience,Mentorship programs,,Bootcamp
-Gabie Slides,gslidesaa@ftc.gov,2nd Year,BBA,"Machine Learning, Data Analysis, Python, Java","R, Java",4,"Problem-Solving, Leadership, Teamwork",3,No,Business Analyst,Interview anxiety,Resume workshops,,Self-study
-Trent Blaxter,tblaxterab@nydailynews.com,2nd Year,B.Sc Data Science,"Blockchain, Java, Machine Learning, Cloud Computing","C#, C++, Python",2,"Problem-Solving, Leadership",3,No,AI Engineer,Lack of experience,Mentorship programs,,Online
-Florinda Gamble,fgambleac@yelp.com,2nd Year,B.Sc Data Science,"Data Analysis, SQL, Blockchain","R, Java, Python",4,"Problem-Solving, Adaptability",2,No,Cybersecurity Expert,Interview anxiety,Mentorship programs,,Online
-Hal Giovannacci,hgiovannacciad@amazonaws.com,Final Year,MBA,"Java, Cloud Computing",JavaScript,1,"Teamwork, Leadership, Adaptability",4,No,Software Developer,No networking opportunities,Mentorship programs,,Bootcamp
-Erroll Crate,ecrateae@flickr.com,3rd Year,BBA,"Python, Cybersecurity, Blockchain, SQL","JavaScript, Python, C#",5,"Leadership, Problem-Solving",4,Yes,AI Engineer,No networking opportunities,Mentorship programs,,College curriculum
-Babbie Fain,bfainaf@i2i.jp,Final Year,B.Tech CSE,"SQL, Cybersecurity",Go,5,"Communication, Leadership, Adaptability",4,Yes,Software Developer,No networking opportunities,Internship opportunities,,Self-study
-Wynne Shawyer,wshawyerag@chronoengine.com,3rd Year,MBA,"Cybersecurity, Data Analysis, Python, Blockchain","JavaScript, Java, C#",5,"Problem-Solving, Adaptability",3,No,Software Developer,Limited guidance,Resume workshops,,Self-study
-Greer Dewhirst,gdewhirstah@istockphoto.com,2nd Year,B.Sc Data Science,"Data Analysis, Cloud Computing, Cybersecurity, Python","Java, JavaScript",5,"Leadership, Adaptability, Problem-Solving",2,Yes,Business Analyst,Lack of experience,Resume workshops,,College curriculum
-Devinne Stidson,dstidsonai@free.fr,1st Year,M.Tech AI,"Machine Learning, Blockchain, Java","C#, Go, Java",3,"Communication, Teamwork, Problem-Solving",3,No,Data Scientist,Interview anxiety,Resume workshops,,Self-study
-Robbyn Spilsbury,rspilsburyaj@twitter.com,Final Year,B.Sc Data Science,"Java, Cloud Computing, Cybersecurity, Data Analysis",Python,1,"Teamwork, Problem-Solving",3,No,Cybersecurity Expert,Lack of experience,Resume workshops,,Online
-Packston Le Barre,pleak@businessweek.com,1st Year,B.Tech IT,"Java, Data Analysis","Python, R",2,"Time Management, Communication, Leadership",4,No,Cloud Architect,Limited guidance,Resume workshops,,College curriculum
-Maximo Dredge,mdredgeal@census.gov,2nd Year,M.Tech AI,"Blockchain, Machine Learning","JavaScript, C#, R",5,"Time Management, Adaptability, Leadership",1,No,Cybersecurity Expert,Limited guidance,Mentorship programs,,Self-study
-Gradeigh Boichat,gboichatam@de.vu,2nd Year,B.Tech IT,"Python, Cloud Computing, Cybersecurity",JavaScript,5,"Time Management, Teamwork",4,Yes,Software Developer,No networking opportunities,Resume workshops,,Online
-Jocelin Jewel,jjewelan@xrea.com,3rd Year,MBA,"Python, Cybersecurity","C#, C++, R",4,"Problem-Solving, Communication",1,No,Data Scientist,Difficulty in resume building,Technical skill training,,Bootcamp
-Francisco Ligerton,fligertonao@artisteer.com,Final Year,M.Tech AI,"Data Analysis, Machine Learning","Go, JavaScript",5,"Problem-Solving, Communication, Teamwork",4,No,AI Engineer,No networking opportunities,Internship opportunities,,College curriculum
-Jeana Petroulis,jpetroulisap@delicious.com,3rd Year,B.Tech IT,"Java, SQL",C++,4,"Time Management, Leadership",1,Yes,Data Scientist,Interview anxiety,Internship opportunities,,College curriculum
-Nikkie Armand,narmandaq@is.gd,3rd Year,MBA,"Cybersecurity, Cloud Computing, SQL",Go,1,"Leadership, Communication",3,Yes,AI Engineer,No networking opportunities,Internship opportunities,,Bootcamp
-Nilson Groves,ngrovesar@slideshare.net,1st Year,B.Sc Data Science,"Data Analysis, Cybersecurity, Java, Cloud Computing","C#, C++, Java",2,"Time Management, Teamwork",1,Yes,Business Analyst,Interview anxiety,Resume workshops,,Self-study
-Dell Aven,davenas@mayoclinic.com,2nd Year,BBA,"Blockchain, Cloud Computing, Python, SQL","Go, Python, C++",3,"Teamwork, Adaptability, Problem-Solving",1,No,Cybersecurity Expert,Difficulty in resume building,Internship opportunities,,College curriculum
-Cosmo Scholtis,cscholtisat@theguardian.com,2nd Year,B.Tech CSE,"Cloud Computing, SQL, Blockchain, Cybersecurity",Python,5,"Teamwork, Time Management, Leadership",2,Yes,Data Scientist,Difficulty in resume building,Resume workshops,,Bootcamp
-Abbie Bernardez,abernardezau@hugedomains.com,1st Year,B.Tech CSE,"Python, SQL","Java, C#",5,"Leadership, Problem-Solving",4,Yes,Cloud Architect,No networking opportunities,Technical skill training,,Self-study
-Teresita Sparey,tspareyav@stanford.edu,2nd Year,B.Sc Data Science,"Data Analysis, Java, Cybersecurity",R,2,"Adaptability, Teamwork, Communication",5,No,Cloud Architect,Interview anxiety,Technical skill training,,Online
-Catlee Le Frank,cleaw@geocities.jp,Final Year,MBA,"Machine Learning, Java","C++, Java",5,"Teamwork, Time Management, Adaptability",1,Yes,AI Engineer,Difficulty in resume building,Resume workshops,,Bootcamp
-Clayton Gabriely,cgabrielyax@blog.com,Final Year,B.Sc Data Science,"Cybersecurity, Machine Learning","Java, Go",2,"Adaptability, Time Management",4,Yes,Data Scientist,Limited guidance,Technical skill training,,College curriculum
-Augustin Fireman,afiremanay@parallels.com,2nd Year,MBA,"Python, SQL, Cloud Computing","JavaScript, C++",5,"Communication, Time Management, Problem-Solving",1,No,Software Developer,Interview anxiety,Resume workshops,,College curriculum
-Laughton Arbon,larbonaz@dmoz.org,3rd Year,B.Sc Data Science,"Machine Learning, Blockchain, Cloud Computing",JavaScript,5,"Adaptability, Teamwork",5,No,Software Developer,No networking opportunities,Internship opportunities,,Bootcamp
-Jared Overpool,joverpoolb0@netvibes.com,3rd Year,B.Tech IT,"Machine Learning, Python, Cybersecurity, Data Analysis","JavaScript, C++",1,"Time Management, Problem-Solving, Teamwork",4,Yes,Data Scientist,Interview anxiety,Internship opportunities,,College curriculum
-Effie Girardet,egirardetb1@oracle.com,Final Year,M.Tech AI,"Python, SQL","R, Go",1,"Problem-Solving, Adaptability",2,No,Cloud Architect,Limited guidance,Resume workshops,,Bootcamp
-Reggis Huckett,rhuckettb2@deliciousdays.com,1st Year,B.Sc Data Science,"Machine Learning, SQL","JavaScript, Python, C++",3,"Teamwork, Communication",1,Yes,Cloud Architect,Interview anxiety,Mentorship programs,,Online
-Yancey Neles,ynelesb3@yahoo.com,2nd Year,BBA,"Blockchain, Java","Python, JavaScript, R",5,"Time Management, Teamwork",3,Yes,Software Developer,No networking opportunities,Internship opportunities,,Online
-Taylor Sherwill,tsherwillb4@biglobe.ne.jp,1st Year,BBA,"SQL, Blockchain","C#, R",1,"Adaptability, Teamwork",3,No,Software Developer,Lack of experience,Technical skill training,,Online
-Linnell Andresser,landresserb5@scribd.com,2nd Year,M.Tech AI,"Data Analysis, SQL, Cloud Computing, Cybersecurity","C++, JavaScript, C#",1,"Teamwork, Communication",5,Yes,Data Scientist,Limited guidance,Resume workshops,,College curriculum
-Steward Coveny,scovenyb6@sciencedirect.com,3rd Year,MBA,"Data Analysis, Machine Learning, SQL, Java","R, Go",3,"Adaptability, Teamwork, Problem-Solving",4,No,AI Engineer,Difficulty in resume building,Technical skill training,,Bootcamp
-Dix Bussey,dbusseyb7@parallels.com,1st Year,B.Tech CSE,"Blockchain, Machine Learning","Java, Python",2,"Communication, Problem-Solving",2,Yes,Data Scientist,Limited guidance,Resume workshops,,Bootcamp
-Sarita Paschke,spaschkeb8@woothemes.com,2nd Year,MBA,"SQL, Python, Machine Learning, Blockchain",Java,2,"Time Management, Communication",3,No,Software Developer,Limited guidance,Technical skill training,,Bootcamp
-Elyse Darte,edarteb9@hubpages.com,3rd Year,M.Tech AI,"Python, SQL, Blockchain, Cybersecurity","Python, R",3,"Teamwork, Time Management",5,No,Cloud Architect,Limited guidance,Resume workshops,,College curriculum
-Jacquelynn Cornu,jcornuba@myspace.com,Final Year,B.Tech CSE,"Python, Cloud Computing, Data Analysis, Java","Java, R, Python",3,"Adaptability, Time Management, Problem-Solving",5,Yes,Cybersecurity Expert,Limited guidance,Resume workshops,,College curriculum
-Diann Creus,dcreusbb@patch.com,1st Year,B.Tech CSE,"Blockchain, Python, Data Analysis","C++, Java",5,"Communication, Leadership, Teamwork",4,Yes,AI Engineer,Difficulty in resume building,Internship opportunities,,Online
-Conn Sykes,csykesbc@pen.io,1st Year,M.Tech AI,"Java, Data Analysis, Cybersecurity","C++, R",5,"Communication, Problem-Solving",1,Yes,Data Scientist,Lack of experience,Internship opportunities,,Bootcamp
-Hyatt Humby,hhumbybd@hexun.com,Final Year,MBA,"Cybersecurity, Java",C#,4,"Communication, Time Management, Adaptability",5,Yes,Cybersecurity Expert,Lack of experience,Resume workshops,,College curriculum
-Desi Handlin,dhandlinbe@fc2.com,1st Year,MBA,"SQL, Data Analysis, Machine Learning",Java,1,"Adaptability, Problem-Solving, Leadership",5,No,Cybersecurity Expert,Limited guidance,Mentorship programs,,Self-study
-Laurie Bengall,lbengallbf@comcast.net,3rd Year,MBA,"Python, Machine Learning",JavaScript,3,"Teamwork, Leadership, Time Management",5,No,Business Analyst,Interview anxiety,Technical skill training,,College curriculum
-Alix Ayrs,aayrsbg@alexa.com,1st Year,MBA,"Blockchain, Cybersecurity, Cloud Computing, Java",R,1,"Leadership, Adaptability, Problem-Solving",4,Yes,Software Developer,Lack of experience,Mentorship programs,,College curriculum
-Corrinne Domenicone,cdomeniconebh@tuttocitta.it,2nd Year,M.Tech AI,"Cybersecurity, Machine Learning",C++,4,"Adaptability, Problem-Solving, Teamwork",1,Yes,Cloud Architect,Lack of experience,Mentorship programs,,College curriculum
-Elonore Woofendell,ewoofendellbi@surveymonkey.com,3rd Year,MBA,"Cloud Computing, SQL",C++,4,"Adaptability, Teamwork, Problem-Solving",2,No,Cybersecurity Expert,No networking opportunities,Internship opportunities,,Bootcamp
-Elisabeth Eastes,eeastesbj@4shared.com,Final Year,MBA,"Java, Cybersecurity, Python, Blockchain","C#, Java",5,"Time Management, Teamwork, Communication",4,Yes,Cybersecurity Expert,Difficulty in resume building,Resume workshops,,College curriculum
-Carlyn Dowtry,cdowtrybk@springer.com,3rd Year,M.Tech AI,"SQL, Machine Learning",Python,5,"Leadership, Time Management",3,No,Business Analyst,Difficulty in resume building,Mentorship programs,,College curriculum
-Anny Fritzer,afritzerbl@ezinearticles.com,3rd Year,B.Sc Data Science,"Cybersecurity, Cloud Computing",R,1,"Problem-Solving, Time Management, Communication",2,Yes,Cloud Architect,No networking opportunities,Internship opportunities,,College curriculum
-Nonnah Artis,nartisbm@1688.com,2nd Year,MBA,"Machine Learning, Java, Cybersecurity, Python",JavaScript,2,"Problem-Solving, Adaptability",3,Yes,Cloud Architect,Interview anxiety,Mentorship programs,,Self-study
-Luis Lettuce,llettucebn@dyndns.org,2nd Year,B.Sc Data Science,"Cloud Computing, Data Analysis, SQL, Java","C#, R",2,"Problem-Solving, Time Management, Teamwork",1,No,Cybersecurity Expert,Lack of experience,Resume workshops,,Bootcamp
-Ardella Chilver,achilverbo@homestead.com,1st Year,B.Sc Data Science,"SQL, Java","Python, Go, C#",4,"Communication, Problem-Solving",4,No,Data Scientist,No networking opportunities,Resume workshops,,College curriculum
-Michale Gadsden,mgadsdenbp@typepad.com,Final Year,B.Tech CSE,"Java, Python","R, JavaScript",1,"Leadership, Problem-Solving",1,Yes,Cloud Architect,Limited guidance,Technical skill training,,Bootcamp
-Cordey Pierton,cpiertonbq@xing.com,3rd Year,BBA,"SQL, Python, Machine Learning","R, Java",3,"Problem-Solving, Adaptability",4,Yes,Business Analyst,Interview anxiety,Technical skill training,,Online
-Sauveur Chotty,schottybr@symantec.com,Final Year,BBA,"Python, Machine Learning","R, Go, C#",4,"Communication, Leadership, Adaptability",1,No,Software Developer,Difficulty in resume building,Resume workshops,,Self-study
-Gladi Prahm,gprahmbs@shareasale.com,3rd Year,MBA,"Blockchain, Java",Python,4,"Problem-Solving, Time Management, Communication",5,Yes,Cloud Architect,Difficulty in resume building,Resume workshops,,Online
-Michel Bartomieu,mbartomieubt@over-blog.com,3rd Year,B.Sc Data Science,"Java, Python",R,2,"Leadership, Adaptability, Communication",2,Yes,AI Engineer,Lack of experience,Internship opportunities,,Bootcamp
-Marcela Ruvel,mruvelbu@wikia.com,3rd Year,MBA,"SQL, Machine Learning, Blockchain, Data Analysis","JavaScript, C++",3,"Teamwork, Adaptability",1,Yes,Cloud Architect,No networking opportunities,Mentorship programs,,College curriculum
-Jerrilee Le Port,jlebv@barnesandnoble.com,3rd Year,BBA,"Blockchain, Cloud Computing, SQL",R,4,"Leadership, Time Management, Adaptability",2,No,Business Analyst,Difficulty in resume building,Internship opportunities,,Self-study
-Jenilee Docksey,jdockseybw@newsvine.com,Final Year,MBA,"Data Analysis, Cloud Computing, SQL, Cybersecurity","Go, C#, Java",5,"Time Management, Communication",3,No,AI Engineer,Lack of experience,Technical skill training,,Self-study
-Jud Bosch,jboschbx@twitpic.com,Final Year,B.Tech IT,"Cybersecurity, SQL, Python",C++,5,"Communication, Adaptability, Teamwork",2,No,Cloud Architect,Difficulty in resume building,Technical skill training,,Bootcamp
-Mirabelle Varrow,mvarrowby@phoca.cz,3rd Year,BBA,"SQL, Python, Cybersecurity, Data Analysis",C++,3,"Communication, Problem-Solving",1,No,Software Developer,Limited guidance,Resume workshops,,Bootcamp
-Camella Kindell,ckindellbz@un.org,Final Year,B.Tech IT,"Cybersecurity, Cloud Computing, Python","Java, C#",1,"Adaptability, Communication, Time Management",3,Yes,Data Scientist,Difficulty in resume building,Technical skill training,,Online
-Melisandra Kenelin,mkenelinc0@shinystat.com,1st Year,M.Tech AI,"Machine Learning, Java, SQL, Data Analysis",C#,5,"Teamwork, Problem-Solving, Leadership",1,Yes,Cloud Architect,Interview anxiety,Mentorship programs,,Online
-Bridgette Tulleth,btullethc1@adobe.com,2nd Year,B.Sc Data Science,"SQL, Data Analysis",Java,1,"Leadership, Communication, Problem-Solving",1,Yes,Business Analyst,Difficulty in resume building,Internship opportunities,,Bootcamp
-Lawry Monckton,lmoncktonc2@sakura.ne.jp,3rd Year,B.Sc Data Science,"Python, SQL, Machine Learning","C#, R, Go",2,"Adaptability, Problem-Solving, Leadership",4,Yes,Cloud Architect,Difficulty in resume building,Mentorship programs,,College curriculum
-Thalia Linkie,tlinkiec3@miibeian.gov.cn,2nd Year,MBA,"Data Analysis, Blockchain, Machine Learning",R,3,"Communication, Teamwork, Problem-Solving",1,No,Data Scientist,Interview anxiety,Resume workshops,,College curriculum
-Myles Swindlehurst,mswindlehurstc4@jiathis.com,Final Year,B.Tech CSE,"Java, Python, Cybersecurity, Cloud Computing","R, C#",5,"Adaptability, Time Management, Teamwork",5,No,Business Analyst,Interview anxiety,Resume workshops,,Bootcamp
-Genvieve Traise,gtraisec5@google.cn,3rd Year,B.Tech IT,"Cloud Computing, Python","Python, Java, R",1,"Time Management, Teamwork",2,No,Cybersecurity Expert,No networking opportunities,Internship opportunities,,Self-study
-Myrtle Benner,mbennerc6@spiegel.de,Final Year,M.Tech AI,"Python, Data Analysis, Java","R, JavaScript, Python",1,"Time Management, Communication",5,Yes,Software Developer,Lack of experience,Internship opportunities,,College curriculum
-Elicia Clew,eclewc7@tripadvisor.com,2nd Year,MBA,"Machine Learning, Java, Blockchain","Go, R, C#",1,"Teamwork, Time Management, Adaptability",1,Yes,AI Engineer,No networking opportunities,Technical skill training,,Self-study
-Allix Jillings,ajillingsc8@ning.com,Final Year,MBA,"Cloud Computing, Machine Learning, Cybersecurity, Python","Java, JavaScript",2,"Problem-Solving, Teamwork, Leadership",2,Yes,Data Scientist,Difficulty in resume building,Internship opportunities,,Bootcamp
-Polly McTerlagh,pmcterlaghc9@ucoz.com,1st Year,B.Tech IT,"Cloud Computing, Python, Java","JavaScript, C++",5,"Leadership, Time Management, Communication",1,No,Business Analyst,Interview anxiety,Internship opportunities,,Online
-Johnna Bottom,jbottomca@networksolutions.com,Final Year,BBA,"Cloud Computing, Python","R, JavaScript, Python",1,"Time Management, Leadership",3,No,Cybersecurity Expert,No networking opportunities,Internship opportunities,,Online
-Kania Geffen,kgeffencb@ow.ly,3rd Year,B.Sc Data Science,"Cloud Computing, Data Analysis",Go,3,"Adaptability, Communication",1,No,Cloud Architect,Interview anxiety,Mentorship programs,,Bootcamp
-Erastus Forcade,eforcadecc@princeton.edu,2nd Year,B.Tech CSE,"Blockchain, Python, Machine Learning, Java",Java,3,"Communication, Leadership",3,No,AI Engineer,No networking opportunities,Technical skill training,,Online
-Clarabelle Bernadon,cbernadoncd@eventbrite.com,1st Year,B.Sc Data Science,"Data Analysis, SQL",R,3,"Communication, Time Management, Adaptability",2,Yes,Software Developer,Lack of experience,Resume workshops,,Bootcamp
-Garik Edie,gediece@google.co.jp,2nd Year,B.Tech IT,"Cybersecurity, Machine Learning, Cloud Computing, Blockchain",JavaScript,5,"Time Management, Teamwork, Problem-Solving",2,No,Cloud Architect,Lack of experience,Resume workshops,,Online
-Babbie Doni,bdonicf@thetimes.co.uk,1st Year,BBA,"Java, Python, Machine Learning",Go,4,"Leadership, Teamwork, Adaptability",1,No,Cybersecurity Expert,No networking opportunities,Mentorship programs,,Self-study
-Mora Meegan,mmeegancg@mapy.cz,3rd Year,MBA,"Blockchain, Cybersecurity, Python","C#, JavaScript",4,"Time Management, Leadership",1,No,Cloud Architect,Lack of experience,Internship opportunities,,Online
-Neile Beckhurst,nbeckhurstch@timesonline.co.uk,2nd Year,MBA,"Java, SQL, Data Analysis, Cybersecurity","R, C++",2,"Time Management, Leadership, Teamwork",3,No,Business Analyst,No networking opportunities,Technical skill training,,Bootcamp
-Gaylord Hallgalley,ghallgalleyci@deviantart.com,3rd Year,M.Tech AI,"SQL, Cybersecurity",Python,1,"Teamwork, Time Management, Communication",2,No,Cloud Architect,Difficulty in resume building,Mentorship programs,,Bootcamp
-Cleve Pierri,cpierricj@gov.uk,3rd Year,M.Tech AI,"Machine Learning, Data Analysis, SQL","C++, Python, C#",3,"Time Management, Communication, Teamwork",2,No,Software Developer,Lack of experience,Mentorship programs,,College curriculum
-Leonardo Stirland,lstirlandck@nature.com,Final Year,M.Tech AI,"Java, Machine Learning","Go, Python, JavaScript",3,"Problem-Solving, Teamwork, Time Management",3,Yes,Data Scientist,Limited guidance,Mentorship programs,,Self-study
-Torey Fallowes,tfallowescl@geocities.com,2nd Year,B.Tech IT,"Cybersecurity, Data Analysis, Python","C++, Go, JavaScript",3,"Time Management, Leadership, Problem-Solving",5,No,Software Developer,Interview anxiety,Technical skill training,,Bootcamp
-Maurene Munkton,mmunktoncm@livejournal.com,Final Year,BBA,"Python, Java, Cloud Computing, Blockchain",R,2,"Teamwork, Time Management, Problem-Solving",1,Yes,AI Engineer,Lack of experience,Technical skill training,,Bootcamp
-Terri-jo Denisot,tdenisotcn@etsy.com,Final Year,B.Sc Data Science,"SQL, Data Analysis, Cloud Computing, Machine Learning",R,2,"Problem-Solving, Teamwork, Communication",2,No,Software Developer,Difficulty in resume building,Technical skill training,,Self-study
-Beatrisa Sanger,bsangerco@bigcartel.com,2nd Year,MBA,"Blockchain, Machine Learning",R,2,"Problem-Solving, Teamwork, Leadership",5,No,Cybersecurity Expert,Limited guidance,Resume workshops,,Bootcamp
-Mayor Havis,mhaviscp@prnewswire.com,1st Year,B.Tech IT,"Blockchain, Cloud Computing, Data Analysis","Python, C++",1,"Teamwork, Problem-Solving, Time Management",2,No,Cybersecurity Expert,Lack of experience,Resume workshops,,Self-study
-Dody Rymill,drymillcq@washingtonpost.com,3rd Year,MBA,"SQL, Blockchain",R,4,"Adaptability, Communication, Teamwork",1,Yes,Data Scientist,Limited guidance,Mentorship programs,,College curriculum
-Eberhard Jurkowski,ejurkowskicr@sbwire.com,Final Year,B.Sc Data Science,"Machine Learning, SQL","Java, C#, JavaScript",3,"Problem-Solving, Teamwork",5,Yes,Software Developer,Limited guidance,Internship opportunities,,Online
-Bryn Fittes,bfittescs@nba.com,3rd Year,MBA,"Java, Cybersecurity, Machine Learning, Blockchain","C#, C++, Python",5,"Adaptability, Communication",2,Yes,Cloud Architect,Limited guidance,Mentorship programs,,Self-study
-Gigi Plevey,gpleveyct@netscape.com,1st Year,B.Tech IT,"Cybersecurity, Data Analysis, SQL, Blockchain",Java,2,"Adaptability, Leadership",1,Yes,Business Analyst,No networking opportunities,Technical skill training,,College curriculum
-Kristo Dumphry,kdumphrycu@ifeng.com,2nd Year,M.Tech AI,"Data Analysis, Java, Cybersecurity, Python","C++, Go",2,"Communication, Leadership, Adaptability",4,No,Cybersecurity Expert,Lack of experience,Resume workshops,,Online
-Isabel Gorini,igorinicv@xing.com,3rd Year,M.Tech AI,"Data Analysis, Java","JavaScript, R, C++",3,"Leadership, Problem-Solving, Time Management",1,No,Cybersecurity Expert,Interview anxiety,Mentorship programs,,College curriculum
-Clevey Bohl,cbohlcw@dailymotion.com,1st Year,B.Tech IT,"Python, Cybersecurity","Python, C++, Go",2,"Leadership, Communication, Time Management",1,Yes,Data Scientist,Difficulty in resume building,Internship opportunities,,Online
-Sherman Manzell,smanzellcx@ebay.com,3rd Year,BBA,"Python, SQL, Java","C++, C#, R",5,"Problem-Solving, Leadership, Communication",1,No,Business Analyst,Lack of experience,Technical skill training,,College curriculum
-Christabel Neat,cneatcy@ucla.edu,1st Year,B.Tech CSE,"Cloud Computing, SQL","C#, R",4,"Leadership, Problem-Solving, Teamwork",4,No,Data Scientist,Lack of experience,Resume workshops,,College curriculum
-Max Leyden,mleydencz@mail.ru,3rd Year,MBA,"Java, Cloud Computing, Machine Learning",R,1,"Adaptability, Time Management, Problem-Solving",2,Yes,Cloud Architect,Interview anxiety,Technical skill training,,Online
-Claus Clawson,cclawsond0@github.io,1st Year,M.Tech AI,"Java, Cybersecurity, Machine Learning","JavaScript, C++, Python",4,"Communication, Problem-Solving",4,No,Software Developer,Lack of experience,Mentorship programs,,College curriculum
-Sadella Abella,sabellad1@fastcompany.com,1st Year,M.Tech AI,"Cloud Computing, Machine Learning","C#, C++",3,"Leadership, Teamwork, Problem-Solving",5,No,Data Scientist,Difficulty in resume building,Technical skill training,,Bootcamp
-Melvin Jordon,mjordond2@discovery.com,3rd Year,MBA,"Cybersecurity, Cloud Computing, Python, Data Analysis","JavaScript, R, Java",1,"Adaptability, Time Management, Teamwork",5,Yes,Data Scientist,Limited guidance,Mentorship programs,,Self-study
-Jard McIlwraith,jmcilwraithd3@ftc.gov,3rd Year,B.Tech CSE,"Java, Cybersecurity, Python, Data Analysis",Java,4,"Leadership, Communication",3,Yes,AI Engineer,Interview anxiety,Mentorship programs,,College curriculum
-Irving Fidock,ifidockd4@eventbrite.com,1st Year,B.Tech CSE,"Data Analysis, Java, Machine Learning","Java, Python, Go",1,"Leadership, Communication, Time Management",4,No,Data Scientist,No networking opportunities,Resume workshops,,College curriculum
-Bary Ayliff,bayliffd5@imageshack.us,2nd Year,MBA,"Cybersecurity, SQL, Python","C++, JavaScript",1,"Communication, Leadership",3,No,Cloud Architect,No networking opportunities,Mentorship programs,,Online
-Rahel Corris,rcorrisd6@wiley.com,2nd Year,B.Tech CSE,"Cybersecurity, Blockchain, Python, Data Analysis","Java, C#, JavaScript",3,"Time Management, Leadership",3,Yes,Software Developer,Interview anxiety,Technical skill training,,Bootcamp
-Libbi Gaymer,lgaymerd7@va.gov,Final Year,B.Tech IT,"Cloud Computing, Machine Learning",R,3,"Teamwork, Problem-Solving",4,Yes,Data Scientist,No networking opportunities,Internship opportunities,,Self-study
-Gideon Frangello,gfrangellod8@nasa.gov,3rd Year,M.Tech AI,"Cloud Computing, Blockchain, SQL",Go,2,"Communication, Leadership, Problem-Solving",1,No,Cloud Architect,No networking opportunities,Resume workshops,,Bootcamp
-Blanch Lorentzen,blorentzend9@symantec.com,2nd Year,B.Sc Data Science,"Machine Learning, Cloud Computing, Java","Java, C++",4,"Time Management, Leadership, Problem-Solving",4,Yes,Cloud Architect,No networking opportunities,Mentorship programs,,College curriculum
-Chet Porson,cporsonda@sciencedirect.com,3rd Year,B.Tech CSE,"Python, Cloud Computing, Machine Learning","Go, Java",2,"Adaptability, Time Management, Teamwork",5,No,Software Developer,Lack of experience,Resume workshops,,Self-study
-Nathanael Dungate,ndungatedb@archive.org,3rd Year,B.Sc Data Science,"Blockchain, Cloud Computing",C#,2,"Adaptability, Teamwork",1,No,Cybersecurity Expert,Difficulty in resume building,Internship opportunities,,Online
-Alfonso Edmenson,aedmensondc@imageshack.us,1st Year,BBA,"Java, Python, Data Analysis, SQL",C++,2,"Communication, Teamwork, Problem-Solving",5,Yes,Cybersecurity Expert,Interview anxiety,Resume workshops,,Online
-Aili Laugherane,alaugheranedd@homestead.com,2nd Year,M.Tech AI,"Python, Machine Learning","JavaScript, C++, Java",5,"Time Management, Communication, Leadership",2,Yes,AI Engineer,Interview anxiety,Technical skill training,,Self-study
-Jolynn Kondratovich,jkondratovichde@usda.gov,2nd Year,M.Tech AI,"Cybersecurity, Cloud Computing, Machine Learning","C++, JavaScript",1,"Time Management, Teamwork",4,No,Cloud Architect,No networking opportunities,Technical skill training,,College curriculum
-Pieter Goodlake,pgoodlakedf@storify.com,2nd Year,BBA,"SQL, Data Analysis, Java","C++, Java, JavaScript",1,"Time Management, Leadership",5,Yes,Cybersecurity Expert,No networking opportunities,Internship opportunities,,Bootcamp
-Aubree Samudio,asamudiodg@howstuffworks.com,2nd Year,B.Tech CSE,"Data Analysis, Cloud Computing","C#, JavaScript, Go",3,"Leadership, Problem-Solving, Time Management",4,No,AI Engineer,Lack of experience,Mentorship programs,,Self-study
-Hasty Serrell,hserrelldh@xinhuanet.com,1st Year,BBA,"Cloud Computing, Data Analysis, Java, Machine Learning","C#, C++, Go",2,"Adaptability, Teamwork",1,No,Business Analyst,Interview anxiety,Technical skill training,,Self-study
-Minna Bonhan,mbonhandi@unblog.fr,Final Year,M.Tech AI,"Java, SQL, Python","C++, Python",3,"Time Management, Teamwork, Problem-Solving",3,Yes,AI Engineer,Interview anxiety,Technical skill training,,Bootcamp
-Cele Frodsam,cfrodsamdj@facebook.com,2nd Year,MBA,"Machine Learning, Cybersecurity","R, Go, Java",3,"Problem-Solving, Communication, Leadership",2,No,Cloud Architect,Difficulty in resume building,Resume workshops,,Bootcamp
-Jeremy Leechman,jleechmandk@about.me,3rd Year,BBA,"Cybersecurity, Cloud Computing, SQL",Python,4,"Time Management, Teamwork, Problem-Solving",1,No,Cybersecurity Expert,Difficulty in resume building,Technical skill training,,College curriculum
-Louisa Izhaky,lizhakydl@soup.io,3rd Year,MBA,"Blockchain, Machine Learning, SQL, Python","C#, JavaScript",4,"Problem-Solving, Time Management, Adaptability",3,Yes,Cloud Architect,Difficulty in resume building,Resume workshops,,College curriculum
-Nap Habercham,nhaberchamdm@vinaora.com,Final Year,MBA,"Cloud Computing, SQL, Data Analysis","C++, Python, C#",5,"Time Management, Communication",3,Yes,Cybersecurity Expert,No networking opportunities,Mentorship programs,,Self-study
-Tabor Selwyn,tselwyndn@nih.gov,2nd Year,B.Sc Data Science,"Python, Blockchain",R,2,"Teamwork, Time Management",1,Yes,Software Developer,Interview anxiety,Mentorship programs,,College curriculum
-Jonathon Nares,jnaresdo@telegraph.co.uk,3rd Year,B.Sc Data Science,"SQL, Python, Cybersecurity, Data Analysis","Go, Java",5,"Time Management, Adaptability",4,Yes,Cybersecurity Expert,Limited guidance,Technical skill training,,Bootcamp
-Mordy O'Doherty,modohertydp@bloglovin.com,2nd Year,M.Tech AI,"Machine Learning, Data Analysis, Python",Java,1,"Adaptability, Communication, Leadership",4,Yes,Software Developer,Limited guidance,Technical skill training,,Online
-Christy Pedlow,cpedlowdq@meetup.com,1st Year,B.Tech CSE,"Data Analysis, Machine Learning, Java",C#,2,"Communication, Teamwork, Problem-Solving",4,Yes,Data Scientist,Interview anxiety,Resume workshops,,College curriculum
-Sascha Fieldhouse,sfieldhousedr@bbc.co.uk,3rd Year,B.Tech CSE,"Machine Learning, SQL, Python, Data Analysis",Go,1,"Teamwork, Time Management, Problem-Solving",1,No,AI Engineer,No networking opportunities,Mentorship programs,,Self-study
-Dore Anderl,danderlds@dropbox.com,1st Year,B.Tech IT,"Python, Machine Learning, Java, Data Analysis","JavaScript, Python, R",4,"Problem-Solving, Adaptability, Leadership",2,No,Software Developer,Lack of experience,Internship opportunities,,Online
-Fredra Darlow,fdarlowdt@mysql.com,Final Year,B.Sc Data Science,"Machine Learning, Cloud Computing, Python",Java,2,"Leadership, Adaptability, Time Management",5,No,Business Analyst,Lack of experience,Mentorship programs,,Bootcamp
-Desdemona Dalziell,ddalzielldu@squidoo.com,1st Year,MBA,"Machine Learning, Python, Data Analysis","C#, Java, Python",1,"Communication, Problem-Solving, Adaptability",2,No,Data Scientist,Limited guidance,Mentorship programs,,Bootcamp
-Kiel Meysham,kmeyshamdv@purevolume.com,Final Year,B.Sc Data Science,"Cloud Computing, Java","Java, C++",1,"Communication, Leadership, Problem-Solving",4,No,Cloud Architect,Difficulty in resume building,Resume workshops,,Bootcamp
+Majors,Technical Skills,Soft Skills,Soft Skills Rating,Career Interest
+B.Sc Data Science,"Cybersecurity, Java","Leadership, Time Management, Problem-Solving",1,Data Scientist
+M.Tech AI,"Blockchain, Python, SQL","Adaptability, Teamwork, Leadership",4,Cybersecurity Expert
+B.Tech IT,"Blockchain, Machine Learning, Python","Teamwork, Adaptability, Problem-Solving",3,Cybersecurity Expert
+B.Tech IT,"Cybersecurity, Blockchain, Java ","Time Management, Communication, Leadership",4,Cloud Architect
+B.Tech IT,"Cloud Computing, SQL","Teamwork, Problem-Solving",5,Software Developer
+B.Tech CSE,"Machine Learning, Cybersecurity, Java, Data Analysis","Leadership, Adaptability",4,Software Developer
+M.Tech AI,"Cybersecurity, SQL","Communication, Time Management",4,Data Scientist
+B.Tech IT,"SQL, Cloud Computing","Time Management, Teamwork",5,Data Scientist
+M.Tech AI,"Java, SQL, Cloud Computing","Problem-Solving, Adaptability, Time Management",2,Cloud Architect
+M.Tech AI,"SQL, Cloud Computing","Problem-Solving, Leadership, Communication",5,Cloud Architect
+M.Tech AI,"Python, Machine Learning","Problem-Solving, Time Management, Teamwork",1,Cybersecurity Expert
+B.Sc Data Science,"Data Analysis, Cybersecurity","Leadership, Teamwork",2,Software Developer
+B.Tech CSE,"Cloud Computing, Cybersecurity","Communication, Adaptability, Teamwork",2,Cloud Architect
+B.Sc Data Science,"Machine Learning, Cybersecurity, Python, Data Analysis","Leadership, Teamwork",4,Business Analyst
+B.Tech CSE,"Cybersecurity, Data Analysis","Problem-Solving, Leadership",5,Cloud Architect
+M.Tech AI,"Java, Data Analysis, Python","Teamwork, Problem-Solving, Time Management",3,AI Engineer
+B.Tech CSE,"Java, Blockchain, Machine Learning, Cybersecurity","Leadership, Adaptability, Communication",5,Software Developer
+B.Tech IT,"Blockchain, Java, SQL, Python","Communication, Time Management",1,Cloud Architect
+B.Tech CSE,"Data Analysis, Java, Cybersecurity","Adaptability, Leadership, Problem-Solving",5,Data Scientist
+B.Sc Data Science,"Java, Cybersecurity, Blockchain","Problem-Solving, Leadership",4,Cloud Architect
+B.Sc Data Science,"Python, Cloud Computing","Adaptability, Leadership",5,Data Scientist
+B.Tech CSE,"Data Analysis, Python, Java, Cybersecurity","Teamwork, Adaptability, Time Management",2,Data Scientist
+B.Tech IT,"Machine Learning, Blockchain","Communication, Time Management, Problem-Solving",3,Software Developer
+B.Tech CSE,"Java, Machine Learning, Blockchain","Adaptability, Leadership",3,Cybersecurity Expert
+B.Tech IT,"Java, Machine Learning, SQL, Cybersecurity","Time Management, Teamwork",2,Software Developer
+B.Tech IT,"Python, SQL","Leadership, Time Management, Problem-Solving",1,Business Analyst
+B.Sc Data Science,"Machine Learning, Java","Teamwork, Problem-Solving, Communication",5,Business Analyst
+B.Tech IT,"Java, SQL, Python","Problem-Solving, Leadership, Communication",2,Cloud Architect
+B.Tech CSE,"Machine Learning, Cybersecurity","Communication, Problem-Solving",5,Cloud Architect
+B.Tech IT,"Cloud Computing, Data Analysis","Adaptability, Communication",4,Data Scientist
+B.Tech CSE,"Blockchain, SQL, Cybersecurity, Cloud Computing","Time Management, Communication, Teamwork",3,Software Developer
+M.Tech AI,"Cybersecurity, SQL, Blockchain","Problem-Solving, Leadership, Time Management",5,Cybersecurity Expert
+M.Tech AI,"Python, Cybersecurity, Blockchain, Machine Learning","Time Management, Adaptability, Problem-Solving",4,Data Scientist
+B.Tech IT,"Machine Learning, Blockchain, Data Analysis, Cloud Computing","Time Management, Teamwork",5,Cybersecurity Expert
+B.Tech CSE,"Cloud Computing, SQL, Cybersecurity","Leadership, Communication",1,Cloud Architect
+B.Tech IT,"Java, Blockchain, Data Analysis, SQL","Leadership, Communication",2,Cloud Architect
+B.Tech CSE,"SQL, Blockchain, Machine Learning","Time Management, Problem-Solving",2,Business Analyst
+B.Tech IT,"SQL, Java, Blockchain, Data Analysis","Problem-Solving, Adaptability",4,Data Scientist
+B.Tech IT,"Machine Learning, Data Analysis","Problem-Solving, Leadership",1,AI Engineer
+B.Tech CSE,"SQL, Java","Teamwork, Time Management, Problem-Solving",5,Data Scientist
+B.Tech IT,"Data Analysis, Cybersecurity","Communication, Teamwork",1,Cloud Architect
+M.Tech AI,"SQL, Machine Learning","Time Management, Leadership, Problem-Solving",1,Software Developer
+B.Tech CSE,"Python, Machine Learning","Problem-Solving, Time Management, Communication",3,Cloud Architect
+B.Sc Data Science,"Java, SQL, Python","Communication, Teamwork, Problem-Solving",4,Business Analyst
+M.Tech AI,"Machine Learning, Java, Blockchain, Cloud Computing","Problem-Solving, Teamwork, Time Management",4,Business Analyst
+M.Tech AI,"Cybersecurity, Blockchain, Java, Machine Learning","Adaptability, Teamwork",5,Cloud Architect
+B.Sc Data Science,"SQL, Java, Data Analysis, Cybersecurity","Time Management, Teamwork, Communication",5,Data Scientist
+B.Tech IT,"Blockchain, Data Analysis, Java","Leadership, Time Management, Problem-Solving",2,AI Engineer
+M.Tech AI,"Data Analysis, Cybersecurity","Time Management, Problem-Solving",4,Data Scientist
+M.Tech AI,"Blockchain, Java","Adaptability, Communication",1,Data Scientist
+B.Tech CSE,"Data Analysis, Machine Learning, Cloud Computing","Communication, Adaptability, Teamwork",5,Software Developer
+B.Sc Data Science,"Cloud Computing, Machine Learning, Python","Time Management, Communication, Adaptability",2,Business Analyst
+B.Tech IT,"Cloud Computing, Python, Data Analysis","Time Management, Communication",3,AI Engineer
+B.Sc Data Science,"Cloud Computing, Cybersecurity","Adaptability, Time Management",3,Business Analyst
+M.Tech AI,"Data Analysis, Machine Learning, Cybersecurity, Blockchain","Problem-Solving, Communication, Leadership",3,Software Developer
+B.Sc Data Science,"Cybersecurity, SQL, Machine Learning","Leadership, Communication",1,Cybersecurity Expert
+B.Tech CSE,"SQL, Machine Learning, Data Analysis","Leadership, Communication",3,Cloud Architect
+M.Tech AI,"Cloud Computing, Python, SQL","Time Management, Leadership",5,Cybersecurity Expert
+B.Tech CSE,"Java, Blockchain, Machine Learning","Teamwork, Adaptability",3,Software Developer
+B.Tech IT,"SQL, Data Analysis, Java, Python","Communication, Problem-Solving",2,Cloud Architect
+B.Tech IT,"Cloud Computing, Data Analysis, Cybersecurity, Machine Learning","Time Management, Problem-Solving, Leadership",4,Cloud Architect
+B.Tech CSE,"SQL, Machine Learning, Cybersecurity, Python","Communication, Problem-Solving",1,Cybersecurity Expert
+B.Tech IT,"Machine Learning, Cloud Computing","Teamwork, Adaptability",2,Cybersecurity Expert
+B.Sc Data Science,"Java, Python, Cloud Computing","Leadership, Communication, Problem-Solving",3,AI Engineer
+M.Tech AI,"Machine Learning, Java","Problem-Solving, Leadership, Time Management",4,Cloud Architect
+B.Tech IT,"Cloud Computing, Java","Adaptability, Problem-Solving",2,Cybersecurity Expert
+B.Tech IT,"Cybersecurity, Python","Time Management, Problem-Solving, Communication",1,Software Developer
+M.Tech AI,"Cybersecurity, Java, Python, SQL","Leadership, Adaptability",5,Cybersecurity Expert
+B.Tech CSE,"Blockchain, Cybersecurity, Data Analysis, Cloud Computing","Leadership, Problem-Solving",3,Cloud Architect
+B.Tech CSE,"Blockchain, Cloud Computing, Machine Learning, Data Analysis","Teamwork, Adaptability",1,Software Developer
+B.Tech IT,"Blockchain, Machine Learning, Python","Leadership, Problem-Solving, Adaptability",2,Cloud Architect
+B.Tech CSE,"Cloud Computing, Cybersecurity, Data Analysis","Time Management, Communication, Teamwork",4,Cloud Architect
+M.Tech AI,"Blockchain, Cloud Computing, Python, SQL","Teamwork, Problem-Solving",5,Cloud Architect
+M.Tech AI,"Machine Learning, Cybersecurity, SQL","Time Management, Problem-Solving, Teamwork",3,AI Engineer
+M.Tech AI,"Data Analysis, Python","Communication, Problem-Solving, Leadership",2,Cybersecurity Expert
+M.Tech AI,"Blockchain, Data Analysis, Python, Cloud Computing","Adaptability, Communication, Leadership",2,Business Analyst
+M.Tech AI,"SQL, Machine Learning, Blockchain, Java","Leadership, Problem-Solving, Communication",5,Cybersecurity Expert
+B.Sc Data Science,"Python, Java, Cybersecurity","Communication, Leadership, Time Management",5,Cloud Architect
+B.Tech IT,"Blockchain, Python, Java","Adaptability, Teamwork",3,AI Engineer
+B.Tech IT,"Cloud Computing, Cybersecurity, SQL, Machine Learning","Adaptability, Teamwork, Communication",3,Cloud Architect
+B.Sc Data Science,"Blockchain, SQL, Cybersecurity","Communication, Teamwork, Adaptability",4,Cloud Architect
+B.Sc Data Science,"Data Analysis, Python","Communication, Problem-Solving",1,Data Scientist
+B.Sc Data Science,"Cybersecurity, Data Analysis, Blockchain","Leadership, Adaptability, Communication",2,AI Engineer
+B.Tech CSE,"Java, Cloud Computing, Blockchain","Communication, Leadership, Adaptability",4,Business Analyst
+B.Tech CSE,"Cloud Computing, Cybersecurity, Java","Problem-Solving, Teamwork",1,Software Developer
+B.Tech CSE,"Data Analysis, Blockchain, Cybersecurity","Adaptability, Teamwork, Time Management",1,Cybersecurity Expert
+B.Tech IT,"Blockchain, Machine Learning, Java","Leadership, Adaptability, Problem-Solving",2,AI Engineer
+M.Tech AI,"Cloud Computing, Blockchain, SQL, Machine Learning","Teamwork, Adaptability",1,AI Engineer
+B.Sc Data Science,"Cloud Computing, Java, Machine Learning, Blockchain","Problem-Solving, Time Management",2,Business Analyst
+B.Tech IT,"Python, SQL, Blockchain","Adaptability, Communication",5,Software Developer
+M.Tech AI,"Cybersecurity, Blockchain","Time Management, Leadership",4,Data Scientist
+B.Tech CSE,"SQL, Cybersecurity, Python","Time Management, Teamwork",3,Cloud Architect
+M.Tech AI,"Cybersecurity, SQL, Machine Learning, Cloud Computing","Problem-Solving, Leadership, Communication",4,Cybersecurity Expert
+B.Sc Data Science,"Data Analysis, Java","Teamwork, Problem-Solving, Communication",3,Business Analyst
+B.Tech IT,"Python, Blockchain","Adaptability, Problem-Solving",3,Cloud Architect
+B.Tech CSE,"Blockchain, Data Analysis","Teamwork, Communication",3,Business Analyst
+B.Sc Data Science,"Cybersecurity, Data Analysis, SQL","Leadership, Time Management",2,Data Scientist
+M.Tech AI,"Python, Java, Cybersecurity","Problem-Solving, Teamwork, Communication",5,AI Engineer
+B.Tech CSE,"Cybersecurity, SQL, Data Analysis","Communication, Adaptability, Time Management",5,AI Engineer
+M.Tech AI,"Java, SQL, Data Analysis","Leadership, Communication",1,Cloud Architect
+B.Tech IT,"Cybersecurity, Machine Learning, Blockchain","Teamwork, Leadership, Time Management",1,Software Developer
+M.Tech AI,"Java, Data Analysis, Machine Learning, Python","Problem-Solving, Teamwork",4,Data Scientist
+B.Tech IT,"SQL, Java","Problem-Solving, Teamwork",2,Cloud Architect
+M.Tech AI,"Blockchain, Machine Learning, Java, Cloud Computing","Communication, Time Management",2,Cloud Architect
+B.Tech CSE,"SQL, Java","Teamwork, Time Management",2,Cloud Architect
+B.Tech IT,"Cloud Computing, Java, Cybersecurity, Python","Adaptability, Time Management, Leadership",3,Data Scientist
+M.Tech AI,"Cybersecurity, SQL, Cloud Computing","Communication, Leadership",5,AI Engineer
+B.Tech CSE,"Cloud Computing, Blockchain","Leadership, Time Management, Communication",1,Software Developer
+B.Tech IT,"Cybersecurity, Blockchain, Python","Communication, Teamwork, Time Management",2,Business Analyst
+B.Tech CSE,"Java, Data Analysis, Python","Teamwork, Time Management",1,Software Developer
+M.Tech AI,"Blockchain, Data Analysis, Machine Learning","Adaptability, Leadership, Communication",4,Cybersecurity Expert
+B.Tech CSE,"Data Analysis, Machine Learning, Blockchain, Java","Time Management, Problem-Solving",3,Business Analyst
+B.Tech CSE,"Cloud Computing, Machine Learning","Communication, Leadership, Teamwork",5,Software Developer
+B.Tech CSE,"Cybersecurity, Python, SQL","Leadership, Problem-Solving, Time Management",1,Software Developer
+M.Tech AI,"Blockchain, Python","Teamwork, Adaptability, Problem-Solving",5,Software Developer
+B.Tech IT,"Cybersecurity, SQL, Java","Adaptability, Time Management, Teamwork",5,Software Developer
+B.Sc Data Science,"SQL, Data Analysis, Java, Blockchain","Teamwork, Time Management, Leadership",3,Software Developer
+B.Tech IT,"Python, Cybersecurity, Machine Learning, SQL","Communication, Time Management, Adaptability",1,Business Analyst
+B.Sc Data Science,"Data Analysis, Blockchain, Machine Learning","Problem-Solving, Time Management, Adaptability",2,Data Scientist
+B.Sc Data Science,"Blockchain, SQL, Data Analysis, Python","Time Management, Leadership, Adaptability",1,AI Engineer
+M.Tech AI,"Java, Python, Blockchain","Adaptability, Leadership",5,Cloud Architect
+M.Tech AI,"Data Analysis, SQL","Time Management, Problem-Solving",1,AI Engineer
+B.Sc Data Science,"Python, Java, Cloud Computing, Cybersecurity","Communication, Teamwork, Problem-Solving",4,Business Analyst
+B.Sc Data Science,"Machine Learning, Python, Data Analysis","Adaptability, Time Management",5,Business Analyst
+B.Tech IT,"Python, Java, Cloud Computing, SQL","Communication, Time Management",3,AI Engineer
+B.Sc Data Science,"Python, Data Analysis, Cybersecurity","Leadership, Adaptability",4,Cybersecurity Expert
+B.Sc Data Science,"Data Analysis, Python, Blockchain, Cloud Computing","Time Management, Leadership",1,Software Developer
+B.Tech IT,"Cybersecurity, Blockchain, Java","Adaptability, Time Management, Teamwork",5,Software Developer
+B.Tech IT,"Java, Cybersecurity, Cloud Computing, Machine Learning","Teamwork, Problem-Solving",3,AI Engineer
+B.Sc Data Science,"SQL, Python, Machine Learning","Leadership, Teamwork, Communication",5,Data Scientist
+B.Sc Data Science,"Python, Cloud Computing","Leadership, Problem-Solving",4,Cybersecurity Expert
+B.Tech CSE,"Java, Machine Learning, Blockchain","Leadership, Teamwork, Problem-Solving",3,AI Engineer
+M.Tech AI,"Data Analysis, Cybersecurity","Problem-Solving, Leadership, Time Management",3,Cybersecurity Expert
+M.Tech AI,"Blockchain, Data Analysis, Cybersecurity","Time Management, Communication, Adaptability",3,Data Scientist
+B.Tech IT,"Python, Blockchain, Java","Leadership, Problem-Solving, Teamwork",4,AI Engineer
+M.Tech AI,"Data Analysis, Java","Teamwork, Problem-Solving",1,Cloud Architect
+B.Tech IT,"Machine Learning, Python, Cybersecurity, SQL","Teamwork, Adaptability",5,Cloud Architect
+B.Sc Data Science,"Blockchain, SQL, Cloud Computing","Problem-Solving, Time Management, Adaptability",1,Business Analyst
+B.Sc Data Science,"Data Analysis, Machine Learning, Cloud Computing, Python","Time Management, Communication",2,Business Analyst
+B.Tech CSE,"Java, Cybersecurity","Teamwork, Communication, Leadership",4,Software Developer
+B.Sc Data Science,"Cybersecurity, Data Analysis, Python","Adaptability, Problem-Solving, Communication",5,Software Developer
+B.Sc Data Science,"SQL, Cybersecurity, Machine Learning, Python","Problem-Solving, Communication, Teamwork",4,Data Scientist
+M.Tech AI,"Cloud Computing, Blockchain","Communication, Leadership, Adaptability",5,Cybersecurity Expert
+B.Tech IT,"Machine Learning, SQL, Python","Time Management, Problem-Solving",5,AI Engineer
+B.Tech IT,"SQL, Python","Adaptability, Communication",4,Cloud Architect
+B.Sc Data Science,"Python, SQL, Cybersecurity","Communication, Leadership",4,Business Analyst
+M.Tech AI,"Blockchain, Data Analysis, Cloud Computing, Python","Time Management, Leadership, Teamwork",2,Business Analyst
+B.Tech IT,"Cloud Computing, Machine Learning","Leadership, Adaptability",2,Data Scientist
+M.Tech AI,"Blockchain, Data Analysis","Adaptability, Teamwork",4,Business Analyst
+M.Tech AI,"Python, Blockchain","Communication, Teamwork, Problem-Solving",5,Data Scientist
+B.Tech CSE,"SQL, Java","Teamwork, Problem-Solving, Communication",1,Cybersecurity Expert
+B.Tech CSE,"Blockchain, Python, Java, SQL","Adaptability, Problem-Solving",5,Cybersecurity Expert
+B.Sc Data Science,"Blockchain, Java, SQL","Problem-Solving, Leadership",3,Business Analyst
+B.Tech IT,"Blockchain, Data Analysis, Machine Learning","Adaptability, Leadership",1,Business Analyst
+B.Tech IT,"Blockchain, Cloud Computing","Time Management, Teamwork",3,Data Scientist
+B.Sc Data Science,"Python, SQL, Java, Cybersecurity","Time Management, Problem-Solving",3,Cybersecurity Expert
+B.Sc Data Science,"Blockchain, Python, Cloud Computing","Teamwork, Problem-Solving",4,AI Engineer
+M.Tech AI,"Data Analysis, Cybersecurity","Communication, Time Management, Teamwork",3,Cloud Architect
+B.Tech CSE,"Machine Learning, Data Analysis, Cybersecurity","Problem-Solving, Communication",4,Cybersecurity Expert
+B.Tech CSE,"Machine Learning, SQL, Java","Problem-Solving, Teamwork",1,Cybersecurity Expert
+B.Tech CSE,"Blockchain, Cloud Computing, Python, Machine Learning","Problem-Solving, Teamwork, Adaptability",4,AI Engineer
+B.Tech CSE,"Cybersecurity, Java, Data Analysis, Blockchain","Adaptability, Teamwork",1,Software Developer
+M.Tech AI,"SQL, Python, Data Analysis","Adaptability, Leadership",5,Data Scientist
+B.Tech CSE,"Machine Learning, Blockchain, Data Analysis","Problem-Solving, Communication, Time Management",5,Data Scientist
+B.Sc Data Science,"Data Analysis, Cybersecurity","Problem-Solving, Communication",5,AI Engineer
+M.Tech AI,"Python, Cybersecurity","Communication, Teamwork",3,Data Scientist
+B.Tech CSE,"Cybersecurity, Python","Leadership, Communication",3,Data Scientist
+B.Tech IT,"Blockchain, SQL, Machine Learning, Java","Time Management, Leadership, Adaptability",2,Business Analyst
+B.Tech IT,"Python, Blockchain","Adaptability, Time Management, Problem-Solving",1,Business Analyst
+B.Sc Data Science,"Python, Blockchain, Cybersecurity, Machine Learning","Adaptability, Problem-Solving, Time Management",2,Software Developer
+B.Sc Data Science,"Blockchain, SQL, Machine Learning, Java","Leadership, Communication, Teamwork",1,Software Developer
+M.Tech AI,"Python, SQL","Time Management, Problem-Solving",1,Software Developer
+B.Tech CSE,"Python, Data Analysis, Java, Blockchain","Time Management, Leadership",2,Cloud Architect
+B.Tech IT,"Python, Data Analysis","Time Management, Communication, Teamwork",4,Software Developer
+B.Tech IT,"Blockchain, SQL, Cybersecurity","Problem-Solving, Leadership",3,Business Analyst
+M.Tech AI,"SQL, Machine Learning, Cloud Computing","Time Management, Problem-Solving, Adaptability",1,AI Engineer
+B.Tech IT,"Cybersecurity, Cloud Computing, SQL, Machine Learning","Communication, Time Management, Leadership",4,Software Developer
+M.Tech AI,"SQL, Data Analysis","Time Management, Communication, Adaptability",1,Business Analyst
+M.Tech AI,"SQL, Machine Learning","Time Management, Teamwork",3,Business Analyst
+B.Sc Data Science,"Java, Machine Learning, Cloud Computing","Problem-Solving, Teamwork",1,Business Analyst
+B.Sc Data Science,"Data Analysis, Cybersecurity","Leadership, Communication, Time Management",4,Business Analyst
+B.Sc Data Science,"Data Analysis, Cybersecurity, Machine Learning","Problem-Solving, Teamwork",4,Cloud Architect
+B.Tech CSE,"Python, Java, Cloud Computing","Teamwork, Problem-Solving",3,Business Analyst
+B.Tech CSE,"Machine Learning, Cybersecurity, Python","Adaptability, Leadership",5,AI Engineer
+B.Tech IT,"Data Analysis, Python, Blockchain, Cybersecurity","Adaptability, Teamwork",5,Data Scientist
+M.Tech AI,"Machine Learning, Cybersecurity","Time Management, Teamwork",3,Software Developer
+M.Tech AI,"Cloud Computing, Machine Learning, Java, SQL","Communication, Time Management, Teamwork",2,Cloud Architect
+M.Tech AI,"Java, Blockchain, Python","Communication, Leadership",1,Software Developer
+B.Tech CSE,"Blockchain, Cloud Computing, Data Analysis, Cybersecurity","Time Management, Communication",1,Data Scientist
+B.Sc Data Science,"Cybersecurity, Blockchain, Data Analysis","Problem-Solving, Communication",4,Cybersecurity Expert
+M.Tech AI,"Machine Learning, Cybersecurity","Teamwork, Leadership",1,Cloud Architect
+M.Tech AI,"Cloud Computing, Cybersecurity","Leadership, Time Management",3,AI Engineer
+M.Tech AI,"Blockchain, SQL","Leadership, Communication",1,Business Analyst
+B.Tech CSE,"Python, Data Analysis","Leadership, Problem-Solving, Communication",2,Cybersecurity Expert
+M.Tech AI,"Blockchain, Data Analysis, Java","Adaptability, Teamwork, Time Management",3,Data Scientist
+B.Tech CSE,"Java, Data Analysis, Cloud Computing, Cybersecurity","Adaptability, Communication, Time Management",4,Cloud Architect
+B.Tech CSE,"Java, Python, SQL","Teamwork, Leadership",1,Software Developer
+B.Sc Data Science,"Machine Learning, SQL, Python","Problem-Solving, Teamwork, Time Management",3,Cybersecurity Expert
+B.Tech IT,"Python, Cloud Computing, Blockchain, SQL","Problem-Solving, Communication, Time Management",3,Cloud Architect
+M.Tech AI,"Cybersecurity, Cloud Computing","Teamwork, Leadership, Communication",4,Software Developer
+B.Tech IT,"Cybersecurity, Cloud Computing","Adaptability, Communication, Time Management",2,Software Developer
+B.Tech CSE,"Java, Blockchain","Adaptability, Problem-Solving, Teamwork",1,Software Developer
+B.Sc Data Science,"Java, Cybersecurity","Teamwork, Communication",4,Software Developer
+B.Tech CSE,"Machine Learning, Java","Leadership, Teamwork, Communication",4,Software Developer
+M.Tech AI,"Blockchain, SQL, Machine Learning, Cloud Computing","Leadership, Adaptability, Time Management",3,Data Scientist
+M.Tech AI,"Blockchain, Machine Learning, Cybersecurity, Cloud Computing","Teamwork, Time Management, Problem-Solving",3,AI Engineer
+B.Sc Data Science,"Machine Learning, Cybersecurity, Java, SQL","Teamwork, Communication, Adaptability",1,Cybersecurity Expert
+M.Tech AI,"SQL, Cloud Computing, Python, Data Analysis","Time Management, Leadership, Teamwork",1,Software Developer
+B.Tech IT,"Blockchain, Python, Machine Learning, Data Analysis","Adaptability, Leadership, Time Management",5,Business Analyst
+M.Tech AI,"Cloud Computing, Java","Time Management, Adaptability, Leadership",2,Business Analyst
+M.Tech AI,"Python, Cybersecurity, SQL, Machine Learning","Problem-Solving, Leadership, Communication",3,Cybersecurity Expert
+B.Tech IT,"Java, SQL, Machine Learning, Cloud Computing","Teamwork, Leadership",2,Data Scientist
+B.Tech IT,"Machine Learning, Cloud Computing, Data Analysis, Java","Time Management, Problem-Solving, Communication",5,Business Analyst
+M.Tech AI,"Blockchain, SQL, Cloud Computing","Communication, Time Management",4,Cloud Architect
+B.Tech IT,"Blockchain, Python, Java","Teamwork, Communication",2,Business Analyst
+B.Sc Data Science,"Blockchain, Cybersecurity","Teamwork, Time Management, Adaptability",2,Data Scientist
+B.Sc Data Science,"Data Analysis, Cybersecurity","Time Management, Leadership, Problem-Solving",3,Cloud Architect
+B.Sc Data Science,"SQL, Python, Cybersecurity","Adaptability, Leadership, Teamwork",3,AI Engineer
+B.Sc Data Science,"Cybersecurity, Blockchain, SQL","Time Management, Problem-Solving, Adaptability",2,Business Analyst
+B.Tech CSE,"Data Analysis, Machine Learning, Python","Leadership, Teamwork",4,Cybersecurity Expert
+M.Tech AI,"Java, Blockchain, Cybersecurity","Leadership, Communication, Time Management",5,Cybersecurity Expert
+B.Sc Data Science,"Data Analysis, Cybersecurity, Java","Problem-Solving, Teamwork",5,Data Scientist
+B.Sc Data Science,"SQL, Cloud Computing","Communication, Time Management",3,Software Developer
+M.Tech AI,"Java, Machine Learning, Cloud Computing, Blockchain","Time Management, Leadership, Communication",3,AI Engineer
+B.Tech CSE,"Blockchain, Cloud Computing, Machine Learning, Data Analysis","Time Management, Teamwork, Communication",5,Data Scientist
+B.Tech IT,"Cloud Computing, Cybersecurity, Blockchain","Leadership, Problem-Solving",2,AI Engineer
+B.Tech CSE,"Python, Machine Learning, Cybersecurity","Leadership, Adaptability, Communication",3,Business Analyst
+M.Tech AI,"Python, Java, Machine Learning, Cloud Computing","Adaptability, Leadership",2,Data Scientist
+B.Sc Data Science,"SQL, Cybersecurity, Python","Communication, Time Management, Teamwork",1,Cloud Architect
+B.Tech IT,"Python, Cloud Computing","Teamwork, Adaptability",5,Software Developer
+B.Tech IT,"Java, Cloud Computing, Machine Learning, SQL","Time Management, Adaptability",4,Software Developer
+B.Tech CSE,"Cybersecurity, Data Analysis","Problem-Solving, Teamwork",1,Cybersecurity Expert
+B.Tech CSE,"Cloud Computing, SQL, Java, Cybersecurity","Problem-Solving, Adaptability",4,Cybersecurity Expert
+M.Tech AI,"Blockchain, Cloud Computing","Problem-Solving, Teamwork, Time Management",5,Business Analyst
+B.Tech CSE,"Python, Cybersecurity","Time Management, Leadership",5,Software Developer
+B.Tech IT,"Cybersecurity, Java, Cloud Computing","Leadership, Communication, Adaptability",1,Cloud Architect
+B.Tech IT,"SQL, Data Analysis, Cloud Computing, Java","Time Management, Problem-Solving, Teamwork",3,Business Analyst
+M.Tech AI,"Machine Learning, Cybersecurity, SQL, Blockchain","Time Management, Problem-Solving, Leadership",2,Cybersecurity Expert
+M.Tech AI,"Machine Learning, Cybersecurity","Adaptability, Teamwork",2,Cybersecurity Expert
+B.Sc Data Science,"Python, Blockchain, SQL","Time Management, Adaptability, Communication",3,Data Scientist
+B.Tech IT,"Cybersecurity, Cloud Computing, Machine Learning","Time Management, Problem-Solving, Adaptability",2,AI Engineer
+M.Tech AI,"Machine Learning, Cybersecurity, Python","Teamwork, Leadership",1,Software Developer
+B.Sc Data Science,"Cybersecurity, SQL","Time Management, Adaptability",5,AI Engineer
+B.Tech CSE,"Data Analysis, Python","Communication, Problem-Solving",1,Software Developer
+B.Sc Data Science,"Blockchain, Java, Machine Learning, Cloud Computing","Problem-Solving, Leadership",3,AI Engineer
+B.Sc Data Science,"Data Analysis, SQL, Blockchain","Problem-Solving, Adaptability",2,Cybersecurity Expert
+B.Tech CSE,"SQL, Cybersecurity","Communication, Leadership, Adaptability",4,Software Developer
+B.Sc Data Science,"Data Analysis, Cloud Computing, Cybersecurity, Python","Leadership, Adaptability, Problem-Solving",2,Business Analyst
+M.Tech AI,"Machine Learning, Blockchain, Java","Communication, Teamwork, Problem-Solving",3,Data Scientist
+B.Sc Data Science,"Java, Cloud Computing, Cybersecurity, Data Analysis","Teamwork, Problem-Solving",3,Cybersecurity Expert
+B.Tech IT,"Java, Data Analysis","Time Management, Communication, Leadership",4,Cloud Architect
+M.Tech AI,"Blockchain, Machine Learning","Time Management, Adaptability, Leadership",1,Cybersecurity Expert
+B.Tech IT,"Python, Cloud Computing, Cybersecurity","Time Management, Teamwork",4,Software Developer
+M.Tech AI,"Data Analysis, Machine Learning","Problem-Solving, Communication, Teamwork",4,AI Engineer
+B.Tech IT,"Java, SQL","Time Management, Leadership",1,Data Scientist
+B.Sc Data Science,"Data Analysis, Cybersecurity, Java, Cloud Computing","Time Management, Teamwork",1,Business Analyst
+B.Tech CSE,"Cloud Computing, SQL, Blockchain, Cybersecurity","Teamwork, Time Management, Leadership",2,Data Scientist
+B.Tech CSE,"Python, SQL","Leadership, Problem-Solving",4,Cloud Architect
+B.Sc Data Science,"Data Analysis, Java, Cybersecurity","Adaptability, Teamwork, Communication",5,Cloud Architect
+B.Sc Data Science,"Cybersecurity, Machine Learning","Adaptability, Time Management",4,Data Scientist
+B.Sc Data Science,"Machine Learning, Blockchain, Cloud Computing","Adaptability, Teamwork",5,Software Developer
+B.Tech IT,"Machine Learning, Python, Cybersecurity, Data Analysis","Time Management, Problem-Solving, Teamwork",4,Data Scientist
+M.Tech AI,"Python, SQL","Problem-Solving, Adaptability",2,Cloud Architect
+B.Sc Data Science,"Machine Learning, SQL","Teamwork, Communication",1,Cloud Architect
+M.Tech AI,"Data Analysis, SQL, Cloud Computing, Cybersecurity","Teamwork, Communication",5,Data Scientist
+B.Tech CSE,"Blockchain, Machine Learning","Communication, Problem-Solving",2,Data Scientist
+M.Tech AI,"Python, SQL, Blockchain, Cybersecurity","Teamwork, Time Management",5,Cloud Architect
+B.Tech CSE,"Python, Cloud Computing, Data Analysis, Java","Adaptability, Time Management, Problem-Solving",5,Cybersecurity Expert
+B.Tech CSE,"Blockchain, Python, Data Analysis","Communication, Leadership, Teamwork",4,AI Engineer
+M.Tech AI,"Java, Data Analysis, Cybersecurity","Communication, Problem-Solving",1,Data Scientist
+M.Tech AI,"Cybersecurity, Machine Learning","Adaptability, Problem-Solving, Teamwork",1,Cloud Architect
+M.Tech AI,"SQL, Machine Learning","Leadership, Time Management",3,Business Analyst
+B.Sc Data Science,"Cybersecurity, Cloud Computing","Problem-Solving, Time Management, Communication",2,Cloud Architect
+B.Sc Data Science,"Cloud Computing, Data Analysis, SQL, Java","Problem-Solving, Time Management, Teamwork",1,Cybersecurity Expert
+B.Sc Data Science,"SQL, Java","Communication, Problem-Solving",4,Data Scientist
+B.Tech CSE,"Java, Python","Leadership, Problem-Solving",1,Cloud Architect
+B.Sc Data Science,"Java, Python","Leadership, Adaptability, Communication",2,AI Engineer
+B.Tech IT,"Cybersecurity, SQL, Python","Communication, Adaptability, Teamwork",2,Cloud Architect
+B.Tech IT,"Cybersecurity, Cloud Computing, Python","Adaptability, Communication, Time Management",3,Data Scientist
+M.Tech AI,"Machine Learning, Java, SQL, Data Analysis","Teamwork, Problem-Solving, Leadership",1,Cloud Architect
+B.Sc Data Science,"SQL, Data Analysis","Leadership, Communication, Problem-Solving",1,Business Analyst
+B.Sc Data Science,"Python, SQL, Machine Learning","Adaptability, Problem-Solving, Leadership",4,Cloud Architect
+B.Tech CSE,"Java, Python, Cybersecurity, Cloud Computing","Adaptability, Time Management, Teamwork",5,Business Analyst
+B.Tech IT,"Cloud Computing, Python","Time Management, Teamwork",2,Cybersecurity Expert
+M.Tech AI,"Python, Data Analysis, Java","Time Management, Communication",5,Software Developer
+B.Tech IT,"Cloud Computing, Python, Java","Leadership, Time Management, Communication",1,Business Analyst
+B.Sc Data Science,"Cloud Computing, Data Analysis","Adaptability, Communication",1,Cloud Architect
+B.Tech CSE,"Blockchain, Python, Machine Learning, Java","Communication, Leadership",3,AI Engineer
+B.Sc Data Science,"Data Analysis, SQL","Communication, Time Management, Adaptability",2,Software Developer
+B.Tech IT,"Cybersecurity, Machine Learning, Cloud Computing, Blockchain","Time Management, Teamwork, Problem-Solving",2,Cloud Architect
+M.Tech AI,"SQL, Cybersecurity","Teamwork, Time Management, Communication",2,Cloud Architect
+M.Tech AI,"Machine Learning, Data Analysis, SQL","Time Management, Communication, Teamwork",2,Software Developer
+M.Tech AI,"Java, Machine Learning","Problem-Solving, Teamwork, Time Management",3,Data Scientist
+B.Tech IT,"Cybersecurity, Data Analysis, Python","Time Management, Leadership, Problem-Solving",5,Software Developer
+B.Sc Data Science,"SQL, Data Analysis, Cloud Computing, Machine Learning","Problem-Solving, Teamwork, Communication",2,Software Developer
+B.Tech IT,"Blockchain, Cloud Computing, Data Analysis","Teamwork, Problem-Solving, Time Management",2,Cybersecurity Expert
+B.Sc Data Science,"Machine Learning, SQL","Problem-Solving, Teamwork",5,Software Developer
+B.Tech IT,"Cybersecurity, Data Analysis, SQL, Blockchain","Adaptability, Leadership",1,Business Analyst
+M.Tech AI,"Data Analysis, Java, Cybersecurity, Python","Communication, Leadership, Adaptability",4,Cybersecurity Expert
+M.Tech AI,"Data Analysis, Java","Leadership, Problem-Solving, Time Management",1,Cybersecurity Expert
+B.Tech IT,"Python, Cybersecurity","Leadership, Communication, Time Management",1,Data Scientist
+B.Tech CSE,"Cloud Computing, SQL","Leadership, Problem-Solving, Teamwork",4,Data Scientist
+M.Tech AI,"Java, Cybersecurity, Machine Learning","Communication, Problem-Solving",4,Software Developer
+M.Tech AI,"Cloud Computing, Machine Learning","Leadership, Teamwork, Problem-Solving",5,Data Scientist
+B.Tech CSE,"Java, Cybersecurity, Python, Data Analysis","Leadership, Communication",3,AI Engineer
+B.Tech CSE,"Data Analysis, Java, Machine Learning","Leadership, Communication, Time Management",4,Data Scientist
+B.Tech CSE,"Cybersecurity, Blockchain, Python, Data Analysis","Time Management, Leadership",3,Software Developer
+B.Tech IT,"Cloud Computing, Machine Learning","Teamwork, Problem-Solving",4,Data Scientist
+M.Tech AI,"Cloud Computing, Blockchain, SQL","Communication, Leadership, Problem-Solving",1,Cloud Architect
+B.Sc Data Science,"Machine Learning, Cloud Computing, Java","Time Management, Leadership, Problem-Solving",4,Cloud Architect
+B.Tech CSE,"Python, Cloud Computing, Machine Learning","Adaptability, Time Management, Teamwork",5,Software Developer
+B.Sc Data Science,"Blockchain, Cloud Computing","Adaptability, Teamwork",1,Cybersecurity Expert
+M.Tech AI,"Python, Machine Learning","Time Management, Communication, Leadership",2,AI Engineer
+M.Tech AI,"Cybersecurity, Cloud Computing, Machine Learning","Time Management, Teamwork",4,Cloud Architect
+B.Tech CSE,"Data Analysis, Cloud Computing","Leadership, Problem-Solving, Time Management",4,AI Engineer
+M.Tech AI,"Java, SQL, Python","Time Management, Teamwork, Problem-Solving",3,AI Engineer
+B.Sc Data Science,"Python, Blockchain","Teamwork, Time Management",1,Software Developer
+B.Sc Data Science,"SQL, Python, Cybersecurity, Data Analysis","Time Management, Adaptability",4,Cybersecurity Expert
+M.Tech AI,"Machine Learning, Data Analysis, Python","Adaptability, Communication, Leadership",4,Software Developer
+B.Tech CSE,"Data Analysis, Machine Learning, Java","Communication, Teamwork, Problem-Solving",4,Data Scientist
+B.Tech CSE,"Machine Learning, SQL, Python, Data Analysis","Teamwork, Time Management, Problem-Solving",1,AI Engineer
+B.Tech IT,"Python, Machine Learning, Java, Data Analysis","Problem-Solving, Adaptability, Leadership",2,Software Developer
+B.Sc Data Science,"Machine Learning, Cloud Computing, Python","Leadership, Adaptability, Time Management",5,Business Analyst
+B.Sc Data Science,"Cloud Computing, Java","Communication, Leadership, Problem-Solving",4,Cloud Architect

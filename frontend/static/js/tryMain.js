@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Store selected values
     const selections = {
+        softSkillsRating: null,
         softSkills: null,
         techSkills: null,
         careerInterest: null
@@ -52,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Get rating input
-    const ratingInput = document.getElementById('rating');
+    const softSkillsRatingInput = document.getElementById('rating');
 
     // ---------------------------------------
     // SUBMIT AND GET PREDICTION FROM BACKEND
@@ -61,18 +62,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitBtn = document.querySelector('.submit-btn');
     const resultPanel = document.getElementById('resultPanel');
 
-    if (submitBtn && resultPanel && ratingInput) {
+    if (submitBtn && resultPanel && softSkillsRatingInput) {
         submitBtn.addEventListener('click', async function() {
             let valid = true;
 
             // Validate rating input
-            if (!ratingInput.value || ratingInput.value < 1 || ratingInput.value > 10) {
+            if (!softSkillsRatingInput.value || softSkillsRatingInput.value < 1 || softSkillsRatingInput.value > 10) {
                 valid = false;
-                ratingInput.style.borderColor = '#ff3b3b';
-                ratingInput.style.background = 'rgba(255, 59, 59, 0.2)';
+                softSkillsRatingInput.style.borderColor = '#ff3b3b';
+                softSkillsRatingInput.style.background = 'rgba(255, 59, 59, 0.2)';
             } else {
-                ratingInput.style.borderColor = '#ff7200';
-                ratingInput.style.background = 'rgba(255, 255, 255, 0.1)';
+                softSkillsRatingInput.style.borderColor = '#ff7200';
+                softSkillsRatingInput.style.background = 'rgba(255, 255, 255, 0.1)';
             }
 
             // Validate dropdowns
@@ -92,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // FIXED: Prepare request data with correct column names
             const requestData = {
-                "Soft Skills Rating": parseInt(ratingInput.value),  // Fixed with space
+                "Soft Skills Rating": parseInt(softSkillsRatingInput.value),  // Fixed with space
                 "Technical Skills": selections.techSkills,
                 "Soft Skills": selections.softSkills,
                 "Career Interest": selections.careerInterest
@@ -131,8 +132,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </p>
                         <hr style="border: 1px solid rgba(255, 255, 255, 0.3); margin: 20px 0;">
                         <p style="margin-top: 15px; font-size: 0.95em; color: rgba(255, 255, 255, 0.8);">
-                            Based on your soft skills rating (${ratingInput.value}/10), 
-                            technical expertise in ${selections.techSkills}, 
+                            Based on your soft skills rating (${softSkillsRatingInput.value}/10), 
+                            technical skill in ${selections.techSkills}, 
                             soft skills in ${selections.softSkills}, 
                             and career interest in ${selections.careerInterest}.
                         </p>

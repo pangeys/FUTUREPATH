@@ -3,12 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Store selected values
     const selections = {
-        progRating: null,
-        softRating: null,
-        currentCourse: null,
-        techSkills: null,
-        projects: null,
-        challenges: null
+        major: null,
+        softSkillsRating: null,
+        technicalSkills: null,
+        softSkills: null,
+        careerInterest: null
     };
     
     dropdowns.forEach(dropdown => {
@@ -55,18 +54,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Get rating inputs
-    const progRatingInput = document.getElementById('progRating');
-    const softRatingInput = document.getElementById('softRating');
+    const softSkillsRatingInput = document.getElementById('softSkillsRating');
 
     // Check if rating inputs exist
-    if (progRatingInput && softRatingInput) {
+    if (softSkillsRatingInput) {
         // Store rating values
-        progRatingInput.addEventListener('input', function() {
-            selections.progRating = this.value;
-        });
 
-        softRatingInput.addEventListener('input', function() {
-            selections.softRating = this.value;
+        softSkillsRatingInput.addEventListener('input', function() {
+            selections.softSkillsRating = this.value;
         });
     }
 
@@ -77,27 +72,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitBtn = document.querySelector('.submit-btn');
     const resultPanel = document.getElementById('resultPanel');
 
-    if (submitBtn && resultPanel && progRatingInput && softRatingInput) {
+    if (submitBtn && resultPanel && softSkillsRatingInput) {
         submitBtn.addEventListener('click', async function() {
             let valid = true;
 
-            // Validate rating inputs
-            if (!progRatingInput.value || progRatingInput.value < 1 || progRatingInput.value > 10) {
+            if (!softSkillsRatingInput.value || softSkillsRatingInput.value < 1 || softSkillsRatingInput.value > 10) {
                 valid = false;
-                progRatingInput.style.borderColor = '#ff3b3b';
-                progRatingInput.style.background = 'rgba(255, 59, 59, 0.2)';
+                softSkillsRatingInput.style.borderColor = '#ff3b3b';
+                softSkillsRatingInput.style.background = 'rgba(255, 59, 59, 0.2)';
             } else {
-                progRatingInput.style.borderColor = '#ff7200';
-                progRatingInput.style.background = 'rgba(255, 255, 255, 0.1)';
-            }
-
-            if (!softRatingInput.value || softRatingInput.value < 1 || softRatingInput.value > 10) {
-                valid = false;
-                softRatingInput.style.borderColor = '#ff3b3b';
-                softRatingInput.style.background = 'rgba(255, 59, 59, 0.2)';
-            } else {
-                softRatingInput.style.borderColor = '#ff7200';
-                softRatingInput.style.background = 'rgba(255, 255, 255, 0.1)';
+                softSkillsRatingInput.style.borderColor = '#ff7200';
+                softSkillsRatingInput.style.background = 'rgba(255, 255, 255, 0.1)';
             }
 
             // Validate dropdowns
@@ -117,12 +102,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Prepare request data with exact column names that match the trained model
             const requestData = {
-                "Rating.1": parseInt(progRatingInput.value),
-                "Rating": parseInt(softRatingInput.value),
-                "Current Course": selections.currentCourse,
-                "Technical Skills": selections.techSkills,
-                "Projects": selections.projects,
-                "Challenges": selections.challenges
+                "SoftSkillsRating": parseInt(softSkillsRatingInput.value),
+                "Major": selections.major,
+                "Technical Skills": selections.technicalSkills,
+                "Soft Skills": selections.softSkills,
+                "Career Interest": selections.careerInterest
             };
 
             console.log("Sending data:", requestData);
@@ -158,9 +142,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </p>
                         <hr style="border: 1px solid rgba(255, 255, 255, 0.3); margin: 20px 0;">
                         <p style="margin-top: 15px; font-size: 0.95em; color: rgba(255, 255, 255, 0.8);">
-                            Based on your programming skills (${progRatingInput.value}/10), 
-                            soft skills (${softRatingInput.value}/10), 
-                            and technical expertise in ${selections.techSkills}.
+                            Based on your soft skills (${softRatingInput.value}/10), 
+                            and technical expertise in ${selections.technicalSkills}.
                         </p>
                     `;
                 } else {

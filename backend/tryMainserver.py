@@ -75,7 +75,7 @@ db_config = {
     'password': '',  # Empty for default; set if you added a password
     'database': 'userID'  # Your database name from XAMPP
 }
-
+    
 # Function to get a database connection
 def get_db_connection():
     try:
@@ -206,12 +206,11 @@ def predict():
         
         # Check for the correct column names that match the model
         required = [
-            "Rating.1",           # Programming Languages Ratings
-            "Rating",             # Soft Skills Ratings
-            "Current Course",
+            "Major",
             "Technical Skills",
-            "Projects",
-            "Challenges"
+            "Soft Skills",
+            "Soft Skills Rating",
+            "Career Interest",
         ]
         
         missing = [f for f in required if f not in data]

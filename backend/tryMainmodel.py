@@ -40,13 +40,12 @@ df.columns = df.columns.str.strip()
 print(f"Cleaned columns: {df.columns.tolist()}\n")
 
 # ---- SELECT FEATURES (using actual column names) ----
-features = [
-    "Rating.1",            # Programming Languages Rating
-    "Rating",              # Soft Skills Rating
-    "Current Course",
+features = [            
+    "Soft Skills Rating",              # Soft Skills Rating
+    "Majors",
     "Technical Skills",
-    "Projects",
-    "Challenges"
+    "Soft Skills",
+    "Career Interest",
 ]
 
 # Check if all features exist
@@ -57,21 +56,21 @@ if missing_cols:
     exit(1)
 
 X = df[features]
-y = df["Career Interest"]
+y = df["Majors"]
 
 print("="*70)
 print("📊 DATA SUMMARY")
 print("="*70)
 print(f"✓ Features selected: {features}")
-print(f"✓ Target variable: Career Interest")
+print(f"✓ Target variable: 'Majors'")
 print(f"✓ Unique career paths: {y.nunique()}")
 print(f"✓ Career paths: {y.unique().tolist()}")
 print(f"✓ Dataset shape: {X.shape}")
 print("="*70 + "\n")
 
 # ---- PREPROCESSING PIPELINE ----
-numeric_features = ["Rating.1", "Rating"]
-categorical_features = ["Current Course", "Technical Skills", "Challenges", "Projects"]
+numeric_features = ["Soft Skills Rating"]
+categorical_features = ["Majors", "Technical Skills", "Soft Skills", "Career Interest"]
 
 print("🔧 BUILDING PREPROCESSING PIPELINE")
 print("-"*70)

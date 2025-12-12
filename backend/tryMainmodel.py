@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier  # Changed from RandomForest
 import pickle
 import os
 
@@ -39,13 +39,13 @@ df.columns = df.columns.str.strip()
 
 print(f"Cleaned columns: {df.columns.tolist()}\n")
 
-# ---- SELECT FEATURES (using actual column names) ----
+# ---- SELECT FEATURES (FIXED: Removed "Majors" from features) ----
 features = [            
-    "Soft Skills Rating",              # Soft Skills Rating
-    "Majors",
+    "Soft Skills Rating",
     "Technical Skills",
     "Soft Skills",
-    "Career Interest",
+    "Career Interest"
+    # "Majors" is NOT a feature - it's what we're predicting!
 ]
 
 # Check if all features exist
@@ -68,9 +68,9 @@ print(f"✓ Career paths: {y.unique().tolist()}")
 print(f"✓ Dataset shape: {X.shape}")
 print("="*70 + "\n")
 
-# ---- PREPROCESSING PIPELINE ----
+# ---- PREPROCESSING PIPELINE (FIXED: Removed "Majors" from categorical_features) ----
 numeric_features = ["Soft Skills Rating"]
-categorical_features = ["Majors", "Technical Skills", "Soft Skills", "Career Interest"]
+categorical_features = ["Technical Skills", "Soft Skills", "Career Interest"]  # Removed "Majors"
 
 print("🔧 BUILDING PREPROCESSING PIPELINE")
 print("-"*70)
@@ -85,17 +85,18 @@ preprocessor = ColumnTransformer(
     remainder="passthrough"
 )
 
+# CHANGED: Using DecisionTreeClassifier instead of RandomForestClassifier
 model = Pipeline(steps=[
     ("preprocessor", preprocessor),
-    ("classifier", RandomForestClassifier(n_estimators=100, random_state=42))
+    ("classifier", DecisionTreeClassifier(random_state=42, max_depth=10))
 ])
 
 # ---- TRAIN MODEL ----
 print("="*70)
 print("🚀 TRAINING MODEL")
 print("="*70)
-print("Algorithm: Random Forest Classifier")
-print("Estimators: 100")
+print("Algorithm: Decision Tree Classifier")
+print("Max depth: 10")
 print("Random state: 42")
 print("-"*70)
 

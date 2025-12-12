@@ -204,12 +204,11 @@ def predict():
         print(f"\n🎯 Prediction request received")
         print(f"Data: {data}")
         
-        # Check for the correct column names that match the model
+        # FIXED: Remove "Majors" from required fields (that's what we're predicting!)
         required = [
-            "Major",
+            "Soft Skills Rating",  # Fixed with space
             "Technical Skills",
             "Soft Skills",
-            "Soft Skills Rating",
             "Career Interest",
         ]
         

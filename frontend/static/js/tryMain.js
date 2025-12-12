@@ -3,10 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Store selected values
     const selections = {
-        major: null,
-        softSkillsRating: null,
-        technicalSkills: null,
         softSkills: null,
+        techSkills: null,
         careerInterest: null
     };
     
@@ -53,17 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Get rating inputs
-    const softSkillsRatingInput = document.getElementById('softSkillsRating');
-
-    // Check if rating inputs exist
-    if (softSkillsRatingInput) {
-        // Store rating values
-
-        softSkillsRatingInput.addEventListener('input', function() {
-            selections.softSkillsRating = this.value;
-        });
-    }
+    // Get rating input
+    const ratingInput = document.getElementById('rating');
 
     // ---------------------------------------
     // SUBMIT AND GET PREDICTION FROM BACKEND
@@ -72,17 +61,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitBtn = document.querySelector('.submit-btn');
     const resultPanel = document.getElementById('resultPanel');
 
-    if (submitBtn && resultPanel && softSkillsRatingInput) {
+    if (submitBtn && resultPanel && ratingInput) {
         submitBtn.addEventListener('click', async function() {
             let valid = true;
 
-            if (!softSkillsRatingInput.value || softSkillsRatingInput.value < 1 || softSkillsRatingInput.value > 10) {
+            // Validate rating input
+            if (!ratingInput.value || ratingInput.value < 1 || ratingInput.value > 10) {
                 valid = false;
-                softSkillsRatingInput.style.borderColor = '#ff3b3b';
-                softSkillsRatingInput.style.background = 'rgba(255, 59, 59, 0.2)';
+                ratingInput.style.borderColor = '#ff3b3b';
+                ratingInput.style.background = 'rgba(255, 59, 59, 0.2)';
             } else {
-                softSkillsRatingInput.style.borderColor = '#ff7200';
-                softSkillsRatingInput.style.background = 'rgba(255, 255, 255, 0.1)';
+                ratingInput.style.borderColor = '#ff7200';
+                ratingInput.style.background = 'rgba(255, 255, 255, 0.1)';
             }
 
             // Validate dropdowns
@@ -100,11 +90,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
 
-            // Prepare request data with exact column names that match the trained model
+            // FIXED: Prepare request data with correct column names
             const requestData = {
-                "SoftSkillsRating": parseInt(softSkillsRatingInput.value),
-                "Major": selections.major,
-                "Technical Skills": selections.technicalSkills,
+                "Soft Skills Rating": parseInt(ratingInput.value),  // Fixed with space
+                "Technical Skills": selections.techSkills,
                 "Soft Skills": selections.softSkills,
                 "Career Interest": selections.careerInterest
             };
@@ -133,17 +122,19 @@ document.addEventListener('DOMContentLoaded', function() {
                     resultPanel.className = "result-panel success";
                     resultPanel.style.display = "block";
                     resultPanel.innerHTML = `
-                        <h2 style="color: #4ade80; margin-bottom: 15px;">🎯 Career Prediction Results</h2>
+                        <h2 style="color: #4ade80; margin-bottom: 15px;">🎯 Major Prediction Results</h2>
                         <p style="font-size: 1.2em; margin-bottom: 10px;">
-                            <strong>Recommended Career Path:</strong>
+                            <strong>Recommended Major:</strong>
                         </p>
                         <p style="font-size: 1.5em; color: #4ade80; font-weight: bold; margin-bottom: 20px;">
                             ${data.prediction}
                         </p>
                         <hr style="border: 1px solid rgba(255, 255, 255, 0.3); margin: 20px 0;">
                         <p style="margin-top: 15px; font-size: 0.95em; color: rgba(255, 255, 255, 0.8);">
-                            Based on your soft skills (${softRatingInput.value}/10), 
-                            and technical expertise in ${selections.technicalSkills}.
+                            Based on your soft skills rating (${ratingInput.value}/10), 
+                            technical expertise in ${selections.techSkills}, 
+                            soft skills in ${selections.softSkills}, 
+                            and career interest in ${selections.careerInterest}.
                         </p>
                     `;
                 } else {
